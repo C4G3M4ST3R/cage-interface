@@ -142,3 +142,7 @@ section.hasLinear {
   -webkit-box-shadow: inset 0 0 6px var(--primary-color);
   background-color: var(--primary-color);
 }
+
+.font-weight-thin {
+  font-weight: 100 !important;
+}

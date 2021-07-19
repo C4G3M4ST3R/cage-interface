@@ -1,5 +1,6 @@
 import Loader from '../components/utils/Loader.vue';
 import { mapGetters, mapState } from 'vuex';
+import Utils from './utils';
 const logo =
   'https://raw.githubusercontent.com/pie-dao/brand/master/PieDAO%20Logo/PieDAO%20Complete%20Black.png';
 const hero =
@@ -41,6 +42,7 @@ export default {
     },
   },
   methods: {
+    ...Utils,
     goBack() {
       if (!this.prevRoute || !this.prevRoute.name)
         return this.$router.push('/');
@@ -59,87 +61,11 @@ export default {
 
       return message ? message.replace(/data:/g, '') : 'An error occured!';
     },
-    thousandsFormatter: num =>
-      !num
-        ? 0
-        : Math.abs(num) > 999
-        ? Math.sign(num) * (Math.abs(num) / 1000).toFixed(1) + 'k'
-        : Math.sign(num) * Math.abs(num),
-    encrypt: str => {
-      function generate() {
-        let text = '';
-        let possible =
-          'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-
-        for (let i = 0; i < 12; i++)
-          text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-        return text;
-      }
-      const text = generate();
-
-      return btoa(str) + text;
-    },
-    decrypt: str => {
-      let lastIndex = str.lastIndexOf('=');
-      const encrypted = str.slice(0, lastIndex + 1);
-      if (process.client) return atob(encrypted);
-    },
-    getLink: link => link.toLowerCase().replace(/\s+/g, '-'),
-    async getCourses() {
-      try {
-        const res = await this.$axios({
-          url: `/courses`,
-        });
-
-        return res.data;
-      } catch (err) {
-        const msg = this.catchErrors(err);
-        return {};
-      }
-    },
-    async getArticles() {
-      try {
-        const res = await this.$axios({
-          url: `/news`,
-        });
-
-        return res.data;
-      } catch (err) {
-        const msg = this.catchErrors(err);
-        return {};
-      }
-    },
-    async getAssessments() {
-      const { ethAddress: address } = this.user;
-
-      if (!address) return [];
-
-      try {
-        const res = await this.$axios({
-          url: `/assessments/${address}`,
-        });
-
-        return res.data;
-      } catch (err) {
-        const msg = this.catchErrors(err);
-        return [];
-      }
-    },
     showSuccess(text = '', title = '') {
       this.$toastr.s(title, text || '');
     },
     showError(text = '', title = '') {
       this.$toastr.e(title, text || '');
-    },
-    async copyToClipboard(text) {
-      try {
-        await navigator.clipboard.writeText(text);
-
-        this.showSuccess('Copied to clipboard!');
-      } catch (err) {
-        this.showError('This action could not be completed!');
-      }
     },
     connect() {
       $('#connectWallet').modal({

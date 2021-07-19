@@ -7,7 +7,7 @@
         <a href="mailto:hello@cag3.io">hello@cag3.io</a>
       </div>
     </div>
-    <div class="float-right">
+    <div class="float-right mr-3">
       <div class="d-flex justify-content-between">
         <a href="https://discord.com" class="mr-3 mr-lg-4">Discord</a>
         <a href="https://twitter.com" class="mr-3 mr-lg-4">Twitter</a>

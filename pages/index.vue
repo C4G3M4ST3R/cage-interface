@@ -304,7 +304,7 @@
             </button>
           </form>
 
-          <div class="text-right">
+          <div class="text-right" style="position: relative">
             <a
               href="https://substack.com/?utm_source=embed&amp;utm_content=insidethebakery"
               target="_blank"
@@ -458,8 +458,8 @@ section.main p {
 .substack-watermark {
   position: absolute;
   display: block;
-  right: 12px;
-  bottom: 12px;
+  right: 15%;
+  bottom: 0px;
   height: 17.19496309px;
   width: 100px;
   background-image: url('https://cdn.substack.com/image/fetch/w_200,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fsubstack_wordmark.black.png');

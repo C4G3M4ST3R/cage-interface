@@ -59,6 +59,14 @@
                 🥧 Indices
               </nuxt-link>
               <nuxt-link
+                to="/farms"
+                data-toggle="collapse"
+                data-target="#navbar-list-2"
+                class="mb-3 pr-4"
+              >
+                🚜 Farms
+              </nuxt-link>
+              <nuxt-link
                 to="/pies"
                 data-toggle="collapse"
                 data-target="#navbar-list-2"
@@ -69,12 +77,12 @@
 
               <hr />
               <nuxt-link
-                to="/token"
+                to="/cage"
                 data-toggle="collapse"
                 data-target="#navbar-list-2"
                 class="pr-4"
               >
-                🟣 Token
+                🟣 Cage
               </nuxt-link>
             </div>
           </div>
