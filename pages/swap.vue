@@ -5,10 +5,10 @@
       <p>Swap Pies at the best rates.</p>
     </div>
 
-    <div class="card w-50 mx-auto mt-4">
+    <div class="card rounded-20 w-50 mx-auto mt-4">
       <div class="card-content p-3">
         <form @submit.prevent="">
-          <div class="input-field py-4 px-3">
+          <div class="input-field rounded-20 py-4 px-3">
             <label for="from">
               From
             </label>
@@ -32,7 +32,7 @@
             <i class="feather icon-arrow-down"></i>
           </div>
 
-          <div class="input-field py-4 px-3">
+          <div class="input-field rounded-20 py-4 px-3">
             <label for="to">
               To (estimated)
             </label>
@@ -58,7 +58,7 @@
           </div>
 
           <div>
-            <button class="btn btn-block btn-primary">
+            <button class="btn btn-block btn-primary rounded-20">
               Review Order
             </button>
           </div>
@@ -86,6 +86,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('~/assets/css/form.css');
+
 section > div > h2 {
   font-size: 3rem;
   line-height: 3.5rem;
@@ -95,37 +97,6 @@ section > div > p {
   font-size: 1.8rem;
   /* font-size: 1.2rem; */
   color: #4d4d4d;
-}
-
-.btn-block,
-.input-field,
-section .card {
-  border-radius: 20px;
-}
-
-.input-field {
-  border: solid 1px #cecece;
-}
-
-.input-field label {
-  font-size: 1.2rem;
-  font-weight: 100;
-}
-
-.input-field input {
-  color: black;
-  /* width: 0px; */
-  position: relative;
-  font-weight: 500;
-  outline: none;
-  border: none;
-  flex: 1 1 auto;
-  background-color: transparent;
-  font-size: 24px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0px;
 }
 
 .btn-black {

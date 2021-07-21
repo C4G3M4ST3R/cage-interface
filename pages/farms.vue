@@ -1,5 +1,5 @@
 <template>
-  <main class="mx-lg-5 px-lg-5 py-lg-5">
+  <main class="mx-lg-5 p-lg-5">
     <div class="row pl-5 mr-2">
       <div class="col-12 col-lg-7">
         <div class="card rounded-20 mb-0">
@@ -15,7 +15,7 @@
             <template v-else>
               <template v-for="n in 5">
                 <nuxt-link
-                  to="#!"
+                  to="/staking/coin"
                   :key="n"
                   class="bg-white rounded-20 p-4 rounded-lg d-flex justify-content-between text-dark"
                   :class="{ 'mb-3': n < 5 }"
@@ -82,12 +82,8 @@ export default {
 <style scoped>
 .card {
   box-shadow: none;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   background-color: #f7f7f7;
-}
-
-.rounded-20 {
-  border-radius: 20px !important;
 }
 
 h2 {
