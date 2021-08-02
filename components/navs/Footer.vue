@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-3 p-lg-5 mb-3 mx-5">
+  <footer class="p-3 p-lg-5 mb-3">
     <div class="float-left ml-5">
       <div class="d-flex justify-content-between">
         <nuxt-link to="/" class="mr-3 mr-lg-4">Cage {{ year }}</nuxt-link>

@@ -1,342 +1,346 @@
 <template>
-  <main class="text-center py-3 py-lg-5">
-    <header class="container">
-      <div class="hero">
-        <img :src="hero" />
+  <main class="mx-5 px-5">
+    <header class="hero pt-5 mt-5">
+      <div class="row">
+        <div class="col-lg-7 col-12">
+          <div class="hero-left pt-lg-5">
+            <h1 class="h1">
+              A Decentralized Meme Token that Evolved into a Vibrant Ecosystem
+            </h1>
+            <p>
+              SHIB, LEASH, BONE — ShibaSwap — Innovative Reward System — The
+              Shiba Incubator — And more. 585k+ Community Members and Growing
+              Fast!
+            </p>
 
-        <h1 class="text-dark font-weight-bolder linear-wipe">
-          Wealth creation
-          <br class="d-none d-lg-block" />
-          automated
-        </h1>
-
-        <p class="my-3 font-italic">
-          Your path to
-          <br class="d-block d-lg-none" />
-          financial freedom
-        </p>
-
-        <nuxt-link to="/swap" type="button" class="btn btn-primary mt-4">
-          <h5 class="mb-0">
-            Get your coin
-          </h5>
-        </nuxt-link>
-
-        <div class="w-75 mx-auto mt-5">
-          <div class="row">
-            <div class="col d-flex p-4">
-              <img
-                height="40"
-                class="mr-3 mt-1"
-                src="https://raw.githubusercontent.com/pie-dao/brand/2b47cee4fcc0fd814ff54e78ab9251345a521541/misc/hero-icon-2-black.svg"
-                alt="PieDAO Hero"
-              />
-              <span class="">
-                Set and forget strategies, maximum returns
-              </span>
-            </div>
-
-            <div class="col d-flex p-4 mx-4">
-              <img
-                height="40"
-                class="mr-3 mt-2"
-                src="https://raw.githubusercontent.com/pie-dao/brand/2b47cee4fcc0fd814ff54e78ab9251345a521541/misc/hero-icon-1-black.svg"
-                alt="PieDAO Hero"
-              />
-              <span class="mt-2">
-                Diversified exposure to the best of crypto
-              </span>
-            </div>
-
-            <div class="col d-flex p-4">
-              <img
-                height="40"
-                class="mr-3 mt-2"
-                src="https://raw.githubusercontent.com/pie-dao/brand/2b47cee4fcc0fd814ff54e78ab9251345a521541/misc/hero-icon-3-black.svg"
-                alt="PieDAO Hero"
-              />
-              <span class="mt-2">
-                Secure, transparent, and open-source
-              </span>
+            <div class="mt-5">
+              <button class="btn btn-primary py-3 px-5 mr-3 rounded-pill">
+                <h5 class="my-0">
+                  How to Buy
+                </h5>
+              </button>
+              <button class="btn btn-outline-primary py-3 px-5 rounded-pill">
+                <h5 class="my-0">
+                  Read Whitepaper
+                </h5>
+              </button>
             </div>
           </div>
         </div>
+
+        <div class="col">
+          <div class="hero-right pt-lg-5">
+            <img src="https://shibatoken.com/images/hero-shib.png" />
+            <img
+              src="https://shibatoken.com/images/moon.svg"
+              class="hero--moon"
+            />
+          </div>
+        </div>
       </div>
+
+      <a href="#buy" class="scroll-btn mb-5">
+        <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
+        <i class="feather icon-arrow-down"></i>
+      </a>
     </header>
 
-    <section class="mx-5 mt-5 pt-5 px-5">
-      <h2 class="font-italic">
-        "A decentralized asset manager for tokenized portfolios, with a mission
-        to bring automated wealth creation to everyone with an internet
-        connection."
-      </h2>
+    <section id="ecosystem" class="py-5 my-5">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <h2 class="h1">
+            Our Project & Ecosystem
+          </h2>
+          <p>
+            From its inception, Shiba Inu has done things differently. Starting
+            with a supply of 1 quadrillion, our founder, Ryoshi, locked 50% in
+            Uniswap, then “burned” the other half to Ethereum co-founder
+            <span class="font-weight-bold">Vitalik Buterin</span> for
+            safekeeping. <br /><br />
+            To help reverse the devastating spread of Covid-19 in India, VB has
+            since utilized SHIB in the largest crypto donation in history, and
+            then
+            <span class="font-weight-bold">actually</span> burned 40% of its
+            total supply to a dead wallet, ensuring our long-term success and
+            stability. In the words of Ryoshi, “Thank you to the woofmeister for
+            enabling true decentralization. Now we truly begin.”
+          </p>
+        </div>
 
-      <div class="row px-5 mx-5 mt-5">
-        <template v-for="n in 6">
-          <div class="col-lg-4" :key="n">
-            <coin-card :isEven="n % 3 === 0" />
+        <div class="col">
+          <div class="eco-right d-flex justify-content-lg-around mt-5 pt-5">
+            <template v-for="n in 3">
+              <a :key="n" href="#">
+                <div class="radiant"></div>
+                <div
+                  class="card rounded-20 mb-0 mt-3"
+                  :class="{ 'mr-lg-4': n < 3 }"
+                >
+                  <div class="card-content">
+                    <div class="text-center mb-3">
+                      <img src="https://shibatoken.com/images/ico-uni.svg" />
+                      <img
+                        src="https://shibatoken.com/images/ico-uni-col.svg"
+                        class="mx-auto"
+                      />
+                    </div>
+
+                    <p class="text-white">
+                      Liquidity Locked to Uniswap
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </template>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-5">
+      <div class="row">
+        <template v-for="n in 3">
+          <div class="col-lg-4 col-12" :key="n">
+            <div class="card coin mb-4 rounded-20">
+              <img
+                class="card-img-top w-25 my-5 mx-auto"
+                src="https://shibatoken.com/images/shiba_coin-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body px-5 bg-gradient-black">
+                <div class="d-flex my-3">
+                  <h3 class="h3 mr-3 mt-1">SHIB</h3>
+
+                  <a
+                    type="button"
+                    href="#"
+                    class="rounded-lg btn-dark px-2 py-1 mt-2"
+                  >
+                    <i class="feather icon-bar-chart-2 warning"></i>
+                    See Live Charts
+                  </a>
+                </div>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="card-text">
+                  Cookie topping caramels jujubes gingerbread. Lollipop apple
+                  pie cupcake candy canes cookie ice cream. Wafer chocolate bar
+                  carrot cake jelly-o.
+                </p>
+
+                <div class="text-left my-5">
+                  <button class="btn btn-primary px-4 py-3 rounded-pill">
+                    <h5 class="my-0">
+                      Buy SHIB
+                    </h5>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </template>
       </div>
     </section>
 
-    <section class="mx-5 mt-5 pt-5 px-5">
-      <h2>
-        Bake Together, save 97% Gas.
-      </h2>
-
-      <div class="row px-5 mx-5 mt-5">
-        <div class="col-lg-4">
-          <div>
-            <img
-              height="75"
-              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/cook_1f9d1-200d-1f373.png"
-              alt="deposit eth"
-            />
-          </div>
-          <h4 class="mt-1 mb-0">Deposit ETH</h4>
-          <p class="mt-1">
-            When at least 10 ETH is deposited the Oven can begin.
+    <section id="buy" class="my-5 py-5">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <h2 class="h1">How to Buy</h2>
+          <p>
+            SHIB, LEASH and BONE are best purchased and sold through
+            <span class="font-weight-bold">ShibaSwap</span>, but can also be
+            found on Uniswap and an ever-growing list of CEXs. Please note that,
+            outside of ShibaSwap, exchanges which support one may not support
+            the other.<br /><br />SHIB is a decentralized experiment and, as
+            such, we always incentivize the use of DEXs. If you choose to
+            utilize a CEX instead, remember to research it first to ensure it is
+            both safe and secure.
           </p>
         </div>
+        <div class="col text-right">
+          <img
+            src="https://shibatoken.com/images/c1.png"
+            loading="lazy"
+            alt=""
+            class="htb-circle-1"
+          />
 
-        <div class="col-lg-4">
-          <div>
-            <img
-              height="75"
-              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/timer-clock_23f2-fe0f.png"
-              alt="deposit eth"
-            />
-          </div>
-          <h4 class="mt-1 mb-0">Wait</h4>
-          <p class="mt-1">
-            Oven will bake when gas price is below 100 gwei, saving everyone
-            money.
-          </p>
-        </div>
+          <!-- <div class="circling-animation">
+              <img
+                class="circle-dashes"
+                src="https://shibatoken.com/images/circle-dashes.svg"
+              />
+              <div>
+                <img src="https://shibatoken.com/images/gc1.png" />
+              </div>
 
-        <div class="col-lg-4">
-          <div>
-            <img
-              height="75"
-              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/pie_1f967.png"
-              alt="deposit eth"
-            />
-          </div>
-          <h4 class="mt-1 mb-0">Withdraw Your Pie</h4>
-          <p class="mt-1">
-            Once the Pie is baked you can withdraw it to your wallet.
-          </p>
-        </div>
-      </div>
+              <div>
+                <img src="https://shibatoken.com/images/gc2.png" />
+              </div>
 
-      <nuxt-link
-        to="/swap"
-        type="button"
-        class="btn btn-primary btn-black mt-5"
-      >
-        <h5 class="mb-0">
-          Oven
-        </h5>
-      </nuxt-link>
-    </section>
-
-    <section class="mx-5 mt-3 pt-5 px-5">
-      <div class="card mx-5 p-5">
-        <div class="card-content d-flex">
-          <h2 class="mr-3 w-75 text-left">
-            Pies are diversified portfolios of top
-            <br class="d-none d-lg-block" />
-            performing crypto assets
-          </h2>
-
-          <div>
-            <ul class="text-left" style="list-style: none;">
-              <li>
-                ✔️ Carefully handpicked by a decentralized community of
-                economically incentivised talent.
-              </li>
-              <li class="mt-3">
-                ✔️ Maximize returns with active yield-generating strategies
-                behind the scenes. Staking, lending, yield-farming - completely
-                automated.
-              </li>
-              <li class="mt-3">
-                ✔️ Accessible. Save 97% of the minting gas costs by using the
-                community Oven
-              </li>
-              <li class="mt-3">
-                ✔️ Secure architecture and fully audited contracts
-              </li>
-            </ul>
-          </div>
+              <div>
+                <img src="https://shibatoken.com/images/gc4.png" />
+              </div>
+            </div> -->
         </div>
       </div>
     </section>
 
-    <section class="mx-5 mt-5 pt-5 px-5 main">
-      <div class="py-5">
-        <h1>
-          DOUGH
-        </h1>
-        <p>
-          The engine behind PieDAO’s self-driving
-          <br class="d-none d-lg-block" />
-          wealth creation machine
-        </p>
+    <section id="start-guide" class="py-5 my-5">
+      <h2 class="h1">Quick Start Guide</h2>
 
-        <nuxt-link
-          to="/swap"
-          type="button"
-          class="btn btn-primary btn-black mt-3"
-        >
-          <h5 class="mb-0">
-            Get started
-          </h5>
-        </nuxt-link>
+      <div class="card rounded-20 p-5">
+        <div class="card-content d-flex justify-content-lg-left p-3">
+          <div>
+            <div class="number text-white pt-4 text-center">
+              <p class="my-0">
+                1
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3">
+            <div class="yellow-line"></div>
+          </div>
+
+          <div class="mt-3 pr-5 mr-5">
+            <h3 class="h3 mb-3">
+              Create MetaMask wallet
+            </h3>
+            <p>
+              Create a MetaMask Wallet using either a desktop computer or an
+              iOS/Android mobile device. That will allow you to buy, sell, send,
+              and receive SHIB or LEASH.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-content d-flex justify-content-lg-left p-3">
+          <div>
+            <div class="number text-white pt-4 text-center">
+              <p class="my-0">
+                2
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3">
+            <div class="yellow-line"></div>
+          </div>
+
+          <div class="mt-3 pr-5 mr-5">
+            <h3 class="h3 mb-3">
+              Send ETH to your wallet
+            </h3>
+            <p>
+              You can buy Ethereum (ETH) directly on MetaMask or transfer it to
+              your MetaMask Wallet from exchanges like Coinbase, Binance, etc.
+              Make sure to use the ERC-20 network when transfering ETH.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-content d-flex justify-content-lg-left p-3">
+          <div>
+            <div class="number text-white pt-4 text-center">
+              <p class="my-0">
+                3
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3">
+            <div class="yellow-line"></div>
+          </div>
+
+          <div class="mt-3 pr-5 mr-5">
+            <h3 class="h3 mb-3">
+              Connect your wallet to ShibaSwap
+            </h3>
+            <p>
+              Access your wallet to ShibaSwap by clicking ‘Connect to a wallet’
+              and selecting MetaMask.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-content d-flex justify-content-lg-left p-3">
+          <div>
+            <div class="number text-white pt-4 text-center">
+              <p class="my-0">
+                4
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3">
+            <div class="yellow-line"></div>
+          </div>
+
+          <div class="mt-3 pr-5 mr-5">
+            <h3 class="h3 mb-3">
+              Swap ETH for SHIB, LEASH or BONE
+            </h3>
+            <p>
+              You can start swapping as soon as you have ETH available! Press
+              ‘Select a token’ and enter the token address or search for it on
+              the tokens list.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="mx-5 mt-5 py-5 px-5">
-      <h2>
-        "If you want to go fast, go alone."
-        <br />
-        "If you want to go far, DAO it together."
-      </h2>
+    <section class="py-5 my-5">
+      <div class="row">
+        <div class="col-lg-6 col-12 mt-5">
+          <img src="https://shibatoken.com/images/ss-img2x.png" class="h-50" />
 
-      <div
-        class="d-flex justify-content-between justify-content-lg-center mt-5"
-      >
-        <p class="my-0">
-          Our fast growing community includes top founders and developers of
-          DeFi, join us!
-        </p>
-
-        <div class="badge py-3 px-4 rounded-pill mt-n3 ml-lg-3">
-          <a href="https://pixinvent.com/" target="_blank" class="text-dark">
-            <span class="font-weight-bold mr-1">+2233</span>
-            members
-          </a>
+          <div class="text-center mt-5">
+            <button class="btn btn-primary py-3 px-5 rounded-pill">
+              <h5 class="my-0">
+                Use ShibaSwap
+              </h5>
+            </button>
+          </div>
         </div>
-      </div>
 
-      <div class="container mt-4">
-        <div class="row mx-lg-5">
-          <template v-for="n in 4">
-            <div class="col-12 col-lg-3 pl-0" :key="n">
-              <div class="card member p-3">
-                <a href="#">
-                  <div class="card-content d-flex">
-                    <img
-                      src="https://pbs.twimg.com/profile_images/1250846427930075149/PW5lOu8T_400x400.jpg"
-                      height="55"
-                      class="rounded-circle"
-                    />
-                    <div class="ml-2 mt-2 text-left">
-                      <h5 class="my-0 text-dark">cryptouf</h5>
-                      <p class="my-0">Crusty AF</p>
-                    </div>
-                  </div>
-                </a>
+        <div class="col text-left">
+          <h1 class="h1 mb-5">
+            ShibaSwap
+          </h1>
+
+          <div class="card rounded-lg bg-dark p-4">
+            <div class="d-flex justify-content-between">
+              <div class="d-flex">
+                <img src="https://shibatoken.com/images/certik-logo.svg" />
+              </div>
+
+              <div>
+                <button class="btn btn-primary py-3 px-5 rounded-pill">
+                  <h5 class="my-0">
+                    Audit Report
+                  </h5>
+                </button>
               </div>
             </div>
-          </template>
-        </div>
-
-        <div class="d-flex justify-content-between mt-5 mx-lg-5 px-lg-5">
-          <div>
-            <template v-for="n in 4">
-              <a href="#" :key="n">
-                <img
-                  src="https://pbs.twimg.com/profile_images/1223022968722415619/9DPgCQiP_400x400.jpg"
-                  height="55"
-                  class="rounded-circle mr-2"
-                />
-              </a>
-            </template>
           </div>
 
-          <div>
-            <template v-for="n in 3">
-              <a href="#" :key="n">
-                <img
-                  src="https://pbs.twimg.com/profile_images/1373979937141616640/cBoLdmuF_400x400.jpg"
-                  height="55"
-                  class="rounded-circle mr-2"
-                />
-              </a>
-            </template>
-          </div>
-
-          <div>
-            <template v-for="n in 2">
-              <a href="#" :key="n">
-                <img
-                  src="https://pbs.twimg.com/profile_images/1229796883389984768/-51xkMj3_400x400.jpg"
-                  height="55"
-                  class="rounded-circle mr-2"
-                />
-              </a>
-            </template>
-          </div>
-        </div>
-
-        <div class="mt-4">
-          <h3>Inside the bakery</h3>
-          <p>
-            Subscribe to our newsletter for latest performance updates and
-            community news
+          <p class="my-0">
+            SHIB, LEASH, and BONE, come together to create
+            <span class="warning">ShibaSwap</span>, the next evolution in DeFi
+            platforms. ShibaSwap gives users the ability to
+            <span class="font-weight-bold">DIG</span> (provide liquidity),
+            <span class="font-weight-bold">BURY</span> (stake), and
+            <span class="font-weight-bold">SWAP</span> tokens to gain
+            <span class="font-weight-bold">WOOF Returns</span> through our
+            sophisticated and innovative passive income reward system.<br /><br />Our
+            platform also allows the ShibArmy to access upcoming NFTs and
+            additional tools, such as portfolio trackers, to make navigating the
+            crypto world simple and intuitive.
           </p>
-
-          <form class="flex-form">
-            <input
-              type="email"
-              name="email"
-              placeholder="Type your email…"
-              id="email"
-            />
-            <button
-              class="btn rightButton btn-primary subscribe-btn "
-              type="submit"
-              tabindex="0"
-            >
-              <b>Subscribe</b>
-            </button>
-          </form>
-
-          <div class="text-right" style="position: relative">
-            <a
-              href="https://substack.com/?utm_source=embed&amp;utm_content=insidethebakery"
-              target="_blank"
-              class="substack-watermark"
-            >
-              &nbsp;
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mx-5 mt-5 py-5 px-5 press">
-      <p>Press & Integrations</p>
-
-      <div>
-        <img
-          class="w-75"
-          src="https://raw.githubusercontent.com/pie-dao/brand/master/misc/integrations-desktop.png"
-          alt="PieDAO Featured In"
-        />
-      </div>
-
-      <div class="mt-5 pt-5">
-        <p>Audited By</p>
-
-        <div>
-          <img
-            class="w-75"
-            src="https://raw.githubusercontent.com/pie-dao/brand/master/misc/auditslogos.png"
-            alt="PieDAO Audited by"
-          />
         </div>
       </div>
     </section>
@@ -344,146 +348,189 @@
 </template>
 
 <script>
-import CoinCard from '../components/cards/CoinCard.vue';
 export default {
-  components: { CoinCard },
+  mounted() {},
 };
 </script>
 
 <style scoped>
-.hero > img {
-  width: 70%;
+p {
+  /* color: #bbbbbe; */
+}
+/* Hero Section */
+.hero {
+  position: relative;
 }
 
-section.main h1,
-.hero h1 {
-  font-size: 8rem;
-  line-height: 7rem;
-  letter-spacing: -0.4rem;
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-size: 2.5rem;
+  font-size: 48px;
+  line-height: 66px;
 }
 
-section.main p,
-.hero p {
-  font-size: 1.8rem;
-  font-weight: 100;
+.h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  line-height: 42px;
 }
 
-.hero .col {
-  background-color: rgba(0, 0, 0, 0.04);
-  background-blend-mode: multiply;
-  border-radius: 10px;
+.hero .hero-left p {
+  font-size: 20px;
 }
 
-.hero .w-75 {
-  width: 80% !important;
+.hero .hero-right {
+  position: relative;
+  /* z-index: 2; */
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
-.hero .col span {
-  line-height: 1.5rem;
-  text-align: left;
-  font-weight: 500;
-  font-size: 1.3rem;
-}
-
-section h2 {
-  font-size: 3rem;
-  line-height: 3.5rem;
-  color: #000;
-}
-
-section p {
-  font-size: 1.2rem;
-  color: #4d4d4d;
-  font-weight: 100;
-}
-
-section > .card {
-  border-radius: 8px;
-  background: linear-gradient(
-    24deg,
-    rgba(219, 241, 255, 1) 0%,
-    rgba(180, 219, 255, 1) 100%
-  );
-  box-shadow: none;
-}
-
-section > .card ul li {
-  font-size: 16px;
-}
-
-section.main p {
-  line-height: 2.5rem;
-}
-
-.badge {
-  font-size: 1rem;
-  background-color: #f7f7f7;
-}
-
-.card.member {
-  box-shadow: none;
-  background-color: #f7f7f7;
-  border-radius: 12px;
-  border: solid 0.5px #d1d1d1;
-}
-
-.flex-form {
-  display: flex;
-  justify-content: center;
-}
-
-.flex-form input[type='email'] {
-  display: inline-block;
-  padding: 10px;
-  height: 54px;
-  border: 1px solid var(--primary-color) !important;
-  border-right-width: 0;
-  border-radius: 5px 0 0 5px;
-  font-size: 14px;
-  line-height: 19px;
-  -webkit-appearance: none;
-}
-
-.subscribe-btn {
-  margin-top: 0;
-  padding: 10px 22px;
-  min-width: 132px;
-  height: 54px;
-  background: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  border-radius: 0 5px 5px 0;
-  font-size: 14px;
-}
-
-.substack-watermark {
+.hero .hero-right .hero--moon {
   position: absolute;
+  left: auto;
+  top: -192px;
+  right: -245px;
+  bottom: auto;
+  z-index: -1;
+  width: 650px;
+  max-width: none;
+  -webkit-transition: width 300ms ease;
+  transition: width 300ms ease;
+}
+
+.hero .scroll-btn {
+  position: absolute;
+  bottom: 0%;
+  z-index: 2;
+  left: 0;
+}
+
+.hero .scroll-btn i {
+  position: absolute;
+  left: 45px;
+  top: 25px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.hero .scroll-btn:hover i {
+  top: 30px;
+}
+
+.eco-right a {
+  position: relative;
+}
+
+.eco-right a .card {
+  background-color: #18171f;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 8px 8px 2px 0px rgba(0, 0, 0, 0.75) !important;
+  /* box-shadow: 0 0 200px 20px rgb(236 64 121 / 10%); */
+}
+
+.eco-right a .card .card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.eco-right a:hover .card img:first-child,
+.eco-right a .card img:last-child {
+  display: none;
+}
+
+.eco-right a:hover .radiant,
+.eco-right a:hover .card img:last-child {
   display: block;
-  right: 15%;
-  bottom: 0px;
-  height: 17.19496309px;
-  width: 100px;
-  background-image: url('https://cdn.substack.com/image/fetch/w_200,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fsubstack_wordmark.black.png');
-  -webkit-background-size: 100%;
-  background-size: 100%;
-  opacity: 0.3;
 }
 
-section.press p {
-  font-size: 1.35rem;
+.eco-right a .radiant {
+  background: radial-gradient(#ffffff, #9198e5);
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  top: -10%;
+  left: -50px;
+  filter: blur(1.5px);
+  opacity: 0.6;
+  position: absolute;
+  display: none;
+  z-index: -1;
+  /* content: ' '; */
 }
 
-section.press img {
-  opacity: 0.5;
+.eco-right a:hover .card {
+  box-shadow: 0 0 200px 20px rgb(236 64 121 / 10%);
+  box-shadow: none !important;
 }
-/* @media (min-width: 960px) {
-  .hero img {
-    width: 70%;
+
+.card.coin .card-body {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.btn-dark {
+  font-size: 14px;
+}
+
+.circling-animation div {
+  animation: spinAround 15s linear infinite;
+  position: absolute;
+}
+
+.circling-animation div {
+  position: relative;
+}
+
+.circling {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.circling > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg) translate(140px) scale(0.7);
+  }
+  to {
+    transform: rotate(360deg) translate(140px) scale(0.7);
   }
 }
 
-@media (min-width: 768px) {
-  .hero img {
-    width: 90%;
-  }
-} */
+.yellow-line {
+  width: 80px;
+  height: 2px;
+  margin-right: 32px;
+  margin-left: 32px;
+  background-color: #f28b03;
+}
+
+#start-guide {
+}
+
+#start-guide .card-content div.number {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  background-color: #23212c;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 300;
+}
 </style>

@@ -2,7 +2,7 @@
   <button
     data-toggle="collapse"
     data-target="#navbar-list-2"
-    class="btn btn-primary rounded-pill px-5 py-2"
+    class="btn btn-outline-primary rounded-pill px-5 py-2"
     @click.prevent="connect"
     v-if="!isAuthenticated"
   >
@@ -61,9 +61,7 @@ export default {
 .show > .btn-primary.dropdown-toggle {
   background-color: var(--primary-color);
 }
-.btn.btn-primary {
-  min-width: auto;
-}
+
 .dropdown-menu {
   width: 100%;
 }

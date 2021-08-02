@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm bg-white px-4 px-lg-5 mt-2">
-    <nuxt-link to="/" class="navbar-brand px-lg-5 mx-lg-5">
+    <a href="/" class="navbar-brand px-lg-5">
       <img :src="logo" height="40" alt="logo" />
-    </nuxt-link>
+    </a>
 
     <button
       class="navbar-toggler"
@@ -20,96 +20,38 @@
       class="collapse navbar-collapse justify-content-end"
       id="navbar-list-2"
     >
-      <ul class="navbar-nav text-center text-md-left px-lg-5">
+      <ul class="navbar-nav text-center text-md-left pr-lg-4">
         <li class="nav-item mt-1">
-          <nuxt-link
-            class="nav-link"
-            data-toggle="collapse"
-            data-target="#navbar-list-2"
-            to="/"
-          >
-            Main
-          </nuxt-link>
+          <a class="nav-link" href="#ecosystem">
+            Ecosystem
+          </a>
         </li>
-
         <li class="nav-item mt-1">
-          <nuxt-link
-            type="button"
-            class="dropdown-toggle bg-transparent nav-link"
-            id="products"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            to="#!"
-          >
-            Products
-          </nuxt-link>
-
-          <div
-            class="actions dropdown-menu py-0 bg-transparent border-0"
-            aria-labelledby="products"
-          >
-            <div class="card border-0 my-0 ml-1 shadow p-3">
-              <nuxt-link
-                to="/pies"
-                data-toggle="collapse"
-                data-target="#navbar-list-2"
-                class="mb-3 pr-4"
-              >
-                🥧 Indices
-              </nuxt-link>
-              <nuxt-link
-                to="/farms"
-                data-toggle="collapse"
-                data-target="#navbar-list-2"
-                class="mb-3 pr-4"
-              >
-                🚜 Farms
-              </nuxt-link>
-              <nuxt-link
-                to="/pies"
-                data-toggle="collapse"
-                data-target="#navbar-list-2"
-                class="pr-4"
-              >
-                🔀 Exchange
-              </nuxt-link>
-
-              <hr />
-              <nuxt-link
-                to="/cage"
-                data-toggle="collapse"
-                data-target="#navbar-list-2"
-                class="pr-4"
-              >
-                🟣 Cage
-              </nuxt-link>
-            </div>
-          </div>
+          <a class="nav-link" href="#buy">
+            Buy
+          </a>
         </li>
-
         <li class="nav-item mt-1">
-          <nuxt-link
-            class="nav-link"
-            data-toggle="collapse"
-            data-target="#navbar-list-2"
-            to="/ndx"
-          >
-            Token
-          </nuxt-link>
+          <a class="nav-link" href="#swap">
+            Swap
+          </a>
         </li>
-
         <li class="nav-item mt-1">
-          <nuxt-link
-            class="nav-link"
-            data-toggle="collapse"
-            data-target="#navbar-list-2"
-            to="/learn"
-          >
-            Learn
-          </nuxt-link>
+          <a class="nav-link" href="#art">
+            Art
+          </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mt-1">
+          <a class="nav-link" href="#rescue">
+            Rescue
+          </a>
+        </li>
+        <li class="nav-item mt-1">
+          <a class="nav-link" href="#community">
+            Community
+          </a>
+        </li>
+        <li class="nav-item mr-0">
           <connect-btn />
         </li>
       </ul>

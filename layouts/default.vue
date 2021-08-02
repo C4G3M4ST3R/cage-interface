@@ -1,5 +1,5 @@
 <template>
-  <div style="overflow-x: hidden">
+  <div>
     <Navbar v-if="notFound" />
     <connect-wallet :key="connectKey" @close.once="closeConnect" />
     <Nuxt />
