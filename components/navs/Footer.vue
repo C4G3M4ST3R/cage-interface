@@ -1,27 +1,11 @@
 <template>
-  <footer class="p-3 p-lg-5 mb-3">
-    <div class="float-left ml-5">
-      <div class="d-flex justify-content-between">
-        <nuxt-link to="/" class="mr-3 mr-lg-4">Cage {{ year }}</nuxt-link>
-        <a :href="blockLink" class="mr-3 mr-lg-4">Block: {{ block }}</a>
-        <a href="mailto:hello@cag3.io">hello@cag3.io</a>
-      </div>
-    </div>
-    <div class="float-right mr-3">
-      <div class="d-flex justify-content-between">
-        <a href="https://discord.com" class="mr-3 mr-lg-4">Discord</a>
-        <a href="https://twitter.com" class="mr-3 mr-lg-4">Twitter</a>
-        <a href="https://medium.com" class="mr-3 mr-lg-4">Medium</a>
-        <a href="https://discord.com" class="mr-3 mr-lg-4">Forum</a>
-        <a href="https://discord.com" class="mr-3 mr-lg-4">Documentation</a>
-        <a href="https://github.com" class="mr-3 mr-lg-4">Github</a>
-        <a href="https://argon.in" class="mt-n2">
-          <img
-            src="https://raw.githubusercontent.com/pie-dao/assets/master/logos/aragon.svg"
-            height="35"
-          />
-        </a>
-      </div>
+  <footer class="p-3 py-lg-4 mb-3 bg-rgba-secondary text-center">
+    <div class="d-flex justify-content-center">
+      <a href="#" class="mx-3">Medium</a>
+      <a href="#" class="mx-3">Etherscan</a>
+      <a href="#" class="mx-3">Coinmarketcap</a>
+      <a href="#" class="mx-3">CoinGecko</a>
+      <a href="#" class="mx-3">Shytoshi</a>
     </div>
   </footer>
 </template>
@@ -45,18 +29,10 @@ export default {
 <style scoped>
 footer a {
   color: #4f5665 !important;
+  font-size: 16px !important;
 }
 
-footer ul {
-  list-style: none;
-}
-
-footer ul li {
-  padding: 0.5rem 1rem;
-  padding-left: 0;
-}
-
-footer ul li a {
-  color: #4f5665;
+footer a:hover {
+  text-decoration: underline !important;
 }
 </style>

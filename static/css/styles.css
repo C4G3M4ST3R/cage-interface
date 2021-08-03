@@ -148,6 +148,10 @@ section.hasLinear {
   border-radius: 20px !important;
 }
 
+.rounded-10 {
+  border-radius: 10px !important;
+}
+
 .underline {
   text-decoration: underline;
 }
