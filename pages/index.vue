@@ -170,7 +170,7 @@
         </div>
         <div class="col text-center ml-lg-5 pl-lg-5 mt-3 mt-lg-5">
           <img
-            src="/img/logo-cmi.png"
+            src="/img/logo-big.png"
             class="htb-circle-1"
           />
 
