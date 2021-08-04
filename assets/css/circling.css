@@ -1,0 +1,59 @@
+.circling-animation {
+  position: absolute;
+  right: 25%;
+  top: 0;
+  width: 20vw;
+  height: 20vw;
+  border: 0.4vw solid rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: transform 0.7s linear;
+  animation: rotate 15s infinite linear;
+}
+.circle {
+  display: block;
+  position: absolute;
+  width: 16%;
+  height: 16%;
+  margin: -8%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+}
+
+.circle.first {
+  transform: rotate(20deg) translate(12vw) rotate(-20deg);
+}
+.circle.second {
+  transform: rotate(150deg) translate(13.5vw) rotate(-150deg);
+}
+.circle.third {
+  transform: rotate(250deg) translate(14.5vw) rotate(-250deg);
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .circling-animation {
+    width: 60vw;
+    height: 60vw;
+    right: 20%;
+    top: 20px;
+  }
+  .circle.first {
+    transform: rotate(20deg) translate(23vw) rotate(-20deg);
+  }
+  .circle.second {
+    transform: rotate(150deg) translate(30vw) rotate(-150deg);
+  }
+  .circle.third {
+    transform: rotate(250deg) translate(34vw) rotate(-250deg);
+  }
+}

@@ -1,6 +1,6 @@
 <template>
   <footer class="p-3 py-lg-4 mb-3 bg-rgba-secondary text-center">
-    <div class="d-flex justify-content-center">
+    <div class="d-lg-flex justify-content-center">
       <a href="#" class="mx-3">Medium</a>
       <a href="#" class="mx-3">Etherscan</a>
       <a href="#" class="mx-3">Coinmarketcap</a>

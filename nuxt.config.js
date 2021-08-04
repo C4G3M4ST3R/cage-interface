@@ -11,15 +11,39 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       {
         name: 'msapplication-TileColor',
-        content: '#0b132a',
+        content: '#000000',
       },
       {
         name: 'theme-color',
-        content: '#0b132a',
+        content: '#ffffff',
       },
     ],
     link: [
       // Favicon
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/favicon/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon/favicon-16x16.png',
+      },
+      { rel: 'manifest', href: '/favicon/site.webmanifest' },
+      {
+        rel: 'mask-icon',
+        href: '/favicon/safari-pinned-tab.svg',
+        color: '#848283',
+      },
 
       // Stylesheets
       { rel: 'stylesheet', href: '/css/bootstrap.min.css' },

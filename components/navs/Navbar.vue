@@ -1,8 +1,14 @@
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm bg-white px-4 px-lg-5 mt-2">
-    <a href="/" class="navbar-brand px-lg-5">
-      <img :src="logo" height="40" alt="logo" />
-    </a>
+    <nuxt-link to="/" class="navbar-brand px-lg-5 d-flex">
+      <img
+        src="/img/logo.png"
+        height="50"
+        alt="logo"
+        class="mr-2 rounded-circle"
+      />
+      <h2 class="text-dark mt-2">Cage</h2>
+    </nuxt-link>
 
     <button
       class="navbar-toggler"
@@ -51,7 +57,7 @@
             Community
           </a>
         </li>
-        <li class="nav-item mr-0">
+        <li class="nav-item mr-0 mt-3 mt-md-0">
           <connect-btn />
         </li>
       </ul>
@@ -114,6 +120,15 @@ a,
 
   .navbar .navbar-nav .nav-item {
     margin: 0 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar .navbar-nav .nav-item {
+    margin: 0;
+  }
+
+  .navbar .navbar-nav .nav-item:last-child {
+    margin-left: 15px;
   }
 }
 </style>

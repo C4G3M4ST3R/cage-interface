@@ -1,9 +1,9 @@
 <template>
   <main>
-    <header class="hero pt-5 px-5 mx-5 mt-5">
+    <header class="hero pt-5 px-5 mx-lg-5 mt-5">
       <div class="row">
         <div class="col-lg-7 col-12">
-          <div class="hero-left pt-lg-5">
+          <div class="hero-left text-center text-lg-left pt-lg-5">
             <h1 class="h1">
               A Decentralized Meme Token that Evolved into a Vibrant Ecosystem
             </h1>
@@ -13,41 +13,52 @@
               Fast!
             </p>
 
-            <div class="mt-5">
-              <button class="btn btn-primary py-3 px-5 mr-3 rounded-pill">
+            <div class="mt-3 mt-lg-5">
+              <button class="btn btn-primary py-3 px-5 mr-lg-3 rounded-pill">
                 <h5 class="my-0">
                   How to Buy
                 </h5>
               </button>
-              <button class="btn btn-outline-primary py-3 px-5 rounded-pill">
+              <button
+                class="btn btn-outline-primary py-3 px-4 mt-3 mt-md-0 rounded-pill"
+              >
                 <h5 class="my-0">
                   Read Whitepaper
                 </h5>
               </button>
+
+              <div class="mt-5 d-lg-none">
+                <a href="#buy" class="scroll-btn">
+                  <img
+                    src="https://shibatoken.com/images/hero-scroll-shape.svg"
+                  />
+                  <i class="feather icon-arrow-down"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col">
+        <div class="col d-none d-lg-flex">
           <div class="hero-right pt-lg-5">
             <img src="https://shibatoken.com/images/hero-shib.png" />
-            <img
+            <!-- <img
               src="https://shibatoken.com/images/moon.svg"
               class="hero--moon"
-            />
+            /> -->
           </div>
         </div>
       </div>
 
-      <a href="#buy" class="scroll-btn mb-5">
+      <a href="#buy" class="scroll-btn ml-5 d-none d-lg-block">
         <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
         <i class="feather icon-arrow-down"></i>
       </a>
     </header>
 
-    <section id="ecosystem" class="p-5 m-5">
+    <section id="ecosystem" class="p-4 p-lg-5 mt-5 m-lg-5">
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-12 text-center text-lg-left">
           <h2 class="h1">
             Our Project & Ecosystem
           </h2>
@@ -68,12 +79,12 @@
         </div>
 
         <div class="col">
-          <div class="eco-right d-flex justify-content-lg-around mt-5 pt-5">
+          <div class="eco-right d-md-flex justify-content-around mt-lg-5 pt-5">
             <template v-for="n in 3">
               <a :key="n" href="#">
                 <div class="radiant"></div>
                 <div
-                  class="card rounded-20 mb-0 mt-3"
+                  class="card rounded-20 mx-auto mb-0 mt-3"
                   :class="{ 'mr-lg-4': n < 3 }"
                 >
                   <div class="card-content">
@@ -97,17 +108,17 @@
       </div>
     </section>
 
-    <section class="m-5 p-5">
+    <section class="mt-5 m-lg-5 p-4 p-lg-5">
       <div class="row">
         <template v-for="n in 3">
-          <div class="col-lg-4 col-12" :key="n">
+          <div class="col-lg-4 col-12 col-md-6" :key="n">
             <div class="card coin mb-4 rounded-20">
               <img
                 class="card-img-top w-25 my-5 mx-auto"
                 src="https://shibatoken.com/images/shiba_coin-1.png"
                 alt="Card image cap"
               />
-              <div class="card-body px-5 bg-rgba-secondary">
+              <div class="card-body px-4 px-lg-5 bg-rgba-secondary">
                 <div class="d-flex my-3">
                   <h3 class="h3 mr-3 mt-1">SHIB</h3>
 
@@ -144,7 +155,7 @@
       </div>
     </section>
 
-    <section id="buy" class="m-5 p-5">
+    <section id="buy" class="m-lg-5 pt-4 px-4 p-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12">
           <h2 class="h1">How to Buy</h2>
@@ -159,54 +170,50 @@
             both safe and secure.
           </p>
         </div>
-        <div class="col text-right">
+        <div class="col text-center ml-lg-5 pl-lg-5 mt-3 mt-lg-5">
           <img
             src="https://shibatoken.com/images/c1.png"
-            loading="lazy"
-            alt=""
             class="htb-circle-1"
           />
 
-          <!-- <div class="circling-animation">
-              <img
-                class="circle-dashes"
-                src="https://shibatoken.com/images/circle-dashes.svg"
-              />
-              <div>
-                <img src="https://shibatoken.com/images/gc1.png" />
-              </div>
+          <div class="circling-animation">
+            <div class="circle first">
+              <img src="https://shibatoken.com/images/gc1.png" />
+            </div>
 
-              <div>
-                <img src="https://shibatoken.com/images/gc2.png" />
-              </div>
+            <div class="circle second">
+              <img src="https://shibatoken.com/images/gc2.png" />
+            </div>
 
-              <div>
-                <img src="https://shibatoken.com/images/gc4.png" />
-              </div>
-            </div> -->
+            <div class="circle third">
+              <img src="https://shibatoken.com/images/gc4.png" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="start-guide" class="p-5">
-      <div class="m-5">
+    <section id="start-guide" class="pb-4 px-4 p-lg-5">
+      <div class="mt-5 text-center text-lg-left m-lg-5">
         <h2 class="h1">Quick Start Guide</h2>
 
-        <div class="card rounded-20 bg-rgba-secondary p-5">
-          <div class="card-content d-flex justify-content-lg-left p-3">
+        <div class="card rounded-20 bg-rgba-secondary p-3 p-lg-5">
+          <div
+            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
+          >
             <div>
-              <div class="number text-white pt-4 text-center">
+              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
                 <p class="my-0">
                   1
                 </p>
               </div>
             </div>
 
-            <div class="mt-4 pt-3">
+            <div class="mt-4 pt-3 d-none d-lg-block">
               <div class="yellow-line"></div>
             </div>
 
-            <div class="mt-3 pr-5 mr-5">
+            <div class="mt-3 pr-lg-5 mr-lg-5">
               <h3 class="h3 mb-3">
                 Create MetaMask wallet
               </h3>
@@ -218,20 +225,22 @@
             </div>
           </div>
 
-          <div class="card-content d-flex justify-content-lg-left p-3">
+          <div
+            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
+          >
             <div>
-              <div class="number text-white pt-4 text-center">
+              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
                 <p class="my-0">
                   2
                 </p>
               </div>
             </div>
 
-            <div class="mt-4 pt-3">
+            <div class="mt-4 pt-3 d-none d-lg-block">
               <div class="yellow-line"></div>
             </div>
 
-            <div class="mt-3 pr-5 mr-5">
+            <div class="mt-3 pr-lg-5 mr-lg-5">
               <h3 class="h3 mb-3">
                 Send ETH to your wallet
               </h3>
@@ -243,20 +252,22 @@
             </div>
           </div>
 
-          <div class="card-content d-flex justify-content-lg-left p-3">
+          <div
+            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
+          >
             <div>
-              <div class="number text-white pt-4 text-center">
+              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
                 <p class="my-0">
                   3
                 </p>
               </div>
             </div>
 
-            <div class="mt-4 pt-3">
+            <div class="mt-4 pt-3 d-none d-lg-block">
               <div class="yellow-line"></div>
             </div>
 
-            <div class="mt-3 pr-5 mr-5">
+            <div class="mt-3 pr-lg-5 mr-lg-5">
               <h3 class="h3 mb-3">
                 Connect your wallet to ShibaSwap
               </h3>
@@ -267,20 +278,22 @@
             </div>
           </div>
 
-          <div class="card-content d-flex justify-content-lg-left p-3">
+          <div
+            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
+          >
             <div>
-              <div class="number text-white pt-4 text-center">
+              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
                 <p class="my-0">
                   4
                 </p>
               </div>
             </div>
 
-            <div class="mt-4 pt-3">
+            <div class="mt-4 pt-3 d-none d-lg-block">
               <div class="yellow-line"></div>
             </div>
 
-            <div class="mt-3 pr-5 mr-5">
+            <div class="mt-3 pr-lg-5 mr-lg-5">
               <h3 class="h3 mb-3">
                 Swap ETH for SHIB, LEASH or BONE
               </h3>
@@ -295,9 +308,9 @@
       </div>
     </section>
 
-    <section class="p-5 m-5">
+    <section id="swap" class="p-4 p-lg-5 m-lg-5">
       <div class="row">
-        <div class="col-lg-6 col-12 mt-5">
+        <div class="col-lg-6 col-12 mt-5 text-center">
           <div>
             <img
               src="https://shibatoken.com/images/ss-img2x.png"
@@ -305,7 +318,7 @@
             />
           </div>
 
-          <div class="text-center mt-5">
+          <div class="mt-5">
             <button class="btn btn-primary py-3 px-5 rounded-pill">
               <h5 class="my-0">
                 Use ShibaSwap
@@ -314,8 +327,8 @@
           </div>
         </div>
 
-        <div class="col text-left">
-          <h1 class="h1 mb-5">
+        <div class="col text-center text-lg-left mt-5 mt-lg-0">
+          <h1 class="h1 mb-lg-5">
             ShibaSwap
           </h1>
 
@@ -325,8 +338,10 @@
                 <img src="https://shibatoken.com/images/certik-logo.svg" />
               </div>
 
-              <div>
-                <button class="btn btn-primary py-3 px-5 rounded-pill">
+              <div class="ml-2 ml-lg-0">
+                <button
+                  class="btn btn-primary py-2 px-3 py-lg-3 px-lg-5 rounded-pill"
+                >
                   <h5 class="my-0">
                     Audit Report
                   </h5>
@@ -352,8 +367,8 @@
       </div>
     </section>
 
-    <section class="p-5 bg-rgba-secondary text-center">
-      <div class="mx-5">
+    <section id="art" class="p-4 p-lg-5 bg-rgba-secondary text-center">
+      <div class="mx-lg-5">
         <h2 class="h1">Art</h2>
         <p>
           We are proud to support ingenuity in all its forms with the
@@ -370,8 +385,8 @@
       </div>
     </section>
 
-    <div class="slide-show">
-      <div id="slider" class="d-flex">
+    <div class="slide-show clearfix">
+      <div id="slider">
         <div class="art-image">
           <img src="https://shibatoken.com/images/art1.png" />
           <div class="overlay"></div>
@@ -432,9 +447,9 @@
       </button>
     </div>
 
-    <section class="p-5 m-5">
+    <section id="rescue" class="p-4 p-lg-5 m-lg-5">
       <div class="row">
-        <div class="col-lg-6 col-12 text-left">
+        <div class="col-lg-6 col-12 text-center text-lg-left">
           <h2 class="h1">Rescue</h2>
 
           <p>
@@ -462,8 +477,8 @@
           </p>
         </div>
         <div class="col mt-lg-5 pt-lg-5">
-          <div class="mt-5 pt-5 text-center">
-            <button class="btn py-4 px-5 mt-5 rounded-10 btn-primary">
+          <div class="mt-lg-5 pt-lg-5 text-center">
+            <button class="btn py-4 px-5 mt-3 mt-lg-5 rounded-10 btn-primary">
               <h2 class="my-0">Rescue Me</h2>
             </button>
           </div>
@@ -471,8 +486,8 @@
       </div>
     </section>
 
-    <section class="p-5 bg-rgba-secondary">
-      <div class="text-center mx-5">
+    <section id="community" class="p-4 p-lg-5 mt-3 mt-lg-0 bg-rgba-secondary">
+      <div class="text-center mx-lg-5">
         <h2 class="h1">Community</h2>
 
         <p>
@@ -502,7 +517,7 @@
       </div>
     </section>
 
-    <section class="p-5 m-5 text-center">
+    <section class="p-4 p-lg-5 m-lg-5 text-center">
       <p>
         Our community grows stronger every day. Please follow our social
         platforms to get the most up-to-date, accurate SHIB information.
@@ -513,52 +528,76 @@
         other members of the ShibArmy.
       </p>
 
-      <a href="#" class="font-weight-bold text-white underline">
-        Click here to search for your preferred country!
-      </a>
-
-      <div class="d-flex social-links justify-content-center">
-        <a href="#" class="mx-3">
-          <div class="mb-3">
-            <img src="https://shibatoken.com/images/ico-tel.svg" height="50" />
-          </div>
-          <small class="text-dark">Shib Telegram</small>
+      <div class="mb-3 mb-lg-5">
+        <a href="#" class="font-weight-bold text-dark underline">
+          Click here to search for your preferred country!
         </a>
+      </div>
 
-        <a href="#" class="mx-3">
-          <div class="mb-3">
-            <img src="https://shibatoken.com/images/ico-tel.svg" height="50" />
-          </div>
-          <small class="text-dark">Leash Telegram</small>
-        </a>
-
-        <a href="#" class="mx-3">
-          <div class="mb-3">
-            <img src="https://shibatoken.com/images/ico-tel.svg" height="50" />
-          </div>
-          <small class="text-dark">Bone Telegram</small>
-        </a>
-
-        <a href="#" class="mx-3">
-          <div class="mb-3">
-            <img src="https://shibatoken.com/images/ico-tw.svg" height="50" />
-          </div>
-          <small class="text-dark">Twitter</small>
-        </a>
-
-        <a href="#" class="mx-3">
-          <div class="mb-3">
-            <img src="https://shibatoken.com/images/ico-red.svg" height="50" />
-          </div>
-          <small class="text-dark">Reddit</small>
-        </a>
-
-        <a href="#" class="mx-3">
-          <div class="mb-3">
-            <img src="https://shibatoken.com/images/ico-dis.svg" height="50" />
-          </div>
-          <small class="text-dark">Discord</small>
-        </a>
+      <div class="row mx-lg-5 px-lg-5 social-links">
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <a href="#">
+            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
+              <img
+                src="https://shibatoken.com/images/ico-tel.svg"
+                height="50"
+              />
+            </div>
+            <small class="text-dark">Shib Telegram</small>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <a href="#">
+            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
+              <img
+                src="https://shibatoken.com/images/ico-tel.svg"
+                height="50"
+              />
+            </div>
+            <small class="text-dark">Leash Telegram</small>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <a href="#">
+            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
+              <img
+                src="https://shibatoken.com/images/ico-tel.svg"
+                height="50"
+              />
+            </div>
+            <small class="text-dark">Bone Telegram</small>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <a href="#">
+            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
+              <img src="https://shibatoken.com/images/ico-tw.svg" height="50" />
+            </div>
+            <small class="text-dark">Twitter</small>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <a href="#">
+            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
+              <img
+                src="https://shibatoken.com/images/ico-red.svg"
+                height="50"
+              />
+            </div>
+            <small class="text-dark">Reddit</small>
+          </a>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-md-4">
+          <a href="#">
+            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
+              <img
+                src="https://shibatoken.com/images/ico-dis.svg"
+                height="50"
+              />
+            </div>
+            <small class="text-dark">Discord</small>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -579,12 +618,35 @@ export default {
         autoplaySpeed: 5000,
         prevArrow: $('.prevSlide'),
         nextArrow: $('.nextSlide'),
+        responsive: [
+          {
+            breakpoint: 800,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '30px',
+              slidesToShow: 1,
+            },
+          },
+        ],
       });
   },
 };
 </script>
 
 <style scoped>
+@import url('~/assets/css/circling.css');
+
 p {
   /* color: #bbbbbe; */
 }
@@ -711,38 +773,6 @@ p {
   font-size: 14px;
 }
 
-.circling-animation div {
-  animation: spinAround 15s linear infinite;
-  position: absolute;
-}
-
-.circling-animation div {
-  position: relative;
-}
-
-.circling {
-  position: relative;
-  width: 500px;
-  height: 350px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-}
-
-.circling > * {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-@keyframes spinAround {
-  from {
-    transform: rotate(0deg) translate(140px) scale(0.7);
-  }
-  to {
-    transform: rotate(360deg) translate(140px) scale(0.7);
-  }
-}
-
 .yellow-line {
   width: 80px;
   height: 2px;
@@ -770,8 +800,10 @@ p {
 }
 
 .art-image {
-  max-width: 100% !important;
+  width: 100% !important;
   position: relative;
+  max-width: 320px;
+  height: 300px;
 }
 
 .overlay {
@@ -789,9 +821,12 @@ p {
 }
 
 .art-image img {
-  height: 300px;
-  /* opacity: 0.4; */
-  /* width: 100%; */
+  width: 100%;
+  height: 100%;
+}
+
+.art-image.slick-slide.slick-cloned {
+  /* display: none; */
 }
 
 .slide-show {
@@ -805,7 +840,7 @@ p {
 button.prevSlide,
 button.nextSlide {
   position: absolute;
-  top: 50%;
+  top: 20%;
   padding: 15px;
 }
 
@@ -839,5 +874,49 @@ button.nextSlide i {
 
 .social-links a:hover img {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 767px) {
+  .h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .hero .hero-left p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .scroll-btn {
+    position: relative !important;
+  }
+
+  .hero .scroll-btn i {
+    top: 5px;
+    font-size: 26px;
+  }
+
+  .h-40 {
+    height: 200px;
+  }
+
+  #start-guide .card-content div.number {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 10px;
+  }
+
+  .htb-circle-1 {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .h-40 {
+    height: 250px;
+  }
 }
 </style>
