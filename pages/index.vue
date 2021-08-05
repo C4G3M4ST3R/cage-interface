@@ -1,6 +1,6 @@
 <template>
   <main>
-    <header class="hero pt-md-5 pb-5 px-5 mt-xl-5">
+    <header class="hero pt-md-5 mx-lg-5 pb-5 px-5 mt-xl-5">
       <div class="row flex-lg-row-reverse">
         <div class="col-12 col-xl d-lg-none d-xl-block">
           <div class="hero-right text-center mt-lg-n5">
@@ -46,7 +46,7 @@
       </div>
     </header>
 
-    <section id="ecosystem" class="p-4 p-lg-5 mb-lg-5">
+    <section id="ecosystem" class="p-4 p-lg-5 mb-lg-5 mx-lg-5">
       <!-- <div class="my-5 scroll-btn">
         <a href="#buy" class="d-none d-lg-block">
           <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <section class="mt-5 my-lg-5 p-4 p-lg-5">
+    <section class="mt-5 m-lg-5 p-4 p-lg-5">
       <div class="row">
         <template v-for="n in 3">
           <div class="col-lg-4 col-12 col-md-6" :key="n">
@@ -194,7 +194,7 @@
     </section>
 
     <section id="start-guide" class="pb-4 px-4 px-lg-5">
-      <div class="mt-5 text-center text-lg-left my-lg-5">
+      <div class="mt-5 text-center text-lg-left m-lg-5">
         <h2 class="h1">Quick Start Guide</h2>
 
         <div class="card rounded-20 bg-rgba-secondary p-3 p-lg-5">
@@ -308,7 +308,7 @@
       </div>
     </section>
 
-    <section id="swap" class="p-4 p-lg-5 my-lg-5">
+    <section id="swap" class="p-4 p-lg-5 m-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12 mt-5 text-center">
           <div>
@@ -367,7 +367,7 @@
       </div>
     </section>
 
-    <section id="art" class="p-4 p-lg-5 bg-rgba-secondary text-center">
+    <section id="art" class="p-4 p-lg-5 mx-lg-5 bg-rgba-secondary text-center">
       <h2 class="h1">Art</h2>
       <p>
         We are proud to support ingenuity in all its forms with the
@@ -444,7 +444,7 @@
       </button>
     </div>
 
-    <section id="rescue" class="p-4 p-lg-5 my-lg-5">
+    <section id="rescue" class="p-4 p-lg-5 m-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12 text-center text-lg-left">
           <h2 class="h1">Rescue</h2>
@@ -483,7 +483,10 @@
       </div>
     </section>
 
-    <section id="community" class="p-4 p-lg-5 mt-3 mt-lg-0 bg-rgba-secondary">
+    <section
+      id="community"
+      class="p-4 p-lg-5 mx-lg-5 mt-3 mt-lg-0 bg-rgba-secondary"
+    >
       <div class="text-center">
         <h2 class="h1">Community</h2>
 
