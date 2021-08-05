@@ -1,8 +1,14 @@
 <template>
   <main>
-    <header class="hero py-5 px-5 mt-5">
-      <div class="row">
-        <div class="col-lg-7 col-12">
+    <header class="hero pt-md-5 pb-5 px-5 mt-xl-5">
+      <div class="row flex-lg-row-reverse">
+        <div class="col-12 col-xl d-lg-none d-xl-block">
+          <div class="hero-right text-center mt-lg-n5">
+            <img src="/img/logo-cmi.png" />
+          </div>
+        </div>
+
+        <div class="col-xl-7 col-12 px-0 px-lg-3">
           <div class="hero-left text-center text-lg-left py-lg-5">
             <h1 class="h1">
               The First Decentralized Meme Index, Transforming meme tokens to a
@@ -12,14 +18,14 @@
               Gain Exposure to the top performing Meme token across the space.
             </p>
 
-            <div class="mt-3 mt-lg-5">
-              <button class="btn btn-primary py-3 px-5 mr-lg-3 rounded-pill">
+            <div class="mt-3 mt-md-5">
+              <button class="btn btn-primary py-3 px-5 mr-md-3 rounded-pill">
                 <h5 class="my-0">
                   How to Buy
                 </h5>
               </button>
               <button
-                class="btn btn-outline-primary py-3 px-4 mt-3 mt-md-0 rounded-pill"
+                class="btn btn-outline-primary py-3 px-5 mt-3 mt-md-0 rounded-pill"
               >
                 <h5 class="my-0">
                   Read docs
@@ -37,16 +43,10 @@
             </div>
           </div>
         </div>
-
-        <div class="col d-none d-lg-flex">
-          <div class="hero-right mt-lg-n5">
-            <img src="/img/logo-cmi.png" />
-          </div>
-        </div>
       </div>
     </header>
 
-    <section id="ecosystem" class="p-4 p-lg-5 mt-5 my-lg-5">
+    <section id="ecosystem" class="p-4 p-lg-5 mb-lg-5">
       <!-- <div class="my-5 scroll-btn">
         <a href="#buy" class="d-none d-lg-block">
           <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
@@ -55,7 +55,7 @@
       </div> -->
 
       <div class="row">
-        <div class="col-lg-6 col-12 text-center text-lg-left mr-lg-5 pr-lg-5">
+        <div class="col-lg-6 col-12 text-center text-lg-left mr-xl-5 pr-lg-5">
           <h2 class="h1">
             Our Project & Ecosystem
           </h2>
@@ -75,14 +75,20 @@
           </p>
         </div>
 
+        <div class="col-lg-6 d-none d-lg-block d-xl-none">
+          <div class="hero-right mt-lg-5">
+            <img src="/img/logo-cmi.png" />
+          </div>
+        </div>
+
         <div class="col pt-3 pl-lg-0">
           <div class="eco-right d-md-flex justify-content-around mt-lg-5 pt-5">
             <template v-for="n in 3">
               <a :key="n" href="#">
                 <div class="radiant"></div>
                 <div
-                  class="card rounded-20 mx-auto mb-0"
-                  :class="{ 'mr-lg-3': n < 3 }"
+                  class="card rounded-20 mx-auto mb-md-0"
+                  :class="{ 'mr-lg-3 mb-5': n < 3 }"
                 >
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -115,7 +121,7 @@
                 src="https://shibatoken.com/images/shiba_coin-1.png"
                 alt="Card image cap"
               />
-              <div class="card-body px-4 px-lg-5 bg-rgba-secondary">
+              <div class="card-body px-4 px-xl-5 bg-rgba-secondary">
                 <div class="d-flex my-3">
                   <h3 class="h3 mr-3 mt-1">SHIB</h3>
 
@@ -154,7 +160,7 @@
 
     <section id="buy" class="mt-lg-5 pt-4 px-4 px-lg-5">
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-xl-6 text-center text-xl-left col-12">
           <h2 class="h1">How to Buy</h2>
           <p>
             SHIB, LEASH and BONE are best purchased and sold through
@@ -167,7 +173,7 @@
             both safe and secure.
           </p>
         </div>
-        <div class="col text-center ml-lg-5 pl-lg-5 mt-3 mt-lg-5">
+        <div class="col text-center ml-lg-5 pl-lg-5 mt-5">
           <img src="/img/logo-big.png" class="htb-circle-1" />
 
           <div class="circling-animation">
@@ -491,7 +497,7 @@
         </p>
 
         <div class="card rounded-10 w-60 bg-dark mx-auto p-4">
-          <div class="d-flex justify-content-center">
+          <div class="d-lg-flex justify-content-center">
             <div class="address mt-2 mr-3 text-white">
               0xc351155C80aCD043BD5F8FE7ffc8536af1fF9375
             </div>
@@ -899,14 +905,27 @@ button.nextSlide i {
     line-height: 10px;
   }
 
-  .htb-circle-1 {
-    height: 80%;
+  .eco-right a:hover .radiant {
+    display: none;
+  }
+
+  .hero .hero-right img {
+    height: 200px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .h-40 {
     height: 250px;
+  }
+
+  .hero .hero-right img,
+  #ecosystem .hero-right img {
+    height: 400px;
+  }
+
+  .w-60 {
+    width: 75%;
   }
 }
 </style>

@@ -40,20 +40,37 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .circling-animation {
-    width: 60vw;
-    height: 60vw;
-    right: 20%;
-    top: 20px;
+    width: 75vw;
+    height: 75vw;
+    right: 15%;
+    top: 0px;
   }
   .circle.first {
-    transform: rotate(20deg) translate(23vw) rotate(-20deg);
+    transform: rotate(20deg) translate(24vw) rotate(-20deg);
   }
   .circle.second {
-    transform: rotate(150deg) translate(30vw) rotate(-150deg);
+    transform: rotate(150deg) translate(26vw) rotate(-150deg);
   }
   .circle.third {
-    transform: rotate(250deg) translate(34vw) rotate(-250deg);
+    transform: rotate(250deg) translate(28vw) rotate(-250deg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .circling-animation {
+    width: 40vw;
+    height: 40vw;
+    right: 30%;
+  }
+  .circle.first {
+    transform: rotate(20deg) translate(24vw) rotate(-20deg);
+  }
+  .circle.second {
+    transform: rotate(150deg) translate(26vw) rotate(-150deg);
+  }
+  .circle.third {
+    transform: rotate(250deg) translate(28vw) rotate(-250deg);
   }
 }
