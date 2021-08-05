@@ -6,7 +6,7 @@
     @click.prevent="connect"
     v-if="!isAuthenticated"
   >
-    Connect
+    Explore pools
   </button>
 
   <div class="dropdown" v-else>

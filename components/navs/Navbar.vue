@@ -29,32 +29,22 @@
       <ul class="navbar-nav text-center text-md-left">
         <li class="nav-item mt-1">
           <a class="nav-link" href="#ecosystem">
-            Ecosystem
+            Memeverse
           </a>
         </li>
         <li class="nav-item mt-1">
           <a class="nav-link" href="#buy">
-            Buy
+            Products
           </a>
         </li>
         <li class="nav-item mt-1">
           <a class="nav-link" href="#swap">
-            Swap
+            Index pool
           </a>
         </li>
         <li class="nav-item mt-1">
           <a class="nav-link" href="#art">
-            Art
-          </a>
-        </li>
-        <li class="nav-item mt-1">
-          <a class="nav-link" href="#rescue">
-            Rescue
-          </a>
-        </li>
-        <li class="nav-item mt-1">
-          <a class="nav-link" href="#community">
-            Community
+            Staking
           </a>
         </li>
         <li class="nav-item mr-0 mt-3 mt-md-0">

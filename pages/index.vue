@@ -5,12 +5,10 @@
         <div class="col-lg-7 col-12">
           <div class="hero-left text-center text-lg-left pt-lg-5">
             <h1 class="h1">
-              A Decentralized Meme Token that Evolved into a Vibrant Ecosystem
+              The First Decentralized Meme Index, Transforming meme tokens to a token with store of value.
             </h1>
             <p>
-              SHIB, LEASH, BONE — ShibaSwap — Innovative Reward System — The
-              Shiba Incubator — And more. 585k+ Community Members and Growing
-              Fast!
+             Gain Exposure to the top performing Meme token across the space.
             </p>
 
             <div class="mt-3 mt-lg-5">
@@ -23,7 +21,7 @@
                 class="btn btn-outline-primary py-3 px-4 mt-3 mt-md-0 rounded-pill"
               >
                 <h5 class="my-0">
-                  Read Whitepaper
+                  Read docs
                 </h5>
               </button>
 
@@ -41,7 +39,7 @@
 
         <div class="col d-none d-lg-flex">
           <div class="hero-right pt-lg-5">
-            <img src="https://shibatoken.com/images/hero-shib.png" />
+            <img src="/img/logo-cmi.png" />
             <!-- <img
               src="https://shibatoken.com/images/moon.svg"
               class="hero--moon"
@@ -172,7 +170,7 @@
         </div>
         <div class="col text-center ml-lg-5 pl-lg-5 mt-3 mt-lg-5">
           <img
-            src="https://shibatoken.com/images/c1.png"
+            src="/img/logo-big.png"
             class="htb-circle-1"
           />
 
