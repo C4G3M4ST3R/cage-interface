@@ -1,14 +1,15 @@
 <template>
   <main>
-    <header class="hero pt-5 px-5 mt-5">
+    <header class="hero py-5 px-5 mt-5">
       <div class="row">
         <div class="col-lg-7 col-12">
-          <div class="hero-left text-center text-lg-left pt-lg-5">
+          <div class="hero-left text-center text-lg-left py-lg-5">
             <h1 class="h1">
-              The First Decentralized Meme Index, Transforming meme tokens to a token with store of value.
+              The First Decentralized Meme Index, Transforming meme tokens to a
+              token with store of value.
             </h1>
             <p>
-             Gain Exposure to the top performing Meme token across the space.
+              Gain Exposure to the top performing Meme token across the space.
             </p>
 
             <div class="mt-3 mt-lg-5">
@@ -26,35 +27,33 @@
               </button>
 
               <div class="mt-5 d-lg-none">
-                <a href="#buy" class="scroll-btn">
+                <!-- <a href="#buy" class="scroll-btn">
                   <img
                     src="https://shibatoken.com/images/hero-scroll-shape.svg"
                   />
                   <i class="feather icon-arrow-down"></i>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
         </div>
 
         <div class="col d-none d-lg-flex">
-          <div class="hero-right pt-lg-5">
+          <div class="hero-right mt-lg-n5">
             <img src="/img/logo-cmi.png" />
-            <!-- <img
-              src="https://shibatoken.com/images/moon.svg"
-              class="hero--moon"
-            /> -->
           </div>
         </div>
       </div>
-
-      <a href="#buy" class="scroll-btn ml-5 d-none d-lg-block">
-        <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
-        <i class="feather icon-arrow-down"></i>
-      </a>
     </header>
 
     <section id="ecosystem" class="p-4 p-lg-5 mt-5 my-lg-5">
+      <!-- <div class="my-5 scroll-btn">
+        <a href="#buy" class="d-none d-lg-block">
+          <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
+          <i class="feather icon-arrow-down"></i>
+        </a>
+      </div> -->
+
       <div class="row">
         <div class="col-lg-6 col-12 text-center text-lg-left mr-lg-5 pr-lg-5">
           <h2 class="h1">
@@ -153,7 +152,7 @@
       </div>
     </section>
 
-    <section id="buy" class="my-lg-5 pt-4 px-4 p-lg-5">
+    <section id="buy" class="mt-lg-5 pt-4 px-4 px-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12">
           <h2 class="h1">How to Buy</h2>
@@ -169,10 +168,7 @@
           </p>
         </div>
         <div class="col text-center ml-lg-5 pl-lg-5 mt-3 mt-lg-5">
-          <img
-            src="/img/logo-big.png"
-            class="htb-circle-1"
-          />
+          <img src="/img/logo-big.png" class="htb-circle-1" />
 
           <div class="circling-animation">
             <div class="circle first">
@@ -191,7 +187,7 @@
       </div>
     </section>
 
-    <section id="start-guide" class="pb-4 px-4 p-lg-5">
+    <section id="start-guide" class="pb-4 px-4 px-lg-5">
       <div class="mt-5 text-center text-lg-left my-lg-5">
         <h2 class="h1">Quick Start Guide</h2>
 
@@ -678,27 +674,22 @@ p {
   flex: 0 0 auto;
 }
 
-.hero .hero-right .hero--moon {
-  position: absolute;
-  left: auto;
-  top: -192px;
-  right: -245px;
-  bottom: auto;
-  z-index: -1;
-  width: 650px;
-  max-width: none;
-  -webkit-transition: width 300ms ease;
-  transition: width 300ms ease;
+.hero .hero-right img {
+  height: 500px;
 }
 
-.hero .scroll-btn {
+section#ecosystem {
+  position: relative;
+}
+
+section#ecosystem .scroll-btn {
   position: absolute;
-  bottom: 0%;
+  /* bottom: -15%; */
   z-index: 2;
-  left: 0;
+  top: 0;
 }
 
-.hero .scroll-btn i {
+section#ecosystem .scroll-btn i {
   position: absolute;
   left: 45px;
   top: 25px;
@@ -706,7 +697,7 @@ p {
   font-size: 30px;
 }
 
-.hero .scroll-btn:hover i {
+section#ecosystem .scroll-btn:hover i {
   top: 30px;
 }
 
@@ -869,6 +860,10 @@ button.nextSlide i {
 
 .social-links a:hover img {
   transform: scale(1.1);
+}
+
+.htb-circle-1 {
+  height: 60%;
 }
 
 @media screen and (max-width: 767px) {
