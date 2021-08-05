@@ -1,5 +1,7 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand-sm bg-white px-4 px-lg-5 mt-2">
+  <nav
+    class="navbar navbar-dark navbar-expand-sm bg-white px-4 mx-lg-5 px-lg-5 mt-2"
+  >
     <nuxt-link to="/" class="navbar-brand d-flex">
       <img
         src="/img/logo.png"

@@ -4,7 +4,7 @@
   top: 0;
   width: 20vw;
   height: 20vw;
-  border: 0.4vw solid rgba(0, 0, 0, 0.4);
+  border: 0.4vw solid var(--secondary-color);
   border-radius: 50%;
   transform: rotate(0deg);
   transition: transform 0.7s linear;

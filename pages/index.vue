@@ -210,7 +210,7 @@
             </div>
 
             <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="yellow-line"></div>
+              <div class="line"></div>
             </div>
 
             <div class="mt-3 pr-lg-5 mr-lg-5">
@@ -237,7 +237,7 @@
             </div>
 
             <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="yellow-line"></div>
+              <div class="line"></div>
             </div>
 
             <div class="mt-3 pr-lg-5 mr-lg-5">
@@ -264,7 +264,7 @@
             </div>
 
             <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="yellow-line"></div>
+              <div class="line"></div>
             </div>
 
             <div class="mt-3 pr-lg-5 mr-lg-5">
@@ -290,7 +290,7 @@
             </div>
 
             <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="yellow-line"></div>
+              <div class="line"></div>
             </div>
 
             <div class="mt-3 pr-lg-5 mr-lg-5">
@@ -367,19 +367,22 @@
       </div>
     </section>
 
-    <section id="art" class="p-4 p-lg-5 mx-lg-5 bg-rgba-secondary text-center">
-      <h2 class="h1">Art</h2>
-      <p>
-        We are proud to support ingenuity in all its forms with the
-        <span class="font-weight-bold text-warning">Shiba Inu Incubator</span>.
-        The ShibArmy is made up of talented individuals who have united to build
-        something remarkable, and we support this by cultivating an environment
-        which encourages creativity and growth. Through the power of the Shiba
-        Inu Incubator, we help holders find the tools they need to bring their
-        inspiration and unique perspectives to life. This as just another way to
-        encourage others to step outside of preconceived limits and regulations
-        and experience what it means to be part of our decentralized movement.
-      </p>
+    <section id="art" class="p-4 p-lg-5 bg-rgba-secondary text-center">
+      <div class="mx-lg-5">
+        <h2 class="h1">Art</h2>
+        <p>
+          We are proud to support ingenuity in all its forms with the
+          <span class="font-weight-bold text-warning">Shiba Inu Incubator</span
+          >. The ShibArmy is made up of talented individuals who have united to
+          build something remarkable, and we support this by cultivating an
+          environment which encourages creativity and growth. Through the power
+          of the Shiba Inu Incubator, we help holders find the tools they need
+          to bring their inspiration and unique perspectives to life. This as
+          just another way to encourage others to step outside of preconceived
+          limits and regulations and experience what it means to be part of our
+          decentralized movement.
+        </p>
+      </div>
     </section>
 
     <div class="slide-show clearfix">
@@ -483,11 +486,8 @@
       </div>
     </section>
 
-    <section
-      id="community"
-      class="p-4 p-lg-5 mx-lg-5 mt-3 mt-lg-0 bg-rgba-secondary"
-    >
-      <div class="text-center">
+    <section id="community" class="p-4 p-lg-5 mt-3 mt-lg-0 bg-rgba-secondary">
+      <div class="text-center mx-lg-5">
         <h2 class="h1">Community</h2>
 
         <p>
@@ -501,7 +501,7 @@
 
         <div class="card rounded-10 w-60 bg-dark mx-auto p-4">
           <div class="d-lg-flex justify-content-center">
-            <div class="address mt-2 mr-3 text-white">
+            <div class="address mt-2 mr-3 text-white pt-1">
               0xc351155C80aCD043BD5F8FE7ffc8536af1fF9375
             </div>
             <div>
@@ -768,12 +768,16 @@ section#ecosystem .scroll-btn:hover i {
   font-size: 14px;
 }
 
-.yellow-line {
+.line {
   width: 80px;
   height: 2px;
   margin-right: 32px;
   margin-left: 32px;
-  background-color: #f28b03;
+  background-color: var(--primary-color);
+}
+
+.text-warning {
+  color: var(--primary-color) !important;
 }
 
 #start-guide {
@@ -914,6 +918,10 @@ button.nextSlide i {
 
   .hero .hero-right img {
     height: 200px;
+  }
+
+  .w-60 {
+    width: 100%;
   }
 }
 
