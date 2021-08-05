@@ -1,6 +1,6 @@
 <template>
   <main>
-    <header class="hero pt-5 px-5 mx-lg-5 mt-5">
+    <header class="hero pt-5 px-5 mt-5">
       <div class="row">
         <div class="col-lg-7 col-12">
           <div class="hero-left text-center text-lg-left pt-lg-5">
@@ -56,9 +56,9 @@
       </a>
     </header>
 
-    <section id="ecosystem" class="p-4 p-lg-5 mt-5 m-lg-5">
+    <section id="ecosystem" class="p-4 p-lg-5 mt-5 my-lg-5">
       <div class="row">
-        <div class="col-lg-6 col-12 text-center text-lg-left">
+        <div class="col-lg-6 col-12 text-center text-lg-left mr-lg-5 pr-lg-5">
           <h2 class="h1">
             Our Project & Ecosystem
           </h2>
@@ -78,14 +78,14 @@
           </p>
         </div>
 
-        <div class="col">
+        <div class="col pt-3 pl-lg-0">
           <div class="eco-right d-md-flex justify-content-around mt-lg-5 pt-5">
             <template v-for="n in 3">
               <a :key="n" href="#">
                 <div class="radiant"></div>
                 <div
-                  class="card rounded-20 mx-auto mb-0 mt-3"
-                  :class="{ 'mr-lg-4': n < 3 }"
+                  class="card rounded-20 mx-auto mb-0"
+                  :class="{ 'mr-lg-3': n < 3 }"
                 >
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -108,7 +108,7 @@
       </div>
     </section>
 
-    <section class="mt-5 m-lg-5 p-4 p-lg-5">
+    <section class="mt-5 my-lg-5 p-4 p-lg-5">
       <div class="row">
         <template v-for="n in 3">
           <div class="col-lg-4 col-12 col-md-6" :key="n">
@@ -155,7 +155,7 @@
       </div>
     </section>
 
-    <section id="buy" class="m-lg-5 pt-4 px-4 p-lg-5">
+    <section id="buy" class="my-lg-5 pt-4 px-4 p-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12">
           <h2 class="h1">How to Buy</h2>
@@ -194,7 +194,7 @@
     </section>
 
     <section id="start-guide" class="pb-4 px-4 p-lg-5">
-      <div class="mt-5 text-center text-lg-left m-lg-5">
+      <div class="mt-5 text-center text-lg-left my-lg-5">
         <h2 class="h1">Quick Start Guide</h2>
 
         <div class="card rounded-20 bg-rgba-secondary p-3 p-lg-5">
@@ -308,7 +308,7 @@
       </div>
     </section>
 
-    <section id="swap" class="p-4 p-lg-5 m-lg-5">
+    <section id="swap" class="p-4 p-lg-5 my-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12 mt-5 text-center">
           <div>
@@ -368,21 +368,18 @@
     </section>
 
     <section id="art" class="p-4 p-lg-5 bg-rgba-secondary text-center">
-      <div class="mx-lg-5">
-        <h2 class="h1">Art</h2>
-        <p>
-          We are proud to support ingenuity in all its forms with the
-          <span class="font-weight-bold text-warning">Shiba Inu Incubator</span
-          >. The ShibArmy is made up of talented individuals who have united to
-          build something remarkable, and we support this by cultivating an
-          environment which encourages creativity and growth. Through the power
-          of the Shiba Inu Incubator, we help holders find the tools they need
-          to bring their inspiration and unique perspectives to life. This as
-          just another way to encourage others to step outside of preconceived
-          limits and regulations and experience what it means to be part of our
-          decentralized movement.
-        </p>
-      </div>
+      <h2 class="h1">Art</h2>
+      <p>
+        We are proud to support ingenuity in all its forms with the
+        <span class="font-weight-bold text-warning">Shiba Inu Incubator</span>.
+        The ShibArmy is made up of talented individuals who have united to build
+        something remarkable, and we support this by cultivating an environment
+        which encourages creativity and growth. Through the power of the Shiba
+        Inu Incubator, we help holders find the tools they need to bring their
+        inspiration and unique perspectives to life. This as just another way to
+        encourage others to step outside of preconceived limits and regulations
+        and experience what it means to be part of our decentralized movement.
+      </p>
     </section>
 
     <div class="slide-show clearfix">
@@ -447,7 +444,7 @@
       </button>
     </div>
 
-    <section id="rescue" class="p-4 p-lg-5 m-lg-5">
+    <section id="rescue" class="p-4 p-lg-5 my-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12 text-center text-lg-left">
           <h2 class="h1">Rescue</h2>
@@ -479,7 +476,7 @@
         <div class="col mt-lg-5 pt-lg-5">
           <div class="mt-lg-5 pt-lg-5 text-center">
             <button class="btn py-4 px-5 mt-3 mt-lg-5 rounded-10 btn-primary">
-              <h2 class="my-0">Rescue Me</h2>
+              <h2 class="my-2">Rescue Me</h2>
             </button>
           </div>
         </div>
@@ -487,7 +484,7 @@
     </section>
 
     <section id="community" class="p-4 p-lg-5 mt-3 mt-lg-0 bg-rgba-secondary">
-      <div class="text-center mx-lg-5">
+      <div class="text-center">
         <h2 class="h1">Community</h2>
 
         <p>
@@ -517,7 +514,7 @@
       </div>
     </section>
 
-    <section class="p-4 p-lg-5 m-lg-5 text-center">
+    <section class="p-4 p-lg-5 my-lg-5 text-center">
       <p>
         Our community grows stronger every day. Please follow our social
         platforms to get the most up-to-date, accurate SHIB information.
@@ -749,7 +746,7 @@ p {
   border-radius: 50%;
   height: 300px;
   width: 300px;
-  top: -10%;
+  top: -25%;
   left: -50px;
   filter: blur(1.5px);
   opacity: 0.6;

@@ -14,10 +14,7 @@
         <div
           class="d-none d-md-block modal-header bg-transparent border-0 ml-lg-5 pl-lg-5"
         >
-          <div class="d-flex">
-            <img src="/img/icons/wallet.svg" height="25" class="mr-3" />
-            <h4>Select a Wallet to Continue</h4>
-          </div>
+          <h4 class="text-dark">Select a Wallet to Continue</h4>
         </div>
 
         <div class="text-center">
@@ -32,7 +29,7 @@
           </p>
         </div>
 
-        <div class="modal-body p-0 p-lg-3">
+        <div class="modal-body p-0 px-lg-3 py-lg-5">
           <template v-if="!isMobile">
             <div class="row my-3" v-if="!loading">
               <div class="col-12 col-sm-6 text-center">
@@ -63,8 +60,6 @@
           </div>
         </div>
         <div class="modal-footer d-none d-md-block border-0 ml-5 pl-5">
-          <a href="#" class="text-dark">What is a wallet?</a>
-
           <div
             class="float-right d-flex"
             v-if="errorMessage == notEnabledMessage"

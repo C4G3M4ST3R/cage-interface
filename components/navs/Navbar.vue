@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-dark navbar-expand-sm bg-white px-4 px-lg-5 mt-2">
-    <nuxt-link to="/" class="navbar-brand px-lg-5 d-flex">
+    <nuxt-link to="/" class="navbar-brand d-flex">
       <img
         src="/img/logo.png"
         height="50"
@@ -26,7 +26,7 @@
       class="collapse navbar-collapse justify-content-end"
       id="navbar-list-2"
     >
-      <ul class="navbar-nav text-center text-md-left pr-lg-4">
+      <ul class="navbar-nav text-center text-md-left">
         <li class="nav-item mt-1">
           <a class="nav-link" href="#ecosystem">
             Ecosystem
