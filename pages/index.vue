@@ -133,13 +133,13 @@
                 </a>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Our Memeverse is governed by C4G3 token and is placed among top
+                performing meme assets in the space. C4G3 token holders will be 
+                able to create and vote on proposals in the community.
               </p>
               <p class="card-text">
-                Cookie topping caramels jujubes gingerbread. Lollipop apple pie
-                cupcake candy canes cookie ice cream. Wafer chocolate bar carrot
-                cake jelly-o.
+                C4G3 aims to be the Meme token around which most memes revolve to
+                generate high economic productivity for the ecosystem.
               </p>
 
               <div class="text-left my-5">
@@ -175,13 +175,13 @@
                 <small class="mt-2">(Coming Soon)</small>
               </div>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                The Meme Index(CMI) is a digital asset or token designed to track the performance
+                of five tokens; four top meme tokens and a stablecoin.
               </p>
               <p class="card-text">
-                Cookie topping caramels jujubes gingerbread. Lollipop apple pie
-                cupcake candy canes cookie ice cream. Wafer chocolate bar carrot
-                cake jelly-o.
+                The meme index pool carries equal weight of the following tokens: 
+                C4G3, DOGE, SHIB, STARL, USDC.
+
               </p>
 
               <div class="text-left my-5">

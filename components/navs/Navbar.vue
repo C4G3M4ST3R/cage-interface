@@ -77,7 +77,7 @@
 
             <li class="nav-item mt-1">
               <a class="nav-link" href="#swap">
-                Index pool
+                Token
               </a>
             </li>
             <li class="nav-item mr-0 mt-3 mt-md-0">
