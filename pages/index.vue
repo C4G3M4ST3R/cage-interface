@@ -202,7 +202,7 @@
         <h2 class="text-center mb-3 mb-lg-5">Got Questions?</h2>
         <div
           id="accordion"
-          class="mx-auto w-75"
+          class="mx-auto"
           role="tablist"
           aria-multiselectable="true"
         >
@@ -626,6 +626,10 @@ button.nextSlide i {
   margin: 0 auto;
 }
 
+#accordion {
+  width: 75%;
+}
+
 #accordion .i {
   font-size: 20px;
 }
@@ -691,7 +695,7 @@ button.nextSlide i {
   }
 
   .floating-btn {
-    bottom: 15px;
+    bottom: 45px;
     right: 15px;
   }
 }
@@ -710,6 +714,7 @@ button.nextSlide i {
     width: 75%;
   }
 
+  #accordion,
   .card.coin {
     width: 100%;
   }
