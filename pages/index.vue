@@ -134,12 +134,12 @@
               </div>
               <p class="card-text">
                 Our Memeverse is governed by C4G3 token and is placed among top
-                performing meme assets in the space. C4G3 token holders will be 
+                performing meme assets in the space. C4G3 token holders will be
                 able to create and vote on proposals in the community.
               </p>
               <p class="card-text">
-                C4G3 aims to be the Meme token around which most memes revolve to
-                generate high economic productivity for the ecosystem.
+                C4G3 aims to be the Meme token around which most memes revolve
+                to generate high economic productivity for the ecosystem.
               </p>
 
               <div class="text-left my-5">
@@ -175,13 +175,13 @@
                 <small class="mt-2">(Coming Soon)</small>
               </div>
               <p class="card-text">
-                The Meme Index(CMI) is a digital asset or token designed to track the performance
-                of five tokens; four top meme tokens and a stablecoin.
+                The Meme Index(CMI) is a digital asset or token designed to
+                track the performance of five tokens; four top meme tokens and a
+                stablecoin.
               </p>
               <p class="card-text">
-                The meme index pool carries equal weight of the following tokens: 
-                C4G3, DOGE, SHIB, STARL, USDC.
-
+                The meme index pool carries equal weight of the following
+                tokens: C4G3, DOGE, SHIB, STARL, USDC.
               </p>
 
               <div class="text-left my-5">
@@ -200,10 +200,15 @@
     <section id="faq" class="p-4 p-lg-5 bg-rgba-secondary">
       <div class="m-lg-5">
         <h2 class="text-center mb-3 mb-lg-5">Got Questions?</h2>
-        <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div
+          id="accordion"
+          class="mx-auto w-75"
+          role="tablist"
+          aria-multiselectable="true"
+        >
           <div class="card mb-0">
             <div
-              class="card-header py-3 bg-primary rounded-lg"
+              class="card-header py-3 bg-gradient-danger rounded-lg"
               role="tab"
               id="headingOne"
             >
@@ -248,7 +253,7 @@
 
           <div class="card my-4">
             <div
-              class="card-header py-3 bg-primary rounded-lg"
+              class="card-header py-3 bg-gradient-danger rounded-lg"
               role="tab"
               id="headingTwo"
             >
@@ -293,7 +298,7 @@
 
           <div class="card mb-0">
             <div
-              class="card-header py-3 bg-primary rounded-lg"
+              class="card-header py-3 bg-gradient-danger rounded-lg"
               role="tab"
               id="headingThree"
             >
