@@ -111,48 +111,90 @@
 
     <section class="mt-5 m-lg-5 p-4 p-lg-5">
       <div class="row">
-        <template v-for="n in 3">
-          <div class="col-lg-4 col-12 col-md-6" :key="n">
-            <div class="card coin mb-4 rounded-20">
-              <img
-                class="card-img-top w-25 my-5 mx-auto"
-                src="https://shibatoken.com/images/shiba_coin-1.png"
-                alt="Card image cap"
-              />
-              <div class="card-body px-4 px-xl-5 bg-rgba-secondary">
-                <div class="d-flex my-3">
-                  <h3 class="h3 mr-3 mt-1">SHIB</h3>
+        <div class="col-12 col-md-6">
+          <div class="card coin mb-4 rounded-20">
+            <img
+              class="card-img-top w-25 my-5 mx-auto"
+              src="/img/logo-big.png"
+              alt="Card image cap"
+            />
+            <div class="card-body px-4 px-xl-5 bg-rgba-secondary">
+              <div class="d-flex my-3">
+                <h3 class="h3 mr-3 mt-1">
+                  C4G3
+                </h3>
 
-                  <a
-                    type="button"
-                    href="#"
-                    class="rounded-lg btn-dark px-2 py-1 mt-2"
-                  >
-                    <i class="feather icon-bar-chart-2 warning"></i>
-                    See Live Charts
-                  </a>
-                </div>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <p class="card-text">
-                  Cookie topping caramels jujubes gingerbread. Lollipop apple
-                  pie cupcake candy canes cookie ice cream. Wafer chocolate bar
-                  carrot cake jelly-o.
-                </p>
+                <a
+                  type="button"
+                  href="#"
+                  class="rounded-lg d-none btn-dark px-2 py-1 mt-2"
+                >
+                  <i class="feather icon-bar-chart-2 warning"></i>
+                  See Live Charts
+                </a>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Cookie topping caramels jujubes gingerbread. Lollipop apple pie
+                cupcake candy canes cookie ice cream. Wafer chocolate bar carrot
+                cake jelly-o.
+              </p>
 
-                <div class="text-left my-5">
-                  <button class="btn btn-primary px-4 py-3 rounded-pill">
-                    <h5 class="my-0">
-                      Buy SHIB
-                    </h5>
-                  </button>
-                </div>
+              <div class="text-left my-5">
+                <button class="btn btn-primary px-4 py-3 rounded-pill">
+                  <h5 class="my-0">
+                    Buy C4G3
+                  </h5>
+                </button>
               </div>
             </div>
           </div>
-        </template>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card coin mb-4 rounded-20">
+            <img
+              class="card-img-top w-25 my-5 mx-auto"
+              src="/img/logo-cmi.png"
+              alt="Card image cap"
+            />
+            <div class="card-body px-4 px-xl-5 bg-rgba-secondary">
+              <div class="d-flex my-3">
+                <h3 class="h3 mr-3 mt-1">CMI</h3>
+
+                <a
+                  type="button"
+                  href="#"
+                  class="rounded-lg d-none btn-dark px-2 py-1 mt-2"
+                >
+                  <i class="feather icon-bar-chart-2 warning"></i>
+                  See Live Charts
+                </a>
+                <small class="mt-2">(Coming Soon)</small>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Cookie topping caramels jujubes gingerbread. Lollipop apple pie
+                cupcake candy canes cookie ice cream. Wafer chocolate bar carrot
+                cake jelly-o.
+              </p>
+
+              <div class="text-left my-5">
+                <button class="btn btn-primary px-4 py-3 rounded-pill" disabled>
+                  <h5 class="my-0">
+                    Buy CMI
+                  </h5>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -365,86 +407,6 @@
       </div>
     </section>
 
-    <section id="art" class="p-4 p-lg-5 bg-rgba-secondary text-center">
-      <div class="mx-lg-5">
-        <h2 class="h1">Art</h2>
-        <p>
-          We are proud to support ingenuity in all its forms with the
-          <span class="font-weight-bold text-warning">Shiba Inu Incubator</span
-          >. The ShibArmy is made up of talented individuals who have united to
-          build something remarkable, and we support this by cultivating an
-          environment which encourages creativity and growth. Through the power
-          of the Shiba Inu Incubator, we help holders find the tools they need
-          to bring their inspiration and unique perspectives to life. This as
-          just another way to encourage others to step outside of preconceived
-          limits and regulations and experience what it means to be part of our
-          decentralized movement.
-        </p>
-      </div>
-    </section>
-
-    <div class="slide-show clearfix">
-      <div id="slider">
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art1.png" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art2.png" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art3.jpg" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art4.png" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art5.jpg" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art7.jpg" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art8.jpg" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art11.jpg" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art9.png" />
-          <div class="overlay"></div>
-        </div>
-
-        <div class="art-image">
-          <img src="https://shibatoken.com/images/art10.png" />
-          <div class="overlay"></div>
-        </div>
-      </div>
-
-      <button class="btn btn-dark rounded-circle prevSlide">
-        <i class="feather icon-chevron-left"></i>
-      </button>
-
-      <button class="btn btn-dark rounded-circle nextSlide">
-        <i class="feather icon-chevron-right"></i>
-      </button>
-    </div>
-
     <section id="rescue" class="p-4 p-lg-5 m-lg-5">
       <div class="row">
         <div class="col-lg-6 col-12 text-center text-lg-left">
@@ -602,44 +564,7 @@
 </template>
 
 <script>
-export default {
-  mounted() {
-    $('#slider')
-      // .not('.slick-initialized')
-      .slick({
-        dots: false,
-        // centerMode: true,
-        infinite: true,
-        centerPadding: '0px',
-        slidesToShow: 6,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        prevArrow: $('.prevSlide'),
-        nextArrow: $('.nextSlide'),
-        responsive: [
-          {
-            breakpoint: 800,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 2,
-              slidesToScroll: 2,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '30px',
-              slidesToShow: 1,
-            },
-          },
-        ],
-      });
-  },
-};
+export default {};
 </script>
 
 <style scoped>
@@ -877,6 +802,11 @@ button.nextSlide i {
   height: 60%;
 }
 
+.card.coin {
+  width: 500px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 767px) {
   .h1 {
     font-size: 36px;
@@ -918,6 +848,7 @@ button.nextSlide i {
     height: 200px;
   }
 
+  .card.coin,
   .w-60 {
     width: 100%;
   }
@@ -935,6 +866,10 @@ button.nextSlide i {
 
   .w-60 {
     width: 75%;
+  }
+
+  .card.coin {
+    width: 100%;
   }
 }
 </style>
