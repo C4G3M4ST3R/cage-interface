@@ -60,16 +60,15 @@
             Our Project & Ecosystem
           </h2>
           <p>
-            <span class="font-weight-bold">C4G3</span> (CAGE)
-            will be the first of its kind. Our aim is to build around
-             an existing protocol that has been accepted by the community,
-             transforming from an ordinary meme to a meme with a store of value.<br /><br />
-           
-            The <span class="font-weight-bold">C4G3</span> 
-            ecosystem is a complete Index platform for meme tokens. 
-            The Meme Index portfolio includes top performing meme tokens 
-            in the cryptoverse with 20% equal weight.
+            <span class="font-weight-bold">C4G3</span> (CAGE) will be the first
+            of its kind. Our aim is to build around an existing protocol that
+            has been accepted by the community, transforming from an ordinary
+            meme to a meme with a store of value.<br /><br />
 
+            The <span class="font-weight-bold">C4G3</span>
+            ecosystem is a complete Index platform for meme tokens. The Meme
+            Index portfolio includes top performing meme tokens in the
+            cryptoverse with 20% equal weight.
           </p>
         </div>
 
@@ -198,365 +197,144 @@
       </div>
     </section>
 
-    <section id="buy" class="mt-5 m-lg-5 pt-4 px-4 px-lg-5">
-      <div class="row">
-        <div class="col-xl-6 text-center text-xl-left col-12">
-          <h2 class="h1">How to Buy</h2>
-          <p>
-            SHIB, LEASH and BONE are best purchased and sold through
-            <span class="font-weight-bold">ShibaSwap</span>, but can also be
-            found on Uniswap and an ever-growing list of CEXs. Please note that,
-            outside of ShibaSwap, exchanges which support one may not support
-            the other.<br /><br />SHIB is a decentralized experiment and, as
-            such, we always incentivize the use of DEXs. If you choose to
-            utilize a CEX instead, remember to research it first to ensure it is
-            both safe and secure.
-          </p>
-        </div>
-        <div class="col text-center ml-lg-5 pl-lg-5 mt-5">
-          <img src="/img/logo-big.png" class="htb-circle-1" />
-
-          <div class="circling-animation">
-            <div class="circle first">
-              <img src="https://shibatoken.com/images/gc1.png" />
-            </div>
-
-            <div class="circle second">
-              <img src="https://shibatoken.com/images/gc2.png" />
-            </div>
-
-            <div class="circle third">
-              <img src="https://shibatoken.com/images/gc4.png" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="start-guide" class="pb-4 px-4 px-lg-5">
-      <div class="mt-5 text-center text-lg-left m-lg-5">
-        <h2 class="h1">Quick Start Guide</h2>
-
-        <div class="card rounded-20 bg-rgba-secondary p-3 p-lg-5">
-          <div
-            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
-          >
-            <div>
-              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
-                <p class="my-0">
-                  1
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="line"></div>
-            </div>
-
-            <div class="mt-3 pr-lg-5 mr-lg-5">
-              <h3 class="h3 mb-3">
-                Create MetaMask wallet
-              </h3>
-              <p>
-                Create a MetaMask Wallet using either a desktop computer or an
-                iOS/Android mobile device. That will allow you to buy, sell,
-                send, and receive SHIB or LEASH.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
-          >
-            <div>
-              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
-                <p class="my-0">
-                  2
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="line"></div>
-            </div>
-
-            <div class="mt-3 pr-lg-5 mr-lg-5">
-              <h3 class="h3 mb-3">
-                Send ETH to your wallet
-              </h3>
-              <p>
-                You can buy Ethereum (ETH) directly on MetaMask or transfer it
-                to your MetaMask Wallet from exchanges like Coinbase, Binance,
-                etc. Make sure to use the ERC-20 network when transfering ETH.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
-          >
-            <div>
-              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
-                <p class="my-0">
-                  3
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="line"></div>
-            </div>
-
-            <div class="mt-3 pr-lg-5 mr-lg-5">
-              <h3 class="h3 mb-3">
-                Connect your wallet to ShibaSwap
-              </h3>
-              <p>
-                Access your wallet to ShibaSwap by clicking ‘Connect to a
-                wallet’ and selecting MetaMask.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="card-content text-center text-lg-left d-lg-flex justify-content-lg-left p-3"
-          >
-            <div>
-              <div class="number text-white pt-4 text-center mx-auto mx-lg-0">
-                <p class="my-0">
-                  4
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-4 pt-3 d-none d-lg-block">
-              <div class="line"></div>
-            </div>
-
-            <div class="mt-3 pr-lg-5 mr-lg-5">
-              <h3 class="h3 mb-3">
-                Swap ETH for SHIB, LEASH or BONE
-              </h3>
-              <p>
-                You can start swapping as soon as you have ETH available! Press
-                ‘Select a token’ and enter the token address or search for it on
-                the tokens list.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="swap" class="p-4 p-lg-5 m-lg-5">
-      <div class="row">
-        <div class="col-lg-6 col-12 mt-5 text-center">
-          <div>
-            <img
-              src="https://shibatoken.com/images/ss-img2x.png"
-              class="h-40"
-            />
-          </div>
-
-          <div class="mt-5">
-            <button class="btn btn-primary py-3 px-5 rounded-pill">
-              <h5 class="my-0">
-                Use ShibaSwap
-              </h5>
-            </button>
-          </div>
-        </div>
-
-        <div class="col text-center text-lg-left mt-5 mt-lg-0">
-          <h1 class="h1 mb-lg-5">
-            ShibaSwap
-          </h1>
-
-          <div class="card rounded-lg bg-dark p-4">
-            <div class="d-flex justify-content-between">
-              <div class="d-flex">
-                <img src="https://shibatoken.com/images/certik-logo.svg" />
-              </div>
-
-              <div class="ml-2 ml-lg-0">
-                <button
-                  class="btn btn-primary py-2 px-3 py-lg-3 px-lg-5 rounded-pill"
-                >
-                  <h5 class="my-0">
-                    Audit Report
-                  </h5>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <p class="my-0">
-            SHIB, LEASH, and BONE, come together to create
-            <span class="warning">ShibaSwap</span>, the next evolution in DeFi
-            platforms. ShibaSwap gives users the ability to
-            <span class="font-weight-bold">DIG</span> (provide liquidity),
-            <span class="font-weight-bold">BURY</span> (stake), and
-            <span class="font-weight-bold">SWAP</span> tokens to gain
-            <span class="font-weight-bold">WOOF Returns</span> through our
-            sophisticated and innovative passive income reward system.<br /><br />Our
-            platform also allows the ShibArmy to access upcoming NFTs and
-            additional tools, such as portfolio trackers, to make navigating the
-            crypto world simple and intuitive.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="rescue" class="p-4 p-lg-5 m-lg-5">
-      <div class="row">
-        <div class="col-lg-6 col-12 text-center text-lg-left">
-          <h2 class="h1">Rescue</h2>
-
-          <p>
-            From the tips of their noses to the ends of their tails, Shiba Inu
-            are intelligent, brave, and independent, with an equal propensity
-            for loyalty and mischief. Sadly, the characteristics which make them
-            extraordinary are the same ones which make them a challenging pet.
-            Inexperienced owners can find themselves unprepared for a dog that’s
-            known for its bold (i.e. stubborn) personality.
-          </p>
-
-          <p>
-            Luckily, we are helping these dogs in real life! We use
-
-            <span class="font-weight-bold text-primary">Amazon Smile</span> to
-            collect and donate a percentage of your Amazon purchases to the
-            <span class="font-weight-bold">Shiba Inu Rescue Association</span>.
-            Joining is easy and free! Just use
-            <a class="font-weight-bold text-primary underline"
-              >smile.amazon.com</a
+    <section id="faq" class="p-4 p-lg-5 bg-rgba-secondary">
+      <div class="m-lg-5">
+        <h2 class="text-center mb-3 mb-lg-5">Got Questions?</h2>
+        <div id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="card mb-0">
+            <div
+              class="card-header py-3 bg-primary rounded-lg"
+              role="tab"
+              id="headingOne"
             >
-            when placing orders and select Shiba Inu Rescue Association (a
-            501(c)3, preferred non-profit organization). You’re seconds away
-            from helping Shibs in need. Start funding shelters today.
-          </p>
-        </div>
-        <div class="col mt-lg-5 pt-lg-5">
-          <div class="mt-lg-5 pt-lg-5 text-center">
-            <button class="btn py-4 px-5 mt-3 mt-lg-5 rounded-10 btn-primary">
-              <h2 class="my-2">Rescue Me</h2>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="community" class="p-4 p-lg-5 mt-3 mt-lg-0 bg-rgba-secondary">
-      <div class="text-center mx-lg-5">
-        <h2 class="h1">Community</h2>
-
-        <p>
-          If you'd like to donate to the
-          <span class="font-weight-bold">Devs</span>, send
-          <span class="text-primary font-weight-bold">ETH</span>,
-          <span class="text-primary font-weight-bold">SHIB</span> or
-          <span class="text-primary font-weight-bold">LEASH</span>
-          here. Thank you for your support! WOOF!
-        </p>
-
-        <div class="card rounded-10 w-60 bg-dark mx-auto p-4">
-          <div class="d-lg-flex justify-content-center">
-            <div class="address mt-2 mr-3 text-white pt-1">
-              0xc351155C80aCD043BD5F8FE7ffc8536af1fF9375
-            </div>
-            <div>
-              <button
-                class="px-4 btn-dark border-white font-weight-bold rounded-pill py-2"
+              <div
+                aria-expanded="false"
+                aria-controls="collapseOne"
+                class="collapsed d-flex justify-content-between w-100"
+                data-toggle="collapse"
+                href="#collapseOne"
+                data-parent="#accordion"
               >
-                <i class="feather icon-copy"></i>
-                Copy to Clipboard
-              </button>
+                <div class="mt-2">
+                  <h4 class="mb-0 text-white">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                </div>
+
+                <div class="mt-2 pt-1">
+                  <i class="feather icon-chevron-down text-white"></i>
+                  <i class="feather icon-chevron-up text-white"></i>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingOne"
+              aria-expanded="false"
+            >
+              <div class="card-block">
+                <div class="px-4 py-3">
+                  <p class="my-0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Expedita, aperiam ut dicta excepturi inventore accusantium.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="p-4 p-lg-5 my-lg-5 text-center">
-      <p>
-        Our community grows stronger every day. Please follow our social
-        platforms to get the most up-to-date, accurate SHIB information.
-      </p>
+          <div class="card my-4">
+            <div
+              class="card-header py-3 bg-primary rounded-lg"
+              role="tab"
+              id="headingTwo"
+            >
+              <div
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+                class="collapsed d-flex justify-content-between w-100"
+                data-toggle="collapse"
+                href="#collapseTwo"
+                data-parent="#accordion"
+              >
+                <div class="mt-2">
+                  <h4 class="mb-0 text-white">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                </div>
 
-      <p>
-        Using the links below, you can join our various groups alongside the 1M+
-        other members of the ShibArmy.
-      </p>
+                <div class="mt-2 pt-1">
+                  <i class="feather icon-chevron-down text-white"></i>
+                  <i class="feather icon-chevron-up text-white"></i>
+                </div>
+              </div>
+            </div>
 
-      <div class="mb-3 mb-lg-5">
-        <a href="#" class="font-weight-bold text-dark underline">
-          Click here to search for your preferred country!
-        </a>
-      </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingTwo"
+              aria-expanded="false"
+            >
+              <div class="card-block">
+                <div class="px-4 py-3">
+                  <p class="my-0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Expedita, aperiam ut dicta excepturi inventore accusantium.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div class="row mx-lg-5 px-lg-5 social-links">
-        <div class="col-lg-2 col-sm-6 col-md-4">
-          <a href="#">
-            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
-              <img
-                src="https://shibatoken.com/images/ico-tel.svg"
-                height="50"
-              />
+          <div class="card mb-0">
+            <div
+              class="card-header py-3 bg-primary rounded-lg"
+              role="tab"
+              id="headingThree"
+            >
+              <div
+                aria-expanded="false"
+                aria-controls="collapseThree"
+                class="collapsed d-flex justify-content-between w-100"
+                data-toggle="collapse"
+                href="#collapseThree"
+                data-parent="#accordion"
+              >
+                <div class="mt-2">
+                  <h4 class="mb-0 text-white">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                </div>
+
+                <div class="mt-2 pt-1">
+                  <i class="feather icon-chevron-down text-white"></i>
+                  <i class="feather icon-chevron-up text-white"></i>
+                </div>
+              </div>
             </div>
-            <small class="text-dark">Shib Telegram</small>
-          </a>
-        </div>
-        <div class="col-lg-2 col-sm-6 col-md-4">
-          <a href="#">
-            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
-              <img
-                src="https://shibatoken.com/images/ico-tel.svg"
-                height="50"
-              />
+
+            <div
+              id="collapseThree"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingThree"
+              aria-expanded="false"
+            >
+              <div class="card-block">
+                <div class="px-4 py-3">
+                  <p class="my-0">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Expedita, aperiam ut dicta excepturi inventore accusantium.
+                  </p>
+                </div>
+              </div>
             </div>
-            <small class="text-dark">Leash Telegram</small>
-          </a>
-        </div>
-        <div class="col-lg-2 col-sm-6 col-md-4">
-          <a href="#">
-            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
-              <img
-                src="https://shibatoken.com/images/ico-tel.svg"
-                height="50"
-              />
-            </div>
-            <small class="text-dark">Bone Telegram</small>
-          </a>
-        </div>
-        <div class="col-lg-2 col-sm-6 col-md-4">
-          <a href="#">
-            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
-              <img src="https://shibatoken.com/images/ico-tw.svg" height="50" />
-            </div>
-            <small class="text-dark">Twitter</small>
-          </a>
-        </div>
-        <div class="col-lg-2 col-sm-6 col-md-4">
-          <a href="#">
-            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
-              <img
-                src="https://shibatoken.com/images/ico-red.svg"
-                height="50"
-              />
-            </div>
-            <small class="text-dark">Reddit</small>
-          </a>
-        </div>
-        <div class="col-lg-2 col-sm-6 col-md-4">
-          <a href="#">
-            <div class="mb-1 mb-lg-2 mt-3 mt-lg-0">
-              <img
-                src="https://shibatoken.com/images/ico-dis.svg"
-                height="50"
-              />
-            </div>
-            <small class="text-dark">Discord</small>
-          </a>
+          </div>
         </div>
       </div>
     </section>
@@ -841,6 +619,24 @@ button.nextSlide i {
 .card.coin {
   width: 500px;
   margin: 0 auto;
+}
+
+#accordion .i {
+  font-size: 20px;
+}
+
+#accordion .card-header .d-flex {
+  cursor: pointer;
+}
+
+#accordion .card-header .d-flex .icon-chevron-up,
+#accordion .card-header .d-flex.collapsed .icon-chevron-down {
+  display: block;
+}
+
+#accordion .card-header .d-flex .icon-chevron-down,
+#accordion .card-header .d-flex.collapsed .icon-chevron-up {
+  display: none;
 }
 
 @media screen and (max-width: 767px) {
