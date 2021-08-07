@@ -60,18 +60,16 @@
             Our Project & Ecosystem
           </h2>
           <p>
-            From its inception, Shiba Inu has done things differently. Starting
-            with a supply of 1 quadrillion, our founder, Ryoshi, locked 50% in
-            Uniswap, then “burned” the other half to Ethereum co-founder
-            <span class="font-weight-bold">Vitalik Buterin</span> for
-            safekeeping. <br /><br />
-            To help reverse the devastating spread of Covid-19 in India, VB has
-            since utilized SHIB in the largest crypto donation in history, and
-            then
-            <span class="font-weight-bold">actually</span> burned 40% of its
-            total supply to a dead wallet, ensuring our long-term success and
-            stability. In the words of Ryoshi, “Thank you to the woofmeister for
-            enabling true decentralization. Now we truly begin.”
+            <span class="font-weight-bold">C4G3</span> (CAGE)
+            will be the first of its kind. Our aim is to build around
+             an existing protocol that has been accepted by the community,
+             transforming from an ordinary meme to a meme with a store of value.<br /><br />
+           
+            The <span class="font-weight-bold">C4G3</span> 
+            ecosystem is a complete Index platform for meme tokens. 
+            The Meme Index portfolio includes top performing meme tokens 
+            in the cryptoverse with 20% equal weight.
+
           </p>
         </div>
 
