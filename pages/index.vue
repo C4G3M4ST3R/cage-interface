@@ -82,7 +82,7 @@
           <div class="eco-right d-md-flex justify-content-around mt-lg-5 pt-5">
             <template v-for="n in 3">
               <a :key="n" href="#">
-                <div class="radiant"></div>
+                <div class="radiant gradient-light-danger"></div>
                 <div
                   class="card rounded-20 mx-auto mb-md-0"
                   :class="{ 'mr-lg-3 mb-5': n < 3 }"
@@ -482,7 +482,7 @@ section#ecosystem .scroll-btn:hover i {
 }
 
 .eco-right a .radiant {
-  background: radial-gradient(#ffffff, #9198e5);
+  /* background: radial-gradient(#ffffff, #9198e5); */
   border-radius: 50%;
   height: 300px;
   width: 300px;
