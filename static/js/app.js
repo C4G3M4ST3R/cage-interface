@@ -16,16 +16,6 @@
   var $textcolor = '#4e5154';
 
   $(window).on('load', function() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth',
-        });
-      });
-    });
-
     var rtl;
     var compactMenu = false; // Set it to true, if you want default menu to be compact
 

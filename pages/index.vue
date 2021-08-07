@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <section class="mt-5 m-lg-5 p-4 p-lg-5">
+    <section id="products" class="mt-5 m-lg-5 p-4 p-lg-5">
       <div class="row">
         <div class="col-12 col-md-6">
           <div class="card coin mb-4 rounded-20">
@@ -200,7 +200,7 @@
       </div>
     </section>
 
-    <section id="buy" class="mt-lg-5 pt-4 px-4 px-lg-5">
+    <section id="buy" class="mt-5 m-lg-5 pt-4 px-4 px-lg-5">
       <div class="row">
         <div class="col-xl-6 text-center text-xl-left col-12">
           <h2 class="h1">How to Buy</h2>
@@ -426,11 +426,11 @@
           <p>
             Luckily, we are helping these dogs in real life! We use
 
-            <span class="font-weight-bold text-warning">Amazon Smile</span> to
+            <span class="font-weight-bold text-primary">Amazon Smile</span> to
             collect and donate a percentage of your Amazon purchases to the
             <span class="font-weight-bold">Shiba Inu Rescue Association</span>.
             Joining is easy and free! Just use
-            <a class="font-weight-bold text-warning underline"
+            <a class="font-weight-bold text-primary underline"
               >smile.amazon.com</a
             >
             when placing orders and select Shiba Inu Rescue Association (a
@@ -455,9 +455,9 @@
         <p>
           If you'd like to donate to the
           <span class="font-weight-bold">Devs</span>, send
-          <span class="text-warning font-weight-bold">ETH</span>,
-          <span class="text-warning font-weight-bold">SHIB</span> or
-          <span class="text-warning font-weight-bold">LEASH</span>
+          <span class="text-primary font-weight-bold">ETH</span>,
+          <span class="text-primary font-weight-bold">SHIB</span> or
+          <span class="text-primary font-weight-bold">LEASH</span>
           here. Thank you for your support! WOOF!
         </p>
 
@@ -562,15 +562,51 @@
         </div>
       </div>
     </section>
+
+    <button
+      class="floating-btn btn btn-primary shadow rounded-circle"
+      title="Go to top"
+      @click="scrollToTop"
+    >
+      <i class="feather icon-chevron-up text-white"></i>
+    </button>
   </main>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      $('.floating-btn').click(() => {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+      });
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('header');
+      const floatingBtn = document.querySelector('.floating-btn');
+
+      if (window.scrollY > header.offsetTop + header.offsetHeight) {
+        floatingBtn.style.display = 'block';
+      } else {
+        floatingBtn.style.display = 'none';
+      }
+    });
+  },
+};
 </script>
 
 <style scoped>
 @import url('~/assets/css/circling.css');
+
+.floating-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: none;
+  font-size: 26px !important;
+}
 
 p {
   /* color: #bbbbbe; */
@@ -701,7 +737,7 @@ section#ecosystem .scroll-btn:hover i {
   background-color: var(--primary-color);
 }
 
-.text-warning {
+.text-primary {
   color: var(--primary-color) !important;
 }
 
@@ -853,6 +889,11 @@ button.nextSlide i {
   .card.coin,
   .w-60 {
     width: 100%;
+  }
+
+  .floating-btn {
+    bottom: 15px;
+    right: 15px;
   }
 }
 
