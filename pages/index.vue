@@ -235,7 +235,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    Lorem ipsum dolor sit amet.
+                    Is C4g3 the governace tken.
                   </h4>
                 </div>
 
@@ -280,7 +280,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    Lorem ipsum dolor sit amet.
+                    Is there a vesting period
                   </h4>
                 </div>
 
@@ -325,7 +325,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    Lorem ipsum dolor sit amet.
+                   What's CMI token mechanism
                   </h4>
                 </div>
 

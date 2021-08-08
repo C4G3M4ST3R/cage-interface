@@ -91,7 +91,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'https://api.scrate.io',
+    baseURL: 'https://api.c4g3.io',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
