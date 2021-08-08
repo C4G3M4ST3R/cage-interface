@@ -164,7 +164,7 @@
               <div class="text-left my-5">
                 <a
                   type="button"
-                  href="https://docs.cag3.io"
+                  href="https://app.uniswap.org/#/swap"
                   target="_blank"
                   class="btn btn-primary px-4 py-3 rounded-pill"
                 >
