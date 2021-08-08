@@ -19,6 +19,16 @@ const Utils = {
       this.showError('This action could not be completed!');
     }
   },
+
+  scrollTo(hash) {
+    const elem = document.querySelector(hash);
+    let offset = 50;
+    window.scroll({
+      top: elem.offsetTop - offset,
+      left: 0,
+      behavior: 'smooth',
+    });
+  },
 };
 
 export default Utils;

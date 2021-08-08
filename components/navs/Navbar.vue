@@ -94,20 +94,6 @@
 import ConnectBtn from '../utils/ConnectBtn.vue';
 export default {
   components: { ConnectBtn },
-  methods: {
-    scrollTo(hash) {
-      const elem = document.querySelector(`section${hash}`);
-      let offset = 50;
-      window.scroll({
-        top: elem.offsetTop - offset,
-        left: 0,
-        behavior: 'smooth',
-      });
-      // elem.scrollIntoView({
-      //   behavior: 'smooth',
-      // });
-    },
-  },
   mounted() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {

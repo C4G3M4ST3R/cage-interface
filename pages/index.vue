@@ -19,7 +19,10 @@
             </p>
 
             <div class="mt-3 mt-md-5">
-              <button class="btn btn-primary py-3 px-5 mr-md-3 rounded-pill">
+              <button
+                class="btn btn-primary py-3 px-5 mr-md-3 rounded-pill"
+                @click="scrollTo('#roadmap')"
+              >
                 <h5 class="my-0">
                   How to Buy
                 </h5>
@@ -210,9 +213,81 @@
       </div>
     </section>
 
+    <section id="roadmap" class="mt-5 m-lg-5 p-4 p-lg-5">
+      <h2 class="text-center h1 mb-5">Roadmap</h2>
+
+      <div class="row mx-auto pt-lg-5">
+        <div class="line d-none d-md-block"></div>
+        <div class="col-12 col-md-6">
+          <div class="phase">
+            <h3>PHASE I: LAUNCH‌</h3>
+            <ul class="ml-3 pl-1">
+              <li>Official announcement of C4G3 launch</li>
+              <li>Release of CAG3 Manual (Whitepaper)</li>
+              <li>Initial fund raise</li>
+              <li>Website launch</li>
+              <li>C4G3 Contract Audit</li>
+              <li>C4G3 Contract deployment</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mt-lg-5 py-4 pt-md-5 pb-md-0 pl-lg-5">
+          <div class="phase mt-md-5 pt-md-5 pl-md-4 pl-lg-5 ml-md-5">
+            <h3>PHASE II: SALE</h3>
+            <ul class="ml-3 pl-1">
+              <li>Private Sale</li>
+              <li>Uniswap listing</li>
+              <li>Sale distribution</li>
+              <li>Marketing (This will be recurring)</li>
+              <li>Coingecko & CMC Listing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="phase">
+            <h3>PHASE III: INDEX</h3>
+            <ul class="ml-3 pl-1">
+              <li>CMI Index dashboard</li>
+              <li>CMI Contract Deployment</li>
+              <li>CMI Contract Audit</li>
+              <li>CMI Index Pool Deployment</li>
+              <li>CMI Index Pool Contract Audit</li>
+              <li>CMI ILO on Uniswap</li>
+              <li>Coingecko & CMC listing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mt-lg-5 py-4 pt-md-5 pb-md-0 pl-lg-5">
+          <div class="phase mt-md-5 pt-md-5 pl-md-4 pl-lg-5 ml-md-5">
+            <h3>PHASE IV: STAKING</h3>
+            <ul class="ml-3 pl-1">
+              <li>Launch of Staking Dashboard</li>
+              <li>Deployment of Staking Contract</li>
+              <li>Staking Contract Audit</li>
+              <li>Launching of CAG3 MASTERS (NFT)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mt-xl-4">
+          <div class="phase">
+            <h3>PHASE V: GOVERNANCE</h3>
+            <ul class="ml-3 pl-1">
+              <li>Governance</li>
+              <li>Ecosystem Development</li>
+              <li>Website revamp</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="faq" class="p-4 p-lg-5 bg-rgba-secondary">
       <div class="m-lg-5">
-        <h2 class="text-center mb-3 mb-lg-5">Got Questions?</h2>
+        <h2 class="text-center h1 mb-3 mb-lg-5">Got Questions?</h2>
         <div
           id="accordion"
           class="mx-auto"
@@ -325,7 +400,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                   What's CMI token mechanism
+                    What's CMI token mechanism
                   </h4>
                 </div>
 
@@ -502,13 +577,13 @@ section#ecosystem .scroll-btn:hover i {
   font-size: 14px;
 }
 
-.line {
+/* .line {
   width: 80px;
   height: 2px;
   margin-right: 32px;
   margin-left: 32px;
   background-color: var(--primary-color);
-}
+} */
 
 .text-primary {
   color: var(--primary-color) !important;
@@ -618,6 +693,7 @@ button.nextSlide i {
   margin: 0 auto;
 }
 
+#roadmap .row,
 #accordion {
   width: 75%;
 }
@@ -638,6 +714,35 @@ button.nextSlide i {
 #accordion .card-header .d-flex .icon-chevron-down,
 #accordion .card-header .d-flex.collapsed .icon-chevron-up {
   display: none;
+}
+
+#roadmap .row {
+  position: relative;
+}
+
+#roadmap .phase::after {
+  content: ' ';
+  position: absolute;
+  width: 40%;
+  border-bottom: 5px solid #bdbec0;
+  top: 10px;
+  right: -5px;
+}
+
+#roadmap .phase.pl-lg-5::after {
+  left: 0px;
+  top: 45%;
+  width: 20% !important;
+  right: auto;
+}
+
+#roadmap .line {
+  border-left: 5px solid #bdbec0;
+  height: 86%;
+  position: absolute;
+  left: 50%;
+  /* margin-left: -3px; */
+  top: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -686,6 +791,22 @@ button.nextSlide i {
     bottom: 45px;
     right: 15px;
   }
+
+  #roadmap .line {
+    height: 85%;
+  }
+
+  #roadmap .phase.pl-lg-5::after {
+    top: 37%;
+  }
+
+  #roadmap .row {
+    width: 100%;
+  }
+
+  #roadmap .phase:after {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -702,9 +823,34 @@ button.nextSlide i {
     width: 75%;
   }
 
+  #roadmap .row,
   #accordion,
   .card.coin {
     width: 100%;
+  }
+
+  #roadmap .line {
+    height: 85%;
+  }
+
+  #roadmap .phase:after {
+    top: 10px;
+    width: 30%;
+  }
+
+  #roadmap .mt-xl-4 .phase:after {
+    /* top: 5px; */
+    width: 15%;
+  }
+
+  #roadmap .phase.pl-lg-5::after {
+    top: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1298px) {
+  #roadmap .line {
+    height: 87%;
   }
 }
 </style>
