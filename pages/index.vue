@@ -162,11 +162,16 @@
               </p>
 
               <div class="text-left my-5">
-                <button class="btn btn-primary px-4 py-3 rounded-pill">
+                <a
+                  type="button"
+                  href="https://docs.cag3.io"
+                  target="_blank"
+                  class="btn btn-primary px-4 py-3 rounded-pill"
+                >
                   <h5 class="my-0">
                     Buy C4G3
                   </h5>
-                </button>
+                </a>
               </div>
             </div>
           </div>
