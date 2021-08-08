@@ -27,13 +27,16 @@
                   Roadmap
                 </h5>
               </button>
-              <button
+              <a
+                type="button"
+                href="https://docs.cag3.io"
+                target="_blank"
                 class="btn btn-outline-primary py-3 px-5 mt-3 mt-md-0 rounded-pill"
               >
                 <h5 class="my-0">
                   Read docs
                 </h5>
-              </button>
+              </a>
 
               <div class="mt-5 d-lg-none">
                 <!-- <a href="#buy" class="scroll-btn">
