@@ -24,7 +24,7 @@
                 @click="scrollTo('#roadmap')"
               >
                 <h5 class="my-0">
-                  How to Buy
+                  Roadmap
                 </h5>
               </button>
               <button
