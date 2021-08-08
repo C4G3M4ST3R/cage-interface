@@ -21,7 +21,7 @@
             <div class="mt-3 mt-md-5">
               <button class="btn btn-primary py-3 px-5 mr-md-3 rounded-pill">
                 <h5 class="my-0">
-                  How to Buy
+                  Roadmap
                 </h5>
               </button>
               <button
