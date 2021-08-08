@@ -46,15 +46,8 @@
       </div>
     </header>
 
-    <section id="ecosystem" class="p-4 p-lg-5 mb-lg-5 mx-lg-5">
-      <!-- <div class="my-5 scroll-btn">
-        <a href="#buy" class="d-none d-lg-block">
-          <img src="https://shibatoken.com/images/hero-scroll-shape.svg" />
-          <i class="feather icon-arrow-down"></i>
-        </a>
-      </div> -->
-
-      <div class="row">
+    <section id="ecosystem" class="p-4 bg-rgba-secondary p-lg-5">
+      <div class="row my-md-5 mx-lg-5">
         <div class="col-lg-6 col-12 text-center text-lg-left mr-xl-5 pr-lg-5">
           <h2 class="h1">
             Our Project & Ecosystem
@@ -79,30 +72,50 @@
         </div>
 
         <div class="col pt-3 pl-lg-0">
-          <div class="eco-right d-md-flex justify-content-around mt-lg-5 pt-5">
-            <template v-for="n in 3">
-              <a :key="n" href="#">
-                <div class="radiant gradient-light-danger"></div>
-                <div
-                  class="card rounded-20 mx-auto mb-md-0"
-                  :class="{ 'mr-lg-3 mb-5': n < 3 }"
-                >
+          <div class="row eco-right mt-lg-5 pt-5">
+            <div class="col-md-4 col-12">
+              <a href="#">
+                <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
-                      <img src="https://shibatoken.com/images/ico-uni.svg" />
-                      <img
-                        src="https://shibatoken.com/images/ico-uni-col.svg"
-                        class="mx-auto"
-                      />
+                      <img src="/img/brands/unicrypt.png" height="100" />
                     </div>
 
                     <p class="text-white">
-                      Liquidity Locked to Uniswap
+                      Unicrypt Liquidity locked
                     </p>
                   </div>
                 </div>
               </a>
-            </template>
+            </div>
+            <div class="col-md-4 col-12 my-3 my-md-0">
+              <a href="#">
+                <div class="card rounded-20 mx-auto mb-md-0">
+                  <div class="card-content">
+                    <div class="text-center mb-3">
+                      <img src="/img/brands/fire.png" height="100" />
+                    </div>
+
+                    <p class="text-white">
+                      50% burned
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-12">
+              <a href="#">
+                <div class="card rounded-20 mx-auto mb-md-0">
+                  <div class="card-content">
+                    <div class="text-center my-5">
+                      <img src="/img/brands/certik-logo.svg" />
+                    </div>
+
+                    <p class="text-white">Contract Audit</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -471,29 +484,8 @@ section#ecosystem .scroll-btn:hover i {
   text-align: center;
 }
 
-.eco-right a:hover .card img:first-child,
-.eco-right a .card img:last-child {
-  display: none;
-}
-
-.eco-right a:hover .radiant,
-.eco-right a:hover .card img:last-child {
-  display: block;
-}
-
-.eco-right a .radiant {
-  /* background: radial-gradient(#ffffff, #9198e5); */
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  top: -25%;
-  left: -50px;
-  filter: blur(1.5px);
-  opacity: 0.6;
-  position: absolute;
-  display: none;
-  z-index: -1;
-  /* content: ' '; */
+.eco-right a .card .card-content p:first-child {
+  line-height: 24px;
 }
 
 .eco-right a:hover .card {
@@ -679,10 +671,6 @@ button.nextSlide i {
     height: 50px;
     font-size: 18px;
     line-height: 10px;
-  }
-
-  .eco-right a:hover .radiant {
-    display: none;
   }
 
   .hero .hero-right img {
