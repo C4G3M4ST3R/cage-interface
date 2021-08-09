@@ -75,11 +75,11 @@
               </div>
             </li>
 
-            <li class="nav-item mt-1">
+            <!-- <li class="nav-item mt-1">
               <a class="nav-link" href="#swap">
                 Token
               </a>
-            </li>
+            </li> -->
             <li class="nav-item mr-0 mt-3 mt-md-0">
               <connect-btn />
             </li>
