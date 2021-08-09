@@ -164,7 +164,7 @@
               <div class="text-left my-5">
                 <a
                   type="button"
-                  href="https://docs.cag3.io"
+                  href="https://app.uniswap.org/#/swap"
                   target="_blank"
                   class="btn btn-primary px-4 py-3 rounded-pill"
                 >
@@ -318,7 +318,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    Is C4g3 the governace tken.
+                    ‌Why should I buy C4G3 and CMI?
                   </h4>
                 </div>
 
@@ -339,8 +339,8 @@
               <div class="card-block">
                 <div class="px-4 py-3">
                   <p class="my-0">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Expedita, aperiam ut dicta excepturi inventore accusantium.
+                   C4G3 can be used to govern the platform, participate in any
+                   future events and CMI gives holders exposure to the index pool.
                   </p>
                 </div>
               </div>
@@ -363,7 +363,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    Is there a vesting period
+                    What are the current tokens that make up the C4G3 Meme Index? 
                   </h4>
                 </div>
 
@@ -384,8 +384,7 @@
               <div class="card-block">
                 <div class="px-4 py-3">
                   <p class="my-0">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Expedita, aperiam ut dicta excepturi inventore accusantium.
+                    C4G3 - DOGECOIN - SHIBA INU - STARLINK - USDC.
                   </p>
                 </div>
               </div>
@@ -408,7 +407,7 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    What's CMI token mechanism
+                    How many % does C4G3 charge on each transaction?
                   </h4>
                 </div>
 
@@ -429,8 +428,7 @@
               <div class="card-block">
                 <div class="px-4 py-3">
                   <p class="my-0">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Expedita, aperiam ut dicta excepturi inventore accusantium.
+                   Transaction fee doesn't exist here, C4G3 token isn't deflationary
                   </p>
                 </div>
               </div>
