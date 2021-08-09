@@ -84,7 +84,7 @@
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
-                      <img src="/img/brands/unicrypt.png" height="100" />
+                      <img src="/img/illustrations/unicrypt.png" height="100" />
                     </div>
 
                     <p class="text-white">
@@ -99,7 +99,7 @@
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
-                      <img src="/img/brands/fire.png" height="100" />
+                      <img src="/img/illustrations/fire.png" height="100" />
                     </div>
 
                     <p class="text-white">
@@ -113,8 +113,8 @@
               <a href="#">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
-                    <div class="text-center my-5">
-                      <img src="/img/brands/certik-logo.svg" />
+                    <div class="text-center mb-3">
+                      <img src="/img/illustrations/shield.png" height="100" />
                     </div>
 
                     <p class="text-white">Contract Audit</p>
