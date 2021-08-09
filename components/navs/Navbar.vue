@@ -41,7 +41,7 @@
               <a
                 type="button"
                 class="dropdown-toggle bg-transparent nav-link"
-                id="products"
+                id="projects"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -52,7 +52,7 @@
 
               <div
                 class="actions dropdown-menu py-0 bg-transparent border-0"
-                aria-labelledby="products"
+                aria-labelledby="projects"
               >
                 <div class="card border-0 my-0 ml-1 shadow p-3">
                   <a href="#products" class="mb-3 pr-4">
