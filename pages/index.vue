@@ -226,8 +226,9 @@
 
       <div class="row mx-auto pt-lg-5">
         <div class="line d-none d-md-block"></div>
+        <div class="line liner d-none d-md-block"></div>
         <div class="col-12 col-md-6">
-          <div class="phase">
+          <div class="phase first">
             <h3>PHASE I: LAUNCH‌</h3>
             <ul class="ml-3 pl-1">
               <li>Official announcement of C4G3 launch</li>
@@ -339,8 +340,9 @@
               <div class="card-block">
                 <div class="px-4 py-3">
                   <p class="my-0">
-                   C4G3 can be used to govern the platform, participate in any
-                   future events and CMI gives holders exposure to the index pool.
+                    C4G3 can be used to govern the platform, participate in any
+                    future events and CMI gives holders exposure to the index
+                    pool.
                   </p>
                 </div>
               </div>
@@ -363,7 +365,8 @@
               >
                 <div class="mt-2">
                   <h4 class="mb-0 text-white">
-                    What are the current tokens that make up the C4G3 Meme Index? 
+                    What are the current tokens that make up the C4G3 Meme
+                    Index?
                   </h4>
                 </div>
 
@@ -428,7 +431,8 @@
               <div class="card-block">
                 <div class="px-4 py-3">
                   <p class="my-0">
-                   Transaction fee doesn't exist here, C4G3 token isn't deflationary
+                    Transaction fee doesn't exist here, C4G3 token isn't
+                    deflationary
                   </p>
                 </div>
               </div>
@@ -746,8 +750,17 @@ button.nextSlide i {
   height: 86%;
   position: absolute;
   left: 50%;
-  /* margin-left: -3px; */
   top: 0;
+}
+
+#roadmap .liner {
+  height: 10%;
+  border-color: var(--primary-color);
+  z-index: 2;
+}
+
+#roadmap .phase.first::after {
+  border-color: var(--primary-color) !important;
 }
 
 @media screen and (max-width: 767px) {
