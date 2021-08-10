@@ -305,7 +305,7 @@
         >
           <div class="card mb-0">
             <div
-              class="card-header py-3 bg-gradient-danger rounded-lg"
+              class="card-header py-3 bg-danger rounded-lg"
               role="tab"
               id="headingOne"
             >
@@ -351,7 +351,7 @@
 
           <div class="card my-4">
             <div
-              class="card-header py-3 bg-gradient-danger rounded-lg"
+              class="card-header py-3 bg-danger rounded-lg"
               role="tab"
               id="headingTwo"
             >
@@ -396,7 +396,7 @@
 
           <div class="card mb-0">
             <div
-              class="card-header py-3 bg-gradient-danger rounded-lg"
+              class="card-header py-3 bg-danger rounded-lg"
               role="tab"
               id="headingThree"
             >
