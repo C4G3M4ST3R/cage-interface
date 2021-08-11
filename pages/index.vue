@@ -29,12 +29,12 @@
               </button>
               <a
                 type="button"
-                href="https://docs.cag3.io"
+                href="/doc/C4G3WP.NEW.indd"
                 target="_blank"
                 class="btn btn-outline-primary py-3 px-5 mt-3 mt-md-0 rounded-pill"
               >
                 <h5 class="my-0">
-                  Read docs
+                  Read Manual
                 </h5>
               </a>
 
@@ -80,7 +80,7 @@
         <div class="col pt-3 pl-lg-0">
           <div class="row eco-right mt-lg-5 pt-5">
             <div class="col-md-4 col-12">
-              <a href="#">
+              <a href="#" class="first">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -95,7 +95,7 @@
               </a>
             </div>
             <div class="col-md-4 col-12 my-3 my-md-0">
-              <a href="#">
+              <a href="#" class="second">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -110,7 +110,7 @@
               </a>
             </div>
             <div class="col-md-4 col-12">
-              <a href="#">
+              <a href="#" class="third">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -574,8 +574,28 @@ section#ecosystem .scroll-btn:hover i {
 }
 
 .eco-right a:hover .card {
-  box-shadow: 0 0 200px 20px rgb(236 64 121 / 10%);
   box-shadow: none !important;
+  border: 5px solid transparent;
+}
+
+.eco-right a.first:hover .card {
+  border-color: #00da72;
+  background-color: #00da72;
+}
+
+.eco-right a.second:hover .card {
+  border-color: #ff9500;
+  background-color: #ff9500;
+}
+
+.eco-right a.third:hover .card {
+  border-color: #f4d99e;
+  background-color: #f4d99e;
+}
+
+.eco-right a.first:hover .card p,
+.eco-right a.third:hover .card p {
+  color: #333 !important;
 }
 
 .card.coin .card-body {
