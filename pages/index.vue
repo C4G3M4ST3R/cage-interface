@@ -205,7 +205,7 @@
               </p>
               <p class="card-text">
                 The meme index pool carries equal weight of the following
-                tokens: C4G3, DOGE, SHIB, STARL, USDC.
+                tokens: C4G3, DOGE, SHIB, DOGELON, USDC.
               </p>
 
               <div class="text-left my-5">
