@@ -56,7 +56,7 @@
       <div class="row my-md-5 mx-lg-5">
         <div class="col-lg-6 col-12 text-center text-lg-left mr-xl-5 pr-lg-5">
           <h2 class="h1">
-            Our Project & Ecosystem
+            Ecosystem
           </h2>
           <p>
             <span class="font-weight-bold">C4G3</span> (CAGE) will be the first
@@ -296,7 +296,7 @@
 
     <section id="faq" class="p-4 p-lg-5 bg-rgba-secondary">
       <div class="m-lg-5">
-        <h2 class="text-center h1 mb-3 mb-lg-5">Got Questions?</h2>
+        <h2 class="text-center h1 mb-3 mb-lg-5">FAQs</h2>
         <div
           id="accordion"
           class="mx-auto w-60"
@@ -305,7 +305,7 @@
         >
           <div class="card mb-0">
             <div
-              class="card-header py-3 bg-gradient-danger rounded-lg"
+              class="card-header py-3 bg-danger rounded-lg"
               role="tab"
               id="headingOne"
             >
@@ -351,7 +351,7 @@
 
           <div class="card my-4">
             <div
-              class="card-header py-3 bg-gradient-danger rounded-lg"
+              class="card-header py-3 bg-danger rounded-lg"
               role="tab"
               id="headingTwo"
             >
@@ -387,7 +387,7 @@
               <div class="card-block">
                 <div class="px-4 py-3">
                   <p class="my-0">
-                    C4G3 - DOGECOIN - SHIBA INU - STARLINK - USDC.
+                    C4G3 - DOGECOIN - SHIBA INU - DOGELON - USDC.
                   </p>
                 </div>
               </div>
@@ -396,7 +396,7 @@
 
           <div class="card mb-0">
             <div
-              class="card-header py-3 bg-gradient-danger rounded-lg"
+              class="card-header py-3 bg-danger rounded-lg"
               role="tab"
               id="headingThree"
             >
