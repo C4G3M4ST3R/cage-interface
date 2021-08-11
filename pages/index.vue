@@ -29,7 +29,7 @@
               </button>
               <a
                 type="button"
-                href="/doc/C4G3WP.NEW.indd"
+                href="/doc/C4G3.Manual.pdf"
                 target="_blank"
                 class="btn btn-outline-primary py-3 px-5 mt-3 mt-md-0 rounded-pill"
               >
