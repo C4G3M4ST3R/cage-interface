@@ -247,7 +247,7 @@
       <div class="map">
         <div class="line d-none d-md-block"></div>
 
-        <div class="row mx-auto">
+        <div class="row mx-auto done">
           <div class="col text-md-right pt-md-5 mt-md-5 pr-md-5">
             <p>January 27, 2021</p>
           </div>
@@ -815,10 +815,14 @@ button.nextSlide i {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #ea5455;
+  background-color: #ea5455;
   top: 45px;
   border: 3px solid #c4c4c4;
   right: -15px;
+}
+
+#roadmap .done .col::after {
+  background-color: #28c76f !important;
 }
 
 #roadmap .flex-row-reverse .col::after {
