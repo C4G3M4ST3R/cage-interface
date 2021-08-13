@@ -11,7 +11,7 @@
         <div class="col-xl-7 col-12 px-0 px-lg-3">
           <div class="hero-left text-center text-lg-left py-lg-5">
             <h1 class="h1">
-              The First Decentralized Meme Index, Transforming meme tokens to a
+              The First Decentralized Meme Index Transforming meme tokens to a
               token with store of value.
             </h1>
             <p>
