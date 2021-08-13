@@ -29,7 +29,7 @@
               </button>
               <a
                 type="button"
-                href="/doc/Cage Manual.pdf"
+                href="/doc/C4G3.Manual.pdf"
                 target="_blank"
                 class="btn btn-outline-primary py-3 px-5 mt-3 mt-md-0 rounded-pill"
               >
@@ -80,16 +80,28 @@
         <div class="col pt-3 pl-lg-0">
           <div class="row eco-right mt-lg-5 pt-5">
             <div class="col-md-4 col-12">
-              <a href="#" class="first">
+              <a href="#" class="first flip">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
-                    <div class="text-center mb-3">
-                      <img src="/img/illustrations/unicrypt.png" height="100" />
+                    <div class="front">
+                      <div class="text-center mb-3">
+                        <img
+                          src="/img/illustrations/unicrypt.png"
+                          height="100"
+                        />
+                      </div>
+
+                      <p class="text-white">
+                        Unicrypt Liquidity locked
+                      </p>
                     </div>
 
-                    <p class="text-white">
-                      Unicrypt Liquidity locked
-                    </p>
+                    <div class="back">
+                      <span class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cum, qui?
+                      </span>
+                    </div>
                   </div>
                 </div>
               </a>
@@ -105,6 +117,10 @@
                     <p class="text-white">
                       50% burned
                     </p>
+                    <span class="text-dark">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Cum, qui?
+                    </span>
                   </div>
                 </div>
               </a>
@@ -118,6 +134,10 @@
                     </div>
 
                     <p class="text-white">Contract Audit</p>
+                    <span class="text-dark">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Cum, qui?
+                    </span>
                   </div>
                 </div>
               </a>
@@ -205,7 +225,7 @@
               </p>
               <p class="card-text">
                 The meme index pool carries equal weight of the following
-                tokens: C4G3, DOGE, SHIB, STARL, USDC.
+                tokens: C4G3, DOGE, SHIB, DOGELON, USDC.
               </p>
 
               <div class="text-left my-5">
@@ -221,74 +241,104 @@
       </div>
     </section>
 
-    <section id="roadmap" class="mt-5 m-lg-5 p-4 p-lg-5">
+    <section id="roadmap" class="mt-md-5 m-lg-5 p-4 p-lg-5">
       <h2 class="text-center h1 mb-5">Roadmap</h2>
 
-      <div class="row mx-auto pt-lg-5">
+      <div class="map">
         <div class="line d-none d-md-block"></div>
-        <div class="line liner d-none d-md-block"></div>
-        <div class="col-12 col-md-6">
-          <div class="phase first">
-            <h3>PHASE I: LAUNCH‌</h3>
-            <ul class="ml-3 pl-1">
-              <li>Official announcement of C4G3 launch</li>
-              <li>Release of CAG3 Manual (Whitepaper)</li>
-              <li>Initial fund raise</li>
-              <li>Website launch</li>
-              <li>C4G3 Contract Audit</li>
-              <li>C4G3 Contract deployment</li>
-            </ul>
+
+        <div class="row mx-auto">
+          <div class="col text-md-right pt-md-5 mt-md-5 pr-md-5">
+            <p>January 27, 2021</p>
+          </div>
+
+          <div class="col-12 col-md-6 pl-md-5">
+            <div class="phase first">
+              <h3>PHASE I: LAUNCH‌</h3>
+              <ul class="ml-3 pl-1">
+                <li>Official announcement of C4G3 launch</li>
+                <li>Release of CAG3 Manual (Whitepaper)</li>
+                <li>Initial fund raise</li>
+                <li>Website launch</li>
+                <li>C4G3 Contract Audit</li>
+                <li>C4G3 Contract deployment</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-lg-5 py-4 pt-md-5 pb-md-0 pl-lg-5">
-          <div class="phase mt-md-5 pt-md-5 pl-md-4 pl-lg-5 ml-md-5">
-            <h3>PHASE II: SALE</h3>
-            <ul class="ml-3 pl-1">
-              <li>Private Sale</li>
-              <li>Uniswap listing</li>
-              <li>Sale distribution</li>
-              <li>Marketing (This will be recurring)</li>
-              <li>Coingecko & CMC Listing</li>
-            </ul>
+        <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
+          <div class="col text-left pt-md-5 mt-5 pl-md-5">
+            <p>February 24, 2021</p>
+          </div>
+
+          <div class="col-12 col-md-6 pr-md-5">
+            <div class="phase">
+              <h3>PHASE II: SALE</h3>
+              <ul class="ml-3 pl-1">
+                <li>Private Sale</li>
+                <li>Uniswap listing</li>
+                <li>Sale distribution</li>
+                <li>Marketing (This will be recurring)</li>
+                <li>Coingecko & CMC Listing</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6">
-          <div class="phase">
-            <h3>PHASE III: INDEX</h3>
-            <ul class="ml-3 pl-1">
-              <li>CMI Index dashboard</li>
-              <li>CMI Contract Deployment</li>
-              <li>CMI Contract Audit</li>
-              <li>CMI Index Pool Deployment</li>
-              <li>CMI Index Pool Contract Audit</li>
-              <li>CMI ILO on Uniswap</li>
-              <li>Coingecko & CMC listing</li>
-            </ul>
+        <div class="row mx-auto py-lg-5 my-lg-5">
+          <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
+            <p>March 7, 2021</p>
+          </div>
+
+          <div class="col-12 col-md-6 pl-md-5">
+            <div class="phase">
+              <h3>PHASE III: INDEX</h3>
+              <ul class="ml-3 pl-1">
+                <li>CMI Index dashboard</li>
+                <li>CMI Contract Deployment</li>
+                <li>CMI Contract Audit</li>
+                <li>CMI Index Pool Deployment</li>
+                <li>CMI Index Pool Contract Audit</li>
+                <li>CMI ILO on Uniswap</li>
+                <li>Coingecko & CMC listing</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-lg-5 py-4 pt-md-5 pb-md-0 pl-lg-5">
-          <div class="phase mt-md-5 pt-md-5 pl-md-4 pl-lg-5 ml-md-5">
-            <h3>PHASE IV: STAKING</h3>
-            <ul class="ml-3 pl-1">
-              <li>Launch of Staking Dashboard</li>
-              <li>Deployment of Staking Contract</li>
-              <li>Staking Contract Audit</li>
-              <li>Launching of CAG3 MASTERS (NFT)</li>
-            </ul>
+        <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
+          <div class="col text-left pt-md-5 mt-5 pl-md-5">
+            <p>April 12, 2021</p>
+          </div>
+
+          <div class="col-12 col-md-6 pr-md-5">
+            <div class="phase">
+              <h3>PHASE IV: STAKING</h3>
+              <ul class="ml-3 pl-1">
+                <li>Launch of Staking Dashboard</li>
+                <li>Deployment of Staking Contract</li>
+                <li>Staking Contract Audit</li>
+                <li>Launching of CAG3 MASTERS (NFT)</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-xl-4">
-          <div class="phase">
-            <h3>PHASE V: GOVERNANCE</h3>
-            <ul class="ml-3 pl-1">
-              <li>Governance</li>
-              <li>Ecosystem Development</li>
-              <li>Website revamp</li>
-            </ul>
+        <div class="row mx-auto py-lg-5 my-lg-5">
+          <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
+            <p>May 21, 2021</p>
+          </div>
+
+          <div class="col-12 col-md-6 pl-md-5">
+            <div class="phase">
+              <h3>PHASE V: GOVERNANCE</h3>
+              <ul class="ml-3 pl-1">
+                <li>Governance</li>
+                <li>Ecosystem Development</li>
+                <li>Website revamp</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -477,8 +527,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('~/assets/css/circling.css');
-
 .floating-btn {
   position: fixed;
   right: 30px;
@@ -576,6 +624,20 @@ section#ecosystem .scroll-btn:hover i {
 .eco-right a:hover .card {
   box-shadow: none !important;
   border: 5px solid transparent;
+}
+
+.eco-right a:hover .card .text-center,
+.eco-right a:hover .card p.text-white,
+.eco-right a .card span.text-dark {
+  display: none;
+}
+
+.eco-right a:hover .card span.text-dark {
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  display: block;
 }
 
 .eco-right a.first:hover .card {
@@ -723,10 +785,6 @@ button.nextSlide i {
   margin: 0 auto;
 }
 
-#roadmap .row {
-  width: 75%;
-}
-
 #accordion .i {
   font-size: 20px;
 }
@@ -745,42 +803,35 @@ button.nextSlide i {
   display: none;
 }
 
-#roadmap .row {
+#roadmap .map {
+  width: 50%;
   position: relative;
+  margin: 0 auto;
 }
 
-#roadmap .phase::after {
+#roadmap .col::after {
   content: ' ';
   position: absolute;
-  width: 40%;
-  border-bottom: 5px solid #bdbec0;
-  top: 10px;
-  right: -5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ea5455;
+  top: 45px;
+  border: 3px solid #c4c4c4;
+  right: -15px;
 }
 
-#roadmap .phase.pl-lg-5::after {
-  left: 0px;
-  top: 45%;
-  width: 20% !important;
+#roadmap .flex-row-reverse .col::after {
   right: auto;
+  left: -10px;
 }
 
 #roadmap .line {
   border-left: 5px solid #bdbec0;
-  height: 86%;
+  height: 94%;
   position: absolute;
   left: 50%;
   top: 0;
-}
-
-#roadmap .liner {
-  height: 10%;
-  border-color: var(--primary-color);
-  z-index: 2;
-}
-
-#roadmap .phase.first::after {
-  border-color: var(--primary-color) !important;
 }
 
 @media screen and (max-width: 767px) {
@@ -820,6 +871,7 @@ button.nextSlide i {
     height: 200px;
   }
 
+  #roadmap .map,
   .card.coin,
   .w-60 {
     width: 100%;
@@ -830,19 +882,7 @@ button.nextSlide i {
     right: 15px;
   }
 
-  #roadmap .line {
-    height: 85%;
-  }
-
-  #roadmap .phase.pl-lg-5::after {
-    top: 37%;
-  }
-
-  #roadmap .row {
-    width: 100%;
-  }
-
-  #roadmap .phase:after {
+  #roadmap .col::after {
     display: none;
   }
 }
@@ -861,33 +901,13 @@ button.nextSlide i {
     width: 75%;
   }
 
-  #roadmap .row,
+  #roadmap .map,
   .card.coin {
     width: 100%;
   }
 
   #roadmap .line {
-    height: 85%;
-  }
-
-  #roadmap .phase:after {
-    top: 10px;
-    width: 30%;
-  }
-
-  #roadmap .mt-xl-4 .phase:after {
-    /* top: 5px; */
-    width: 15%;
-  }
-
-  #roadmap .phase.pl-lg-5::after {
-    top: 40%;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1298px) {
-  #roadmap .line {
-    height: 87%;
+    height: 95%;
   }
 }
 </style>
