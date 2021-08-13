@@ -249,7 +249,7 @@
 
         <div class="row mx-auto done">
           <div class="col text-md-right pt-md-5 mt-md-5 pr-md-5">
-            <p>January 27, 2021</p>
+            <!-- <p>January 27, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
@@ -269,7 +269,7 @@
 
         <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
           <div class="col text-left pt-md-5 mt-5 pl-md-5">
-            <p>February 24, 2021</p>
+            <!-- <p>February 24, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pr-md-5">
@@ -288,7 +288,7 @@
 
         <div class="row mx-auto py-lg-5 my-lg-5">
           <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
-            <p>March 7, 2021</p>
+            <!-- <p>March 7, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
@@ -309,7 +309,7 @@
 
         <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
           <div class="col text-left pt-md-5 mt-5 pl-md-5">
-            <p>April 12, 2021</p>
+            <!-- <p>April 12, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pr-md-5">
@@ -327,7 +327,7 @@
 
         <div class="row mx-auto py-lg-5 my-lg-5">
           <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
-            <p>May 21, 2021</p>
+            <!-- <p>May 21, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
