@@ -98,8 +98,7 @@
 
                     <div class="back">
                       <span class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Cum, qui?
+                        C4g3 liquidity will be locked via unicrypt, link will be provided thereafter.
                       </span>
                     </div>
                   </div>
@@ -118,8 +117,7 @@
                       50% burned
                     </p>
                     <span class="text-dark">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cum, qui?
+                     50% of the total supply was burnt immediately after contract deployment
                     </span>
                   </div>
                 </div>
@@ -135,8 +133,7 @@
 
                     <p class="text-white">Contract Audit</p>
                     <span class="text-dark">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cum, qui?
+                      C4G3 is currently being audited, and an audit report will be provided thereafter.
                     </span>
                   </div>
                 </div>
