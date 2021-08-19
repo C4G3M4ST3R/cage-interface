@@ -117,7 +117,7 @@
                       Burnt Tokens
                     </p>
                     <span class="text-dark">
-                     Tokens left after seed sale were immediately burnt 
+                     Tokens left after conducting sales were immediately burnt 
                     </span>
                   </div>
                 </div>
