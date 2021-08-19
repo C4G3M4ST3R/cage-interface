@@ -114,10 +114,10 @@
                     </div>
 
                     <p class="text-white">
-                      50% burned
+                      Burnt Tokens
                     </p>
                     <span class="text-dark">
-                     50% of the total supply was burnt immediately after contract deployment
+                     Tokens left after seed sale were immediately burnt 
                     </span>
                   </div>
                 </div>
