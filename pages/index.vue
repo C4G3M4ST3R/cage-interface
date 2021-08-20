@@ -124,7 +124,7 @@
               </a>
             </div>
             <div class="col-md-4 col-12">
-              <a href="#" class="third">
+              <a target="_blank" href="https://solidity.finance/audits/CAGE/" class="third">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -133,7 +133,7 @@
 
                     <p class="text-white">Contract Audit</p>
                     <span class="text-dark">
-                      C4G3 is currently being audited, and an audit report will be provided thereafter.
+                      Click to view Audit report.
                     </span>
                   </div>
                 </div>
