@@ -246,7 +246,7 @@
 
         <div class="row mx-auto done">
           <div class="col text-md-right pt-md-5 mt-md-5 pr-md-5">
-            <!-- <p>January 27, 2021</p> -->
+            <p>Completed</p>
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
@@ -264,9 +264,9 @@
           </div>
         </div>
 
-        <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
+        <div class="row mx-auto ongoing flex-row-reverse py-lg-5 my-lg-5">
           <div class="col text-left pt-md-5 mt-5 pl-md-5">
-            <!-- <p>February 24, 2021</p> -->
+            <p>Ongoing</p>
           </div>
 
           <div class="col-12 col-md-6 pr-md-5">
@@ -820,6 +820,10 @@ button.nextSlide i {
 
 #roadmap .done .col::after {
   background-color: #28c76f !important;
+}
+
+#roadmap .ongoing .col::after {
+  background-color: yellow !important;
 }
 
 #roadmap .flex-row-reverse .col::after {
