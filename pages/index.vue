@@ -13,7 +13,7 @@
         <div class="col-xl-6 col-12 px-0 px-lg-3">
           <div class="hero-left text-center text-xl-left py-lg-5">
             <h1 class="h1">
-              The First Decentralized Meme Index, Transforming meme tokens to a
+              The First Decentralized Meme Index Transforming meme tokens to a
               token with store of value.
             </h1>
             <p>
@@ -100,8 +100,7 @@
 
                     <div class="back">
                       <span class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Cum, qui?
+                        C4g3 liquidity will be locked via unicrypt, link will be provided thereafter.
                       </span>
                     </div>
                   </div>
@@ -117,18 +116,17 @@
                     </div>
 
                     <p class="text-white">
-                      50% burned
+                      Burnt Tokens
                     </p>
                     <span class="text-dark">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cum, qui?
+                     Tokens left after conducting sales were immediately burnt 
                     </span>
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-md-4 col-12">
-              <a href="#" class="third">
+              <a target="_blank" href="https://solidity.finance/audits/CAGE/" class="third">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -137,8 +135,7 @@
 
                     <p class="text-white">Contract Audit</p>
                     <span class="text-dark">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cum, qui?
+                      Click to view Audit report.
                     </span>
                   </div>
                 </div>
@@ -251,7 +248,7 @@
 
         <div class="row mx-auto done">
           <div class="col text-md-right pt-md-5 mt-md-5 pr-md-5">
-            <p>January 27, 2021</p>
+            <p>Completed</p>
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
@@ -269,9 +266,9 @@
           </div>
         </div>
 
-        <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
+        <div class="row mx-auto ongoing flex-row-reverse py-lg-5 my-lg-5">
           <div class="col text-left pt-md-5 mt-5 pl-md-5">
-            <p>February 24, 2021</p>
+            <p>Ongoing</p>
           </div>
 
           <div class="col-12 col-md-6 pr-md-5">
@@ -290,7 +287,7 @@
 
         <div class="row mx-auto py-lg-5 my-lg-5">
           <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
-            <p>March 7, 2021</p>
+            <!-- <p>March 7, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
@@ -311,7 +308,7 @@
 
         <div class="row mx-auto flex-row-reverse py-lg-5 my-lg-5">
           <div class="col text-left pt-md-5 mt-5 pl-md-5">
-            <p>April 12, 2021</p>
+            <!-- <p>April 12, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pr-md-5">
@@ -329,7 +326,7 @@
 
         <div class="row mx-auto py-lg-5 my-lg-5">
           <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
-            <p>May 21, 2021</p>
+            <!-- <p>May 21, 2021</p> -->
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
@@ -825,6 +822,10 @@ button.nextSlide i {
 
 #roadmap .done .col::after {
   background-color: #28c76f !important;
+}
+
+#roadmap .ongoing .col::after {
+  background-color: yellow !important;
 }
 
 #roadmap .flex-row-reverse .col::after {
