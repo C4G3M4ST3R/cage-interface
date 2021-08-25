@@ -2,14 +2,16 @@
   <main>
     <header class="hero pt-md-5 mx-lg-5 pb-5 px-5 mt-xl-5">
       <div class="row flex-lg-row-reverse">
-        <div class="col-12 col-xl d-lg-none d-xl-block">
-          <div class="hero-right text-center mt-lg-n5">
-            <img src="/img/logo-cmi.png" />
+        <div class="col-12 col-xl">
+          <div class="hero-right text-center mt-5 mt-md-0 py-3 py-lg-0">
+            <video class="w-100" muted autoplay loop>
+              <source type="video/mp4" src="/img/animation.mp4" />
+            </video>
           </div>
         </div>
 
-        <div class="col-xl-7 col-12 px-0 px-lg-3">
-          <div class="hero-left text-center text-lg-left py-lg-5">
+        <div class="col-xl-6 col-12 px-0 px-lg-3">
+          <div class="hero-left text-center text-xl-left py-lg-5">
             <h1 class="h1">
               The First Decentralized Meme Index Transforming meme tokens to a
               token with store of value.
@@ -568,8 +570,8 @@ p {
   flex: 0 0 auto;
 }
 
-.hero .hero-right img {
-  height: 500px;
+.hero .hero-right video {
+  max-width: 50vw;
 }
 
 section#ecosystem {
@@ -872,7 +874,7 @@ button.nextSlide i {
     line-height: 10px;
   }
 
-  .hero .hero-right img {
+  .hero .hero-right {
     height: 200px;
   }
 
@@ -890,14 +892,24 @@ button.nextSlide i {
   #roadmap .col::after {
     display: none;
   }
+
+  .hero .hero-right video {
+    max-width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero .hero-right video {
+    max-width: 100%;
+    height: 100%;
+  }
+
   .h-40 {
     height: 250px;
   }
 
-  .hero .hero-right img,
+  .hero .hero-right,
   #ecosystem .hero-right img {
     height: 400px;
   }
