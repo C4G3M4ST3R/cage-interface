@@ -75,11 +75,11 @@
               </div>
             </li>
 
-            <!-- <li class="nav-item mt-1">
-              <a class="nav-link" href="#swap">
+            <li class="nav-item mt-1">
+              <a class="nav-link" href="https://etherscan.io/tx/0xb14a574efb11dfb92243213fa71f73b221833e04a7223ff1f37ac259ed946f19">
                 Token
               </a>
-            </li> -->
+            </li>
             <li class="nav-item mr-0 mt-3 mt-md-0">
               <connect-btn />
             </li>

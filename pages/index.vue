@@ -188,12 +188,12 @@
               <div class="text-left my-5">
                 <a
                   type="button"
-                  href="https://app.uniswap.org/#/swap"
+                  href="https://unicrypt.io/amm/uni-v2/ilo/0x8dA715FDcc527276d6D2fa6b7010eb425DF61345"
                   target="_blank"
                   class="btn btn-primary px-4 py-3 rounded-pill"
                 >
                   <h5 class="my-0">
-                    Buy C4G3
+                    Presale
                   </h5>
                 </a>
               </div>
@@ -280,7 +280,7 @@
             <div class="phase">
               <h3>PHASE II: SALE</h3>
               <ul class="ml-3 pl-1">
-                <li>Private Sale</li>
+                <li>Public Sale</li>
                 <li>Uniswap listing</li>
                 <li>Sale distribution</li>
                 <li>Marketing (This will be recurring)</li>
