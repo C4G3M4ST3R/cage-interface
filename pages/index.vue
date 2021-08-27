@@ -100,7 +100,7 @@
 
                     <div class="back">
                       <span class="text-dark">
-                        C4g3 liquidity will be locked via unicrypt, link will be provided thereafter.
+                        C4g3 liquidity locked via unicrypt.
                       </span>
                     </div>
                   </div>
@@ -108,7 +108,7 @@
               </a>
             </div>
             <div class="col-md-4 col-12 my-3 my-md-0">
-              <a href="#" class="second">
+             <a target="_blank" href=" https://twitter.com/passorfailme/status/1430844629688127489" class="third">
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -116,10 +116,10 @@
                     </div>
 
                     <p class="text-white">
-                      Burnt Tokens
+                      KYC Verified
                     </p>
                     <span class="text-dark">
-                     Tokens left after conducting sales were immediately burnt 
+                     The Cag3 team has been verified by passorfail.me 
                     </span>
                   </div>
                 </div>
