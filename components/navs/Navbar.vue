@@ -76,7 +76,11 @@
             </li>
 
             <li class="nav-item mt-1">
-              <a class="nav-link" href="https://etherscan.io/tx/0xb14a574efb11dfb92243213fa71f73b221833e04a7223ff1f37ac259ed946f19">
+              <a 
+                class="nav-link" 
+                href="https://etherscan.io/tx/0xb14a574efb11dfb92243213fa71f73b221833e04a7223ff1f37ac259ed946f19"
+                target="_blank"
+              >
                 Token
               </a>
             </li>
