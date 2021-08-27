@@ -4,7 +4,7 @@
       <div class="row flex-lg-row-reverse">
         <div class="col-12 col-xl">
           <div class="hero-right text-center mt-5 mt-md-0 py-3 py-lg-0">
-            <video class="w-100" muted autoplay loop>
+            <video muted autoplay loop>
               <source type="video/mp4" src="/img/animation.mp4" />
             </video>
           </div>
@@ -100,7 +100,8 @@
 
                     <div class="back">
                       <span class="text-dark">
-                        C4g3 liquidity will be locked via unicrypt, link will be provided thereafter.
+                        C4g3 liquidity will be locked via unicrypt, link will be
+                        provided thereafter.
                       </span>
                     </div>
                   </div>
@@ -119,14 +120,18 @@
                       Burnt Tokens
                     </p>
                     <span class="text-dark">
-                     Tokens left after conducting sales were immediately burnt 
+                      Tokens left after conducting sales were immediately burnt
                     </span>
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-md-4 col-12">
-              <a target="_blank" href="https://solidity.finance/audits/CAGE/" class="third">
+              <a
+                target="_blank"
+                href="https://solidity.finance/audits/CAGE/"
+                class="third"
+              >
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -561,17 +566,12 @@ p {
   font-size: 20px;
 }
 
-.hero .hero-right {
-  position: relative;
-  /* z-index: 2; */
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
 .hero .hero-right video {
-  max-width: 50vw;
+  top: -75px;
+  position: absolute;
+  left: -25%;
+  height: 65vh;
+  overflow: hidden;
 }
 
 section#ecosystem {
@@ -895,12 +895,14 @@ button.nextSlide i {
 
   .hero .hero-right video {
     max-width: 100%;
+    position: unset;
     height: 100%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero .hero-right video {
+    position: unset;
     max-width: 100%;
     height: 100%;
   }
