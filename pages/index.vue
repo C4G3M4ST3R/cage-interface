@@ -183,12 +183,12 @@
               <div class="text-left my-5">
                 <a
                   type="button"
-                  href="https://unicrypt.io/amm/uni-v2/ilo/0x8dA715FDcc527276d6D2fa6b7010eb425DF61345"
+                  href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
                   target="_blank"
                   class="btn btn-primary px-4 py-3 rounded-pill"
                 >
                   <h5 class="my-0">
-                    Presale
+                    Buy C4G3
                   </h5>
                 </a>
               </div>
