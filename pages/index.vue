@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="back">
-                      <span class="text-dark">
+                      <span class="text-dark mt-4 pt-2">
                         C4g3 liquidity locked via unicrypt.
                       </span>
                     </div>
@@ -108,7 +108,11 @@
               </a>
             </div>
             <div class="col-md-4 col-12 my-3 my-md-0">
-             <a target="_blank" href=" https://twitter.com/passorfailme/status/1430844629688127489" class="third">
+              <a
+                target="_blank"
+                href=" https://twitter.com/passorfailme/status/1430844629688127489"
+                class="third"
+              >
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -118,15 +122,19 @@
                     <p class="text-white">
                       KYC Verified
                     </p>
-                    <span class="text-dark">
-                     The Cag3 team has been verified by passorfail.me 
+                    <span class="text-dark mt-4 pt-2">
+                      The Cag3 team has been verified by passorfail.me
                     </span>
                   </div>
                 </div>
               </a>
             </div>
             <div class="col-md-4 col-12">
-              <a target="_blank" href="https://solidity.finance/audits/CAGE/" class="third">
+              <a
+                target="_blank"
+                href="https://solidity.finance/audits/CAGE/"
+                class="third"
+              >
                 <div class="card rounded-20 mx-auto mb-md-0">
                   <div class="card-content">
                     <div class="text-center mb-3">
@@ -134,7 +142,7 @@
                     </div>
 
                     <p class="text-white">Contract Audit</p>
-                    <span class="text-dark">
+                    <span class="text-dark mt-4 pt-4">
                       Click to view Audit report.
                     </span>
                   </div>
@@ -163,8 +171,9 @@
 
                 <a
                   type="button"
-                  href="#"
-                  class="rounded-lg d-none btn-dark px-2 py-1 mt-2"
+                  href="https://nomics.com/assets/c4g3-cage"
+                  target="_blank"
+                  class="rounded-lg btn-dark px-2 py-1 mt-2"
                 >
                   <i class="feather icon-bar-chart-2 warning"></i>
                   See Live Charts
