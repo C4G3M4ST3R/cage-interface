@@ -19,7 +19,7 @@ export default {
       const [{ result }, { result: burned }] = await Promise.all([
         (
           await fetch(
-            'https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f',
+            'https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f&apikey=998ZUNKYQV81292JI8A4MA5B8PQEI7RX3A',
           )
         ).json(),
         (
