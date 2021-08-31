@@ -11,7 +11,7 @@ export default {
   mixins: [bcLibrary],
   data() {
     return {
-      result: 'Generating...',
+      result: '',
     };
   },
   async created() {
