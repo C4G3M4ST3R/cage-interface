@@ -296,7 +296,7 @@
 
         <div class="row mx-auto ongoing py-lg-5 my-lg-5">
           <div class="col text-md-right pt-md-5 mt-5 pr-md-5">
-            <!-- <p>March 7, 2021</p> -->
+            <p>Ongoing</p>
           </div>
 
           <div class="col-12 col-md-6 pl-md-5">
