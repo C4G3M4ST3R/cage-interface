@@ -111,7 +111,7 @@
                 Road map
               </a>
               <a
-                href="https://cag3.io/doc/C4G3.Manual.pdf"
+                href="/doc/C4G3.Manual.pdf"
                 class="main-btn wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"

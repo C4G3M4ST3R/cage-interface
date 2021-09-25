@@ -53,7 +53,6 @@ export default {
       },
       { rel: 'stylesheet', href: '/css/animate.css' },
       { rel: 'stylesheet', href: '/css/font-awesome.min.css' },
-      { rel: 'stylesheet', href: '/css/colors.css' },
       { rel: 'stylesheet', href: '/css/LineIcons.css' },
       { rel: 'stylesheet', href: '/css/magnific-popup.css' },
       { rel: 'stylesheet', href: '/css/slick.css' },

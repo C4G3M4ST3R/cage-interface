@@ -226,5 +226,10 @@ export default {
       return new Date().getFullYear();
     },
   },
+  mounted() {
+    // let script = document.createElement('script');
+    // script.setAttribute('src', '/js/main.js');
+    // document.head.appendChild(script);
+  },
 };
 </script>
