@@ -1,184 +1,157 @@
 <template>
-  <nav
-    class="navbar fixed-top navbar-dark navbar-expand-sm bg-white px-4 px-lg-5"
-  >
-    <div class="mx-lg-5 d-flex justify-content-between w-100">
-      <nuxt-link to="/" class="navbar-brand d-flex">
-        <img
-          src="/img/logo.png"
-          height="50"
-          alt="logo"
-          class="mr-2 rounded-circle"
-        />
-        <h2 class="text-dark mt-2">Cage</h2>
-      </nuxt-link>
-
-      <div class="mt-2">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar-list-2"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="feather icon-align-right"></i>
-        </button>
-
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbar-list-2"
-        >
-          <ul class="navbar-nav text-center text-md-left">
-            <li class="nav-item mt-1">
-              <a class="nav-link" href="#ecosystem">
-                Memeverse
-              </a>
-            </li>
-
-            <li class="nav-item mt-1">
-              <a
-                type="button"
-                class="dropdown-toggle bg-transparent nav-link"
-                id="projects"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                href="#"
+  <header class="header-area">
+    <div class="navbar-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <img
+                height="50px"
+                width="50px"
+                src="/img/images/lg.png"
+                class="img-fluid"
+                alt="logo"
+              />
+              <nuxt-link
+                id="nov"
+                style="
+                    color: rgb(255, 255, 255);
+                    font-size: 40px;
+                    font-weight: bolder;
+                  "
+                class="navbar-brand"
+                to="/"
               >
-                Products
-              </a>
+                CAGE
+              </nuxt-link>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
 
               <div
-                class="actions dropdown-menu py-0 bg-transparent border-0"
-                aria-labelledby="projects"
+                class="collapse navbar-collapse sub-menu-bar"
+                id="navbarSupportedContent"
               >
-                <div class="card border-0 my-0 ml-1 shadow p-3">
-                  <a href="#products" class="mb-3 pr-4">
-                    C4G3
-                  </a>
-                  <a href="#products" class="pr-4">
-                    CMI
-                  </a>
-
-                  <hr />
-                  <nuxt-link
-                    to="#!"
-                    data-toggle="collapse"
-                    data-target="#navbar-list-2"
-                    class="pr-4"
-                  >
-                    🔀 Staking (Coming Soon)
-                  </nuxt-link>
-                </div>
+                <ul id="nav" class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="page-scroll" href="#home">Memeverse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="page-scroll" href="#features">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="page-scroll" href="#token">Token</a>
+                  </li>
+                </ul>
               </div>
-            </li>
+              <!-- navbar collapse -->
 
-            <li class="nav-item mt-1">
-              <a 
-                class="nav-link" 
-                href="https://etherscan.io/tx/0xb14a574efb11dfb92243213fa71f73b221833e04a7223ff1f37ac259ed946f19"
-                target="_blank"
-              >
-                Token
-              </a>
-            </li>
-            <li class="nav-item mr-0 mt-3 mt-md-0">
-              <connect-btn />
-            </li>
-          </ul>
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a class="main-btn" data-scroll-nav="0" href="#dashboard"
+                  >Dashboard</a
+                >
+              </div>
+            </nav>
+            <!-- navbar -->
+          </div>
         </div>
+        <!-- row -->
       </div>
+      <!-- container -->
     </div>
-  </nav>
+    <!-- navbar area -->
+    <div
+      id="home"
+      class="header-hero bg_cover"
+      style="background-image: url(/img/images/banner-bg2.svg)"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="header-hero-content text-center">
+              <h3
+                class="header-sub-title wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="0.2s"
+              >
+                The First Decentralized Meme Index
+              </h3>
+              <h2
+                class="header-title wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="0.5s"
+              >
+                Transforming meme tokens to a token with store of value.
+              </h2>
+              <p
+                class="text wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="0.8s"
+              >
+                Gain Exposure to the top performing Meme token across the space
+              </p>
+
+              <a
+                style="margin-right: 20px;"
+                href="#map"
+                class="main-btn wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="1.1s"
+              >
+                Road map
+              </a>
+              <a
+                href="https://cag3.io/doc/C4G3.Manual.pdf"
+                class="main-btn wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="1.1s"
+                >Read manual</a
+              >
+            </div>
+            <!-- header hero content -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row">
+          <div class="col-lg-12" style="height: 250px; width: 100px">
+            <div
+              class="header-hero-image text-center wow fadeIn"
+              data-wow-duration="1.3s"
+              data-wow-delay="1.4s"
+            ></div>
+            <!-- header hero image -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+      <div id="particles-1" class="particles"></div>
+    </div>
+    <!-- header hero -->
+  </header>
 </template>
 
 <script>
-import ConnectBtn from '../utils/ConnectBtn.vue';
-export default {
-  components: { ConnectBtn },
-  mounted() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth',
-        });
-      });
-    });
-
-    window.addEventListener('scroll', () => {
-      const navbar = document.querySelector('nav');
-
-      if (window.scrollY > 10) {
-        navbar.classList.add('shadow');
-      } else {
-        navbar.classList.remove('shadow');
-      }
-    });
-  },
-};
+export default {};
 </script>
 
 <style scoped>
-.navbar .navbar-toggler {
-  background-color: var(--primary-color);
-}
-.navbar .navbar-toggler .feather {
-  font-size: 30px;
-  color: #ffffff;
-}
-
-a,
-.navbar .navbar-nav .nav-link {
-  color: #4f5665;
-  font-size: 16px;
-}
-
-.navbar .navbar-nav .nav-item {
-  margin: 0 15px;
-}
-
-.navbar button.btn-outline-primary {
-  border-radius: 10px;
-}
-
-.dropdown-toggle::after {
-  left: 0;
-}
-
-.dropdown-menu {
-  left: unset;
-  top: 50px;
-}
-
-@media screen and (max-width: 767px) {
-  .navbar .navbar-nav .nav-link {
-    border-bottom: 1px solid !important;
-  }
-
-  .navbar .navbar-nav .nav-item.active {
-    background-color: var(--primary-color);
-    border-bottom: none !important;
-  }
-
-  .navbar .navbar-nav .nav-item.active .nav-link {
-    color: #ffffff;
-  }
-
-  .navbar .navbar-nav .nav-item {
-    margin: 0 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .navbar .navbar-nav .nav-item {
-    margin: 0;
-  }
-
-  .navbar .navbar-nav .nav-item:last-child {
-    margin-left: 15px;
-  }
+.main-btn {
+  background: rgb(225, 100, 129);
+  background: radial-gradient(
+    circle,
+    rgba(225, 100, 129, 1) 0%,
+    rgba(250, 122, 122, 1) 100%
+  );
 }
 </style>
