@@ -1,24 +1,24 @@
 <template>
   <div class="preloader">
     <div class="loader">
-      <div class="ytp-spinner">
-        <div class="ytp-spinner-container">
-          <div class="ytp-spinner-rotator">
-            <div class="ytp-spinner-left">
-              <div class="ytp-spinner-circle"></div>
-            </div>
-            <div class="ytp-spinner-right">
-              <div class="ytp-spinner-circle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <video class="video w-75" autoplay muted>
+        <source src="/img/animation.mp4" />
+      </video>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    $('video').on('ended', function() {
+      console.log('Video has ended!');
+      $('.preloader')
+        .delay(500)
+        .fadeOut(500);
+    });
+  },
+};
 </script>
 
-<style></style>
+<style scoped></style>

@@ -1,5 +1,32 @@
 <template>
   <main>
+    <section id="index-fund" class="services-area pt-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="section-title text-center pb-40">
+              <div class="line m-auto"></div>
+              <h3 class="title">Why Index Fund? <span> </span></h3>
+            </div>
+            <!-- section title -->
+
+            <p class="text">
+              For decades, investing into index funds has been one of the best
+              ways to make an attractive income through the traditional stock
+              market. There are many reasons for this, to name a few, it allows
+              having a diverse portfolio without the trading fees and tends to
+              generate attractive returns whilst minimizing the risks.
+              Ultimately, C4G3’s unique meme index fund bridges the gap between
+              the lack of index funds for meme tokens to a very lucrative market
+              for the modern investor.
+            </p>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
     <section id="features" class="services-area pt-120">
       <div class="container">
         <div class="row justify-content-center">
