@@ -111,10 +111,10 @@
                       class="mr-2"
                     />
                     <div class="text-left">
-                      <h6 class="text-white my-0">Buy C4G3</h6>
+                      <h6 class="text-white my-0">$C4G3</h6>
                       <p class="text-white my-0">
                         Current Price:
-                        <span class="font-weight-600">$0.27</span>
+                        <span class="font-weight-600">$0.013</span>
                       </p>
                     </div>
                   </div>
