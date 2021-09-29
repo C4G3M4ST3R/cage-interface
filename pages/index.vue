@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section id="index-fund" class="services-area pt-120">
+    <section id="index-fund" class="services-area pt-60">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
@@ -56,16 +56,28 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title">C4G3 <span> (CAGE)</span></h3>
+                <h3 class="title"><span>C4G3</span> Token</h3>
               </div>
               <!-- section title -->
               <p class="text">
-                This token will be the first of its kind. Our aim is to build
-                around an existing protocol that has been accepted by the
-                community, transforming from an ordinary meme to a meme with a
-                store of value
+                Our Memeverse is governed by C4G3 token and is placed among top
+                performing meme assets in the space. C4G3 token holders will be
+                able to create and vote on proposals in the community.
+                <br />C4G3 aims to be the Meme token around which most memes
+                revolve to generate high economic productivity for the
+                ecosystem.
               </p>
-              <a href="#" class="main-btn">Learn more</a>
+              <a
+                href="https://nomics.com//img/c4g3-cage"
+                target="blank"
+                class="main-btn"
+                >Live chart</a
+              >
+              <a
+                href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
+                class="main-btn"
+                >Buy C4g3</a
+              >
             </div>
             <!-- about content -->
           </div>
@@ -156,28 +168,16 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title"><span>C4G3</span> Token</h3>
+                <h3 class="title">C4G3 <span> (CAGE)</span></h3>
               </div>
               <!-- section title -->
               <p class="text">
-                Our Memeverse is governed by C4G3 token and is placed among top
-                performing meme assets in the space. C4G3 token holders will be
-                able to create and vote on proposals in the community.
-                <br />C4G3 aims to be the Meme token around which most memes
-                revolve to generate high economic productivity for the
-                ecosystem.
+                This token will be the first of its kind. Our aim is to build
+                around an existing protocol that has been accepted by the
+                community, transforming from an ordinary meme to a meme with a
+                store of value
               </p>
-              <a
-                href="https://nomics.com//img/c4g3-cage"
-                target="blank"
-                class="main-btn"
-                >Live chart</a
-              >
-              <a
-                href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
-                class="main-btn"
-                >Buy C4g3</a
-              >
+              <a href="#" class="main-btn">Learn more</a>
             </div>
             <!-- about content -->
           </div>
