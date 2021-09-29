@@ -1,8 +1,8 @@
 <template>
   <div class="preloader">
     <div class="loader">
-      <video class="video w-75" autoplay muted>
-        <source src="/img/animation.mp4" />
+      <video class="video w-100" autoplay muted>
+        <source src="/img/loading.mp4" />
       </video>
     </div>
   </div>

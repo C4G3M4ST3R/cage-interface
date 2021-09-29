@@ -108,20 +108,14 @@
                 The First Decentralized Meme Index Transforming meme tokens to a
                 token with store of value.
               </p>
-              <ul class="social">
-                <li>
-                  <a href="#"><i class="lni-facebook-filled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lni-twitter-filled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lni-instagram-filled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lni-linkedin-original"></i></a>
-                </li>
-              </ul>
+
+              <div class="link-wrapper pl-0">
+                <ul class="link pt-0">
+                  <li class="text-white">+809272561823</li>
+                  <li class="text-white">info@gmail.com</li>
+                  <li class="text-white">masters@cag3.io</li>
+                </ul>
+              </div>
             </div>
             <!-- footer about -->
           </div>
@@ -138,8 +132,6 @@
                 <ul class="link">
                   <li><a href="#map">Road Map</a></li>
                   <li><a href="#">Privacy Policy</a></li>
-
-                  <li><a href="https://t.me/c4g3Index">Telegram</a></li>
                   <li>
                     <a
                       href="https://www.dextools.io/app/uniswap/pair-explorer/0xfe2743bcc93033d92c91f7998c44b112325c8ce2"
@@ -147,8 +139,9 @@
                       Dextools</a
                     >
                   </li>
-                  <li><a href="https://t.me/cag3_Index">Announcements</a></li>
-
+                  <li><a href="#">CMG</a></li>
+                  <li><a href="#">CG</a></li>
+                  <li><a href="#">Nomics</a></li>
                   <li><a href="https://docs.cag3.io/">Docs</a></li>
                   <li><a href="https://github.com/C4G3M4ST3R">GitHub</a></li>
                 </ul>
@@ -181,12 +174,39 @@
               data-wow-delay="0.8s"
             >
               <div class="footer-title">
-                <h4 class="title">Contact Us</h4>
+                <h4 class="title">Community</h4>
               </div>
               <ul class="contact">
-                <li>+809272561823</li>
-                <li>info@gmail.com</li>
-                <li>masters@cag3.io</li>
+                <li>
+                  <a class="text-white" href="https://t.me/c4g3Index">
+                    <i class="lni-telegram mr-2"></i>
+                    Telegram
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white" href="https://t.me/cag3_Index">
+                    <i class="lni-bullhorn mr-2"></i>
+                    Announcements
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white" href="#">
+                    <i class="lni-twitter mr-2"></i>
+                    Twitter
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white" href="#">
+                    <i class="lni-linkedin mr-2"></i>
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white" href="#">
+                    <i class="lni-reddit mr-2"></i>
+                    Reddit
+                  </a>
+                </li>
               </ul>
             </div>
             <!-- footer contact -->
@@ -201,8 +221,9 @@
             <div class="copyright d-sm-flex justify-content-between">
               <div class="copyright-content">
                 <p class="text">
-                  Designed and Developed by
-                  <a href="#" rel="nofollow">weware</a>
+                  &copy;
+                  <nuxt-link to="/">Cag3.io</nuxt-link>
+                  &nbsp; All Right reserved.
                 </p>
               </div>
               <!-- copyright content -->

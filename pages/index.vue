@@ -394,7 +394,7 @@
                   </div>
                   <!-- single counter -->
                 </div>
-                <div class="col-4">
+                <div class="col-4 d-none">
                   <div
                     class="
                       single-counter
@@ -457,51 +457,61 @@
           <div class="col-lg-12">
             <div
               class="
+              swap
                 brand-logo
                 d-flex
                 align-items-center
                 justify-content-center justify-content-md-between
               "
             >
-              <div
+              <a
+                href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1s"
                 data-wow-delay="0.2s"
               >
-                <img src="/img/images/brand-3.png" alt="brand" />
-              </div>
+                <img src="/img/logos/uniswap.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://shibaswap.com/#/swap?inputCurrency=0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce&outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <img src="/img/images/brand-5.png" alt="brand" />
-              </div>
+                <img src="/img/logos/shibaswap.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://pancakeswap.finance/swap#/swap?outputCurrency=0xde2f7e3c7fbf2d1a68fb7f64acfc05e6d5d7dd83"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
-                <img src="/img/images/brand-3.png" alt="brand" />
-              </div>
+                <img src="/img/logos/pancakeswap.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://app.sushi.com/swap?inputCurrency=&outputCurrency=0x6b7a87899490EcE95443e979cA9485CBE7E71522"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.4s"
               >
-                <img src="/img/images/brand-5.png" alt="brand" />
-              </div>
+                <img src="/img/logos/sushiswap.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://tokpie.com/view_exchange/C4G3-ETH/"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.5s"
               >
-                <img src="/img/images/brand-3.png" alt="brand" />
-              </div>
+                <img src="/img/logos/tokpie.png" alt="brand" />
+              </a>
               <!-- single logo -->
             </div>
             <!-- brand logo -->
@@ -547,45 +557,55 @@
                 justify-content-center justify-content-md-between
               "
             >
-              <div
+              <a
+                href="https://markets.businessinsider.com/news/stocks/memeverse---revolutionary-meme-tokens-1030799056"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1s"
                 data-wow-delay="0.2s"
               >
-                <img src="/img/images/brand-3.png" alt="brand" />
-              </div>
+                <img src="/img/logos/Business_Insider_Logo.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://www.marketwatch.com/press-release/c4g3-makes-an-index-fund-for-meme-tokens-2021-09-10?tesla=y"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <img src="/img/images/brand-5.png" alt="brand" />
-              </div>
+                <img src="/img/logos/MarketWatch_Logo.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://finance.yahoo.com/news/c4g3-unique-crypto-asset-tracks-205400146.html"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
-                <img src="/img/images/brand-3.png" alt="brand" />
-              </div>
+                <img src="/img/logos/YahooFinanceLogo.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://www.investing.com/news/cryptocurrency-news/cage-marks-new-decentralized-meme-revolution-launches-c4g3-token-2602724"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.4s"
               >
-                <img src="/img/images/brand-5.png" alt="brand" />
-              </div>
+                <img src="/img/logos/investingcom-logo.png" alt="brand" />
+              </a>
               <!-- single logo -->
-              <div
+              <a
+                href="https://coinquora.com/cage-marks-new-decentralized-meme-revolution-launches-c4g3-token/"
+                target="_blank"
                 class="single-logo mt-30 wow fadeIn"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.5s"
               >
-                <img src="/img/images/brand-3.png" alt="brand" />
-              </div>
+                <img src="/img/logos/coinquora-logo.png" alt="brand" />
+              </a>
               <!-- single logo -->
             </div>
             <!-- brand logo -->
@@ -868,3 +888,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.swap .single-logo img {
+  height: 100px;
+}
+
+.single-logo {
+  padding: 0 !important;
+  margin: 30px 30px 0;
+}
+</style>
