@@ -694,9 +694,9 @@
                   <div class="timeline-step"><span>PHASE</span>IV</div>
                   <h3 class="title">STAKING</h3>
                   <p class="description">
+                    * Website revamp<br />
                     * Deployment of Staking Contract<br />
                     * Staking Contract Audit<br />
-                    * Launching of CAG3 MASTERS (NFT)<br />
                   </p>
                 </a>
               </div>
@@ -712,7 +712,7 @@
                   <p class="description">
                     * Governance<br />
                     * Ecosystem Development<br />
-                    * Website revamp<br />
+                    * Launching of CAG3 MASTERS (NFT)<br />
                   </p>
                 </a>
               </div>
