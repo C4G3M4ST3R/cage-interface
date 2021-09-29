@@ -49,9 +49,6 @@
                   <li class="nav-item">
                     <a class="page-scroll" href="#features">Products</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#token">Token</a>
-                  </li>
                 </ul>
               </div>
               <!-- navbar collapse -->
@@ -100,6 +97,29 @@
               >
                 Gain Exposure to the top performing Meme token across the space
               </p>
+
+              <div class="text-center">
+                <button
+                  class="main-btn main-btn-outlined wow fadeInUp py-2 px-4"
+                  data-wow-duration="1.5s"
+                  data-wow-delay="1.25s"
+                >
+                  <div class="d-flex py-1">
+                    <img
+                      src="/img/logos/coinmarketcap-logo.png"
+                      height="45"
+                      class="mr-2"
+                    />
+                    <div class="text-left">
+                      <h6 class="text-white my-0">Buy C4G3</h6>
+                      <p class="text-white my-0">
+                        Current Price:
+                        <span class="font-weight-600">$0.27</span>
+                      </p>
+                    </div>
+                  </div>
+                </button>
+              </div>
 
               <a
                 style="margin-right: 20px;"
@@ -153,5 +173,14 @@ export default {};
     rgba(225, 100, 129, 1) 0%,
     rgba(250, 122, 122, 1) 100%
   );
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.main-btn-outlined {
+  border: 2px solid rgb(225, 100, 129);
+  background: transparent !important;
 }
 </style>

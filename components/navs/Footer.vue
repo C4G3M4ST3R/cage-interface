@@ -31,8 +31,15 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                C4G3 can be used to govern the platform, participate in any
-                future events and CMI gives holders exposure to the index pool
+                The CMI combines the potential profitable gains from meme tokens
+                with a proven strategy to invest - the index fund. In simple
+                terms, our CMI allows investors to fully lock in profits that
+                flow into the meme space, and at the same time minimises the
+                risks that comes with investing in crypto. Importantly, not only
+                does holding $C4G3 allow holders to govern the CMI, it also
+                allows entry and participation in any future events that C4G3
+                will hold. As the 20% of the portfolio of the CMI consists of
+                $C4G3, it further provides value for holders of $C4G3
               </div>
             </div>
           </div>
@@ -47,7 +54,7 @@
                   aria-controls="collapseTwo"
                   style="color: #7C0808;"
                 >
-                  What are the current tokens that make up the C4G3 Meme Index?
+                  How many % does C4G3 charge on each transaction?
                 </button>
               </h5>
             </div>
@@ -58,7 +65,8 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                C4G3 - DOGECOIN - SHIBA INU - DOGELON - USDC.
+                Transaction fee doesn't exist here, C4G3 token isn't
+                deflationary
               </div>
             </div>
           </div>
@@ -73,7 +81,7 @@
                   aria-controls="collapseThree"
                   style="color: #7C0808;"
                 >
-                  How many % does C4G3 charge on each transaction?
+                  What are the current tokens that make up the C4G3 Meme Index?
                 </button>
               </h5>
             </div>
@@ -84,8 +92,7 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Transaction fee doesn't exist here, C4G3 token isn't
-                deflationary
+                C4G3 - DOGECOIN - SHIBA INU - DOGELON - USDC.
               </div>
             </div>
           </div>
@@ -108,7 +115,6 @@
                 The First Decentralized Meme Index Transforming meme tokens to a
                 token with store of value.
               </p>
-
               <div class="link-wrapper pl-0">
                 <ul class="link pt-0">
                   <li class="text-white">+809272561823</li>
@@ -159,8 +165,6 @@
                   <li><a href="#">Home</a></li>
                   <li><a href="#home">Memeverse</a></li>
                   <li><a href="#features">Product</a></li>
-                  <li><a href="#team">Team</a></li>
-                  <li><a href="#token">Token</a></li>
                 </ul>
               </div>
               <!-- footer wrapper -->
@@ -221,7 +225,7 @@
             <div class="copyright d-sm-flex justify-content-between">
               <div class="copyright-content">
                 <p class="text">
-                  &copy;
+                  {{ year }} &copy;
                   <nuxt-link to="/">Cag3.io</nuxt-link>
                   &nbsp; All Right reserved.
                 </p>
