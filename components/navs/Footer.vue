@@ -108,20 +108,6 @@
                 The First Decentralized Meme Index Transforming meme tokens to a
                 token with store of value.
               </p>
-              <ul class="social">
-                <li>
-                  <a href="#"><i class="lni-facebook-filled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lni-twitter-filled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lni-instagram-filled"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lni-linkedin-original"></i></a>
-                </li>
-              </ul>
             </div>
             <!-- footer about -->
           </div>
@@ -166,8 +152,6 @@
                   <li><a href="#">Home</a></li>
                   <li><a href="#home">Memeverse</a></li>
                   <li><a href="#features">Product</a></li>
-                  <li><a href="#team">Team</a></li>
-                  <li><a href="#token">Token</a></li>
                 </ul>
               </div>
               <!-- footer wrapper -->
@@ -184,8 +168,6 @@
                 <h4 class="title">Contact Us</h4>
               </div>
               <ul class="contact">
-                <li>+809272561823</li>
-                <li>info@gmail.com</li>
                 <li>masters@cag3.io</li>
               </ul>
             </div>
@@ -201,8 +183,8 @@
             <div class="copyright d-sm-flex justify-content-between">
               <div class="copyright-content">
                 <p class="text">
-                  Designed and Developed by
-                  <a href="#" rel="nofollow">weware</a>
+                 Cage
+                  <a href="#" rel="nofollow">{{year}}</a>
                 </p>
               </div>
               <!-- copyright content -->

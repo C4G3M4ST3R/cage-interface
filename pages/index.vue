@@ -56,12 +56,12 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title"><span>C4G3</span> Token</h3>
+                <h3 class="title"><span>$C4G3</span> Token</h3>
               </div>
               <!-- section title -->
               <p class="text">
-                Our Memeverse is governed by C4G3 token and is placed among top
-                performing meme assets in the space. C4G3 token holders will be
+                Our Memeverse is governed by $C4G3 token and is placed among top
+                performing meme assets in the space. $C4G3 token holders will be
                 able to create and vote on proposals in the community.
                 <br />C4G3 aims to be the Meme token around which most memes
                 revolve to generate high economic productivity for the
@@ -76,7 +76,7 @@
               <a
                 href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
                 class="main-btn"
-                >Buy C4g3</a
+                >Buy $C4G3</a
               >
             </div>
             <!-- about content -->
@@ -124,7 +124,7 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title">The C4G3 <span>ecosystem </span></h3>
+                <h3 class="title"><span>CAG3</span> Ecosystem</h3>
               </div>
               <!-- section title -->
               <p class="text">
@@ -232,7 +232,7 @@
                 <h4 class="services-title">
                   <a href="#">unicrypt Liquidity </a>
                 </h4>
-                <p class="text">C4g3 Liquidity locked via unicrypt</p>
+                <p class="text">$C4G3 Liquidity locked via unicrypt</p>
                 <a class="more" href="#"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
@@ -262,7 +262,7 @@
               <div class="services-content mt-30">
                 <h4 class="services-title"><a href="#">Kyc Verified</a></h4>
                 <p class="text">
-                  the C4g3 team has been verified by passorfail.me
+                  the CAG3 team has been verified by passorfail.me
                 </p>
                 <a class="more" href="#"
                   >Learn More <i class="lni-chevron-right"></i
@@ -352,7 +352,7 @@
                   a stablecoin. <br />The meme index pool carries equal weight
                   of the following tokens: C4G3, DOGE, SHIB, DOGELON, USDC.
                 </p>
-                <a href="#" class="main-btn">Buy C4g3</a>
+                <!-- <a href="#" class="main-btn">Buy $CMI</a> -->
               </div>
               <!-- counter content -->
               <div class="row no-gutters">
@@ -368,9 +368,9 @@
                   >
                     <div class="counter-items text-center">
                       <span class="count"
-                        ><span class="counter">125</span>K</span
+                        ><span class="counter">100</span>M</span
                       >
-                      <p class="text">Downloads</p>
+                      <p class="text">Fixed Supply</p>
                     </div>
                   </div>
                   <!-- single counter -->
@@ -387,9 +387,9 @@
                   >
                     <div class="counter-items text-center">
                       <span class="count"
-                        ><span class="counter">87</span>K</span
+                        ><span class="counter">0</span>%</span
                       >
-                      <p class="text">Active Users</p>
+                      <p class="text">Transaction Tax</p>
                     </div>
                   </div>
                   <!-- single counter -->
@@ -406,9 +406,9 @@
                   >
                     <div class="counter-items text-center">
                       <span class="count"
-                        ><span class="counter">4.8</span></span
+                        ><span class="counter">0</span></span
                       >
-                      <p class="text">User Rating</p>
+                      <p class="text"></p>
                     </div>
                   </div>
                   <!-- single counter -->
@@ -598,124 +598,7 @@
 
     <!--====== BRAND PART ENDS ======-->
 
-    <!--====== TEAM PART START ======-->
 
-    <section id="team" class="team-area pt-120">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-5">
-            <div class="section-title text-center pb-30">
-              <div class="line m-auto"></div>
-              <h3 class="title"><span>Meet Our</span> Creative Team Members</h3>
-            </div>
-            <!-- section title -->
-          </div>
-        </div>
-        <!-- row -->
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-7 col-sm-8">
-            <div
-              class="single-team text-center mt-30 wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.2s"
-            >
-              <div class="team-image">
-                <img src="/img/images/team-1.png" alt="Team" />
-                <div class="social">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="lni-facebook-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-instagram-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-linkedin-original"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content">
-                <h5 class="holder-name"><a href="#">Isabela Moreira</a></h5>
-                <p class="text">Founder and CEO</p>
-              </div>
-            </div>
-            <!-- single team -->
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-8">
-            <div
-              class="single-team text-center mt-30 wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
-            >
-              <div class="team-image">
-                <img src="/img/images/team-2.png" alt="Team" />
-                <div class="social">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="lni-facebook-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-instagram-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-linkedin-original"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content">
-                <h5 class="holder-name"><a href="#">Elon Musk</a></h5>
-                <p class="text">Sr. Software Engineer</p>
-              </div>
-            </div>
-            <!-- single team -->
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-8">
-            <div
-              class="single-team text-center mt-30 wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.8s"
-            >
-              <div class="team-image">
-                <img src="/img/images/team-3.png" alt="Team" />
-                <div class="social">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="lni-facebook-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-instagram-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-linkedin-original"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content">
-                <h5 class="holder-name"><a href="#">Fiona Smith</a></h5>
-                <p class="text">Business Development Manager</p>
-              </div>
-            </div>
-            <!-- single team -->
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </section>
-
-    <!--====== TEAM PART ENDS ======-->
 
     <!--====== ROAD MAP PART START ======-->
 

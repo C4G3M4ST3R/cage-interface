@@ -49,9 +49,6 @@
                   <li class="nav-item">
                     <a class="page-scroll" href="#features">Products</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#token">Token</a>
-                  </li>
                 </ul>
               </div>
               <!-- navbar collapse -->
