@@ -117,8 +117,6 @@
               </p>
               <div class="link-wrapper pl-0">
                 <ul class="link pt-0">
-                  <li class="text-white">+809272561823</li>
-                  <li class="text-white">info@gmail.com</li>
                   <li class="text-white">masters@cag3.io</li>
                 </ul>
               </div>
@@ -145,11 +143,10 @@
                       Dextools</a
                     >
                   </li>
-                  <li><a href="#">CMG</a></li>
-                  <li><a href="#">CG</a></li>
+                  <li><a href="#">Coinmarketcap</a></li>
+                  <li><a href="#">CoinGecko</a></li>
                   <li><a href="#">Nomics</a></li>
                   <li><a href="https://docs.cag3.io/">Docs</a></li>
-                  <li><a href="https://github.com/C4G3M4ST3R">GitHub</a></li>
                 </ul>
               </div>
               <!-- footer wrapper -->
@@ -201,12 +198,12 @@
                 </li>
                 <li>
                   <a class="text-white" href="#">
-                    <i class="lni-linkedin mr-2"></i>
-                    LinkedIn
+                    <i class="lni-github mr-2"></i>
+                    Github
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="#">
+                  <a class="text-white" href="https://github.com/C4G3M4ST3R">
                     <i class="lni-reddit mr-2"></i>
                     Reddit
                   </a>
