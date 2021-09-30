@@ -386,9 +386,7 @@
                     "
                   >
                     <div class="counter-items text-center">
-                      <span class="count"
-                        ><span class="counter">0</span>%</span
-                      >
+                      <span class="count"><span class="counter">0</span>%</span>
                       <p class="text">Transaction Tax</p>
                     </div>
                   </div>
@@ -405,9 +403,7 @@
                     "
                   >
                     <div class="counter-items text-center">
-                      <span class="count"
-                        ><span class="counter">0</span></span
-                      >
+                      <span class="count"><span class="counter">0</span></span>
                       <p class="text"></p>
                     </div>
                   </div>
@@ -618,8 +614,6 @@
 
     <!--====== BRAND PART ENDS ======-->
 
-
-
     <!--====== ROAD MAP PART START ======-->
 
     <section
@@ -751,7 +745,21 @@
 export default {
   head() {
     return {
-      script: [{ hid: 'main', src: '/js/main.js', defer: true }],
+      script: [
+        { hid: 'main', src: '/js/main.js', defer: true },
+        {
+          hid: 'main',
+          src: 'https://files.coinmarketcap.com/static/widget/currency.js',
+          defer: true,
+          callback: () => {
+            const widget = document.querySelector('.main-btn-outlined');
+            const { innerText, innerHTML } = widget;
+            console.log({ widget, innerText, innerHTML });
+            let child = widget.firstElementChild;
+            console.log({ child });
+          },
+        },
+      ],
     };
   },
   mounted() {

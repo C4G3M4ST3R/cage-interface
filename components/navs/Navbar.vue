@@ -114,7 +114,18 @@
                       <h6 class="text-white my-0">Buy C4G3</h6>
                       <p class="text-white my-0">
                         Current Price:
-                        <span class="font-weight-600">$0.27</span>
+                        <span
+                          class="coinmarketcap-currency-widget font-weight-600 d-none"
+                          data-currencyid="11968"
+                          data-base="USD"
+                          data-secondary="BTC"
+                          data-ticker="true"
+                          data-rank="true"
+                          data-marketcap="true"
+                          data-volume="true"
+                          data-statsticker="false"
+                          data-stats="USD"
+                        ></span>
                       </p>
                     </div>
                   </div>
@@ -162,7 +173,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    this.$nextTick(() => {});
+  },
+};
 </script>
 
 <style scoped>
