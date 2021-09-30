@@ -175,7 +175,7 @@
                 This token will be the first of its kind. Our aim is to build
                 around an existing protocol that has been accepted by the
                 community, transforming from an ordinary meme to a meme with a
-                store of value
+                store of value.
               </p>
               <a href="#" class="main-btn">Learn more</a>
             </div>
@@ -230,7 +230,7 @@
               </div>
               <div class="services-content mt-30">
                 <h4 class="services-title">
-                  <a href="#">unicrypt Liquidity </a>
+                  <a href="#">Liquidity Locked </a>
                 </h4>
                 <p class="text">$C4G3 Liquidity locked via unicrypt</p>
                 <a class="more" href="#"
@@ -260,7 +260,7 @@
                 <i class="lni-cog"></i>
               </div>
               <div class="services-content mt-30">
-                <h4 class="services-title"><a href="#">Kyc Verified</a></h4>
+                <h4 class="services-title"><a href="#">KYC Verified</a></h4>
                 <p class="text">
                   the CAG3 team has been verified by passorfail.me
                 </p>
@@ -727,6 +727,7 @@
                     * Governance<br />
                     * Ecosystem Development<br />
                     * Launching of CAG3 MASTERS (NFT)<br />
+                    * Whitepaper v.2.0<br />
                   </p>
                 </a>
               </div>
