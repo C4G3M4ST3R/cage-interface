@@ -111,22 +111,20 @@
                       class="mr-2"
                     />
                     <div class="text-left">
-                      <h6 class="text-white my-0">$C4G3</h6>
+                      <h6 class="text-white my-0">
+                        $C4G3
+                        <span
+                          :class="percentClass"
+                          v-if="c4g3.percent_change_24h"
+                        >
+                          ({{ formatPercent(c4g3.percent_change_24h) }}%)
+                        </span>
+                      </h6>
                       <p class="text-white my-0">
                         Current Price:
-                        <span
-                          class="coinmarketcap-currency-widget font-weight-600 d-none"
-                          data-currencyid="11968"
-                          data-base="USD"
-                          data-secondary="BTC"
-                          data-ticker="true"
-                          data-rank="true"
-                          data-marketcap="true"
-                          data-volume="true"
-                          data-statsticker="false"
-                          data-stats="USD"
-                        ></span>
-                        <span class="font-weight-600">$0.013</span>
+                        <span class="font-weight-600">
+                          {{ formatAmount(c4g3.price) }}
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -147,8 +145,9 @@
                 class="main-btn wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
-                >Read manual</a
               >
+                Read manual
+              </a>
             </div>
             <!-- header hero content -->
           </div>
@@ -175,8 +174,41 @@
 
 <script>
 export default {
-  mounted() {
-    this.$nextTick(() => {});
+  data() {
+    return {
+      c4g3: {
+        percent_change_24h: 0,
+        price: 0,
+      },
+    };
+  },
+  computed: {
+    percentClass() {
+      const { percent_change_24h } = this.c4g3;
+      return percent_change_24h > 0
+        ? 'text-success'
+        : percent_change_24h == 0
+        ? 'text-white'
+        : 'text-danger';
+    },
+  },
+  methods: {
+    formatPercent: amount =>
+      Number(amount).toLocaleString(undefined, {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      }),
+  },
+  async mounted() {
+    const { data } = await (
+      await fetch(
+        'https://3rdparty-apis.coinmarketcap.com/v1/cryptocurrency/widget?id=11968&convert_id=1,2781,2781',
+      )
+    ).json();
+
+    const { price, percent_change_24h } = data['11968'].quote['2781'];
+    console.log({ price, percent_change_24h });
+    this.c4g3 = { price, percent_change_24h };
   },
 };
 </script>

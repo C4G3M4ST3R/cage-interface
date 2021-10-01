@@ -649,7 +649,10 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-globe"></i></div>
                   <div class="timeline-step"><span>PHASE </span>I</div>
-                  <h3 class="title">LAUNCH‌</h3>
+                  <div class="d-flex justify-content-center">
+                    <h3 class="title">LAUNCH‌</h3>
+                    <i class="lni lni-check-mark-circle text-success ml-n2"></i>
+                  </div>
                   <p class="description">
                     * Official announcement of C4G3 launch<br />
                     * Release of CAG3 Manual (Whitepaper)<br />
@@ -669,7 +672,10 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
                   <div class="timeline-step"><span>PHASE </span>II</div>
-                  <h3 class="title">SALE</h3>
+                  <div class="d-flex justify-content-center">
+                    <h3 class="title">SALE</h3>
+                    <i class="lni lni-check-mark-circle text-success ml-n4"></i>
+                  </div>
                   <p class="description">
                     * Public Sale<br />
                     * Uniswap listing<br />
@@ -751,13 +757,6 @@ export default {
           hid: 'main',
           src: 'https://files.coinmarketcap.com/static/widget/currency.js',
           defer: true,
-          callback: () => {
-            const widget = document.querySelector('.main-btn-outlined');
-            const { innerText, innerHTML } = widget;
-            console.log({ widget, innerText, innerHTML });
-            let child = widget.firstElementChild;
-            console.log({ child });
-          },
         },
       ],
     };
@@ -788,5 +787,11 @@ export default {
 .single-logo {
   padding: 0 !important;
   margin: 30px 30px 0;
+}
+
+.lni.lni-check-mark-circle {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 2px;
 }
 </style>
