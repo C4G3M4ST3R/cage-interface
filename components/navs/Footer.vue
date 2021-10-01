@@ -7,7 +7,7 @@
         data-wow-delay="0.5s"
       >
         <div id="accordion">
-          <h3 style="color: #7C0808;">faQs</h3>
+          <h3 style="color: #7C0808;">FAQ</h3>
           <div class="card">
             <div class="card-header" id="headingOne">
               <h5 class="mb-0">
@@ -65,8 +65,7 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Transaction fee doesn't exist here, C4G3 token isn't
-                deflationary
+                The $C4G3 Token is not deflationary, and does not have any transaction fees.
               </div>
             </div>
           </div>

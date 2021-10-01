@@ -88,7 +88,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Transforming meme tokens to a token with store of value.
+                Transforming meme tokens to <br> a token with store of value.
               </h2>
               <p
                 class="text wow fadeInUp"
