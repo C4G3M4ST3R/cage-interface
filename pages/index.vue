@@ -124,13 +124,11 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title"><span>CAG3</span> Ecosystem</h3>
+                <h3 class="title"><span>CAGE</span> Ecosystem</h3>
               </div>
               <!-- section title -->
               <p class="text">
-                is a complete Index platform for meme tokens. The Meme Index
-                portfolio includes top performing meme tokens in the cryptoverse
-                with 20% equal weight.
+                Is a complete Index platform for meme tokens. Our first Meme Index portfolio includes 4 top performing meme tokens with 20% equal weight and a stable coin.
               </p>
               <a href="#" class="main-btn">Learn more</a>
             </div>
