@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg d-none">
               <img
                 height="50px"
                 width="50px"
@@ -76,6 +76,24 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="header-hero-content text-center">
+              <div
+                class="d-flex justify-content-center  wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="0.2s"
+              >
+                <img src="/img/images/lg.png" class="img-fluid" alt="logo" />
+                <h3
+                  id="nov"
+                  class="mt-4 ml-2"
+                  style="
+                    color: rgb(255, 255, 255);
+                    font-size: 40px;
+                    font-weight: bolder;
+                  "
+                >
+                  CAGE
+                </h3>
+              </div>
               <h3
                 class="header-sub-title wow fadeInUp"
                 data-wow-duration="1.3s"
@@ -88,7 +106,8 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Transforming meme tokens to <br> a token with store of value.
+                Transforming meme tokens to <br />
+                a token with store of value.
               </h2>
               <p
                 class="text wow fadeInUp"
@@ -230,5 +249,14 @@ export default {
 .main-btn-outlined {
   border: 2px solid rgb(225, 100, 129);
   background: transparent !important;
+}
+
+.header-hero-content {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.d-flex .img-fluid {
+  height: 100px;
 }
 </style>
