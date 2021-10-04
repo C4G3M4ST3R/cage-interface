@@ -622,7 +622,7 @@
           <div class="col-lg-5">
             <div class="section-title text-center pb-30">
               <div class="line m-auto"></div>
-              <h3 class="title"><span>Meet Our</span> Creative Team Members</h3>
+              <h3 class="title"><span>Meet Our</span> Partners and Advisors</h3>
             </div>
             <!-- section title -->
           </div>
