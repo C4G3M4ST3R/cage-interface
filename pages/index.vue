@@ -636,7 +636,7 @@
               data-wow-delay="0.2s"
             >
               <div class="team-image">
-                <img src="/img/images/team-1.png" alt="Team" />
+                <img src="/img/images/team-2.png" alt="Team" />
                 <div class="social">
                   <ul>
                     <li>
@@ -662,7 +662,7 @@
               data-wow-delay="0.5s"
             >
               <div class="team-image">
-                <img src="/img/images/team-2.png" alt="Team" />
+                <img src="/img/images/team-1.jpg" alt="Team" />
                 <div class="social">
                   <ul>
                     <li>
