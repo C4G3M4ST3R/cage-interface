@@ -140,15 +140,14 @@
                   </div>
                 </button>
               </div>
-
               <a
                 style="margin-right: 20px;"
-                href="#map"
+                href="#"
                 class="main-btn wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
               >
-                Road map
+                Dashboard
               </a>
               <a
                 href="/doc/C4G3.Manual.pdf"

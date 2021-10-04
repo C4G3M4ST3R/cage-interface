@@ -39,7 +39,7 @@
                 does holding $C4G3 allow holders to govern the CMI, it also
                 allows entry and participation in any future events that C4G3
                 will hold. As the 20% of the portfolio of the CMI consists of
-                $C4G3, it further provides value for holders of $C4G3
+                $C4G3, it further provides value for holders of $C4G3.
               </div>
             </div>
           </div>
@@ -116,6 +116,7 @@
               </p>
               <div class="link-wrapper pl-0">
                 <ul class="link pt-0">
+                  <li class="text-white">marketing@cag3.io</li>
                   <li class="text-white">masters@cag3.io</li>
                 </ul>
               </div>
@@ -134,7 +135,6 @@
                 </div>
                 <ul class="link">
                   <li><a href="#map">Road Map</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
                   <li>
                     <a
                       href="https://www.dextools.io/app/uniswap/pair-explorer/0xfe2743bcc93033d92c91f7998c44b112325c8ce2"
@@ -158,7 +158,6 @@
                   <h4 class="title">Resources</h4>
                 </div>
                 <ul class="link">
-                  <li><a href="#">Home</a></li>
                   <li><a href="#home">Memeverse</a></li>
                   <li><a href="#features">Product</a></li>
                 </ul>
@@ -196,13 +195,13 @@
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="#">
+                  <a class="text-white" href="https://github.com/C4G3M4ST3R">
                     <i class="lni-github mr-2"></i>
                     Github
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="https://github.com/C4G3M4ST3R">
+                  <a class="text-white" href="#">
                     <i class="lni-reddit mr-2"></i>
                     Reddit
                   </a>
