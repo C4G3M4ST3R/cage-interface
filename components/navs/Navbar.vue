@@ -77,25 +77,17 @@
           <div class="col-lg-8">
             <div class="header-hero-content text-center">
               <div
-                class="d-flex justify-content-center  wow fadeInUp"
+                class="d-flex justify-content-center wow fadeInUp mb-lg-5"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                <img src="/img/images/lg.png" class="img-fluid" alt="logo" />
-                <h3
-                  id="nov"
-                  class="mt-4 ml-2"
-                  style="
-                    color: rgb(255, 255, 255);
-                    font-size: 40px;
-                    font-weight: bolder;
-                  "
-                >
+                <img src="/img/logo-cmi.png" class="img-fluid" alt="logo" />
+                <h3 id="nov" class="mt-5 ml-2 pt-1">
                   CAGE
                 </h3>
               </div>
               <h3
-                class="header-sub-title wow fadeInUp"
+                class="header-sub-title wow fadeInUp mb-3"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
@@ -106,8 +98,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Transforming meme tokens to <br />
-                a token with store of value.
+                Transforming meme tokens to a token with store of value.
               </h2>
               <p
                 class="text wow fadeInUp"
@@ -252,11 +243,17 @@ export default {
 }
 
 .header-hero-content {
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
 .d-flex .img-fluid {
-  height: 100px;
+  height: 175px;
+}
+
+.d-flex #nov {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: bolder;
 }
 </style>
