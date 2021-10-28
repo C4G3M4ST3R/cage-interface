@@ -1,0 +1,46 @@
+[
+  {
+    "chainID": "1",
+    "mainnet": "Ethereum"
+  },
+  {
+    "chainID": "56",
+    "mainnet": "BSC"
+  },
+  {
+    "chainID": "100",
+    "mainnet": "xDai"
+  },
+  {
+    "chainID": "128",
+    "mainnet": "HECO"
+  },
+  {
+    "chainID": "137",
+    "mainnet": "Matic"
+  },
+  {
+    "chainID": "250",
+    "mainnet": "Fandom"
+  },
+  {
+    "chainID": "32659",
+    "mainnet": "Fusion"
+  },
+  {
+    "chainID": "43114",
+    "mainnet": "Avax"
+  },
+  {
+    "chainID": "BTC",
+    "mainnet": "Bitcoin"
+  },
+  {
+    "chainID": "LTC",
+    "mainnet": "Litecoin"
+  },
+  {
+    "chainID": "BLOCK",
+    "mainnet": "Blocknet"
+  }
+]
