@@ -129,8 +129,14 @@
               <!-- section title -->
               <p class="text">
                 Is a complete Index platform for meme tokens. Our first Meme
-                Index portfolio includes 4 top performing meme tokens with 20%
-                equal weight and a stable coin.
+                Index portfolio includes 4 top performing meme tokens and a stable coin.
+                
+                <p class="text"> Our methodology is focused on gaining maximum exposure to the most performing 
+                asset class in the space while eliminating the need to perform multiple costly transactions. 
+                Giving users a range of opportunities to have maximum exposure to profit making.
+                In addition to our flagship, our ecosystem will also include 
+                <strong> Cross-chain assets indices, Metaverse assets indices, Defi blue-chips Indices. </strong>
+                </p>
               </p>
               <a href="#" class="main-btn">Learn more</a>
             </div>
@@ -168,14 +174,13 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title">C4G3 <span> (CAGE)</span></h3>
+                <h3 class="title"><span>$CGT</span> Token</h3>
               </div>
               <!-- section title -->
               <p class="text">
-                This token will be the first of its kind. Our aim is to build
-                around an existing protocol that has been accepted by the
-                community, transforming from an ordinary meme to a meme with a
-                store of value.
+                Our Memeverse is governed by $CGT token, placed among top performing 
+                Defi assets in the space. CGT holders will be able to create and vote
+                on proposals regarding changes to the Cage Indices.
               </p>
               <a href="#" class="main-btn">Learn more</a>
             </div>
@@ -367,10 +372,8 @@
                     "
                   >
                     <div class="counter-items text-center">
-                      <span class="count"
-                        ><span class="counter">100</span>M</span
-                      >
-                      <p class="text">Fixed Supply</p>
+                      <span class="count">Risk</span>
+                      <p class="text">Management</p>
                     </div>
                   </div>
                   <!-- single counter -->
@@ -386,13 +389,13 @@
                     "
                   >
                     <div class="counter-items text-center">
-                      <span class="count"><span class="counter">0</span>%</span>
-                      <p class="text">Transaction Tax</p>
+                      <span class="count">Diversified</span>
+                      <p class="text">Portfolio</p>
                     </div>
                   </div>
                   <!-- single counter -->
                 </div>
-                <div class="col-4 d-none">
+                <div class="col-4">
                   <div
                     class="
                       single-counter
@@ -403,12 +406,13 @@
                     "
                   >
                     <div class="counter-items text-center">
-                      <span class="count"><span class="counter">0</span></span>
-                      <p class="text"></p>
+                      <span class="count">Cost</span>
+                      <p class="text">Effective & Efficient</p>
                     </div>
                   </div>
                   <!-- single counter -->
                 </div>
+                
               </div>
               <!-- row -->
             </div>
@@ -651,29 +655,6 @@
               <div class="team-content">
                 <h5 class="holder-name"><a href="#">Mohanned Halawani</a></h5>
                 <p class="text">Founder @ CryptoPR</p>
-              </div>
-            </div>
-            <!-- single team -->
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-8">
-            <div
-              class="single-team text-center mt-30 wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
-            >
-              <div class="team-image">
-                <img src="/img/images/team-1.jpg" alt="Team" />
-                <div class="social">
-                  <ul>
-                    <li>
-                      <a href="https://twitter.com/scrate_io"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content">
-                <h5 class="holder-name"><a href="#">Scrate.io</a></h5>
-                <p class="text">Africa's Blockchain Educational Platform</p>
               </div>
             </div>
             <!-- single team -->
