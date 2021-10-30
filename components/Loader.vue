@@ -5,10 +5,10 @@
         <!-- <img :src="loader" /> -->
         <div
           class="spinner-border"
-          style="width: 3rem; height: 3rem;"
+          style="width: 3rem; height: 3rem"
           role="status"
         >
-          <span class="sr-only">Loading...</span>
+          <span class="sr-only d-none">Loading...</span>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@ export default {};
 }
 
 .spinner-border {
-  border: 0.25em solid var(--primary-color);
+  border: 0.25em solid rgb(236, 28, 28);
   border-right-color: transparent !important;
 }
 

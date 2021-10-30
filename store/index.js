@@ -2,6 +2,7 @@ export const state = () => ({
   user: {
     loggedIn: false,
   },
+  selectedNetwork: null,
 });
 
 export const mutations = {
@@ -12,5 +13,5 @@ export const mutations = {
 };
 
 export const getters = {
-  isAuthenticated: (state) => state.user.loggedIn,
+  isAuthenticated: state => state.user.loggedIn,
 };

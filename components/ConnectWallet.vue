@@ -77,16 +77,16 @@
 </template>
 
 <script>
-import Loader from "./Loader.vue";
-import MetaMaskOnboarding from "@metamask/onboarding";
-import WalletConnectService from "../web3/wallet-connect";
+import Loader from './Loader.vue';
+import MetaMaskOnboarding from '@metamask/onboarding';
+import WalletConnectService from '../web3/wallet-connect';
 
 export default {
   components: { Loader },
   data: () => ({
     loading: false,
     errorMessage: null,
-    notEnabledMessage: "MetaMask is not enabled",
+    notEnabledMessage: 'MetaMask is not enabled',
     user: null,
   }),
   methods: {
@@ -110,15 +110,15 @@ export default {
 
         if (!selectedAddress) {
           const accounts = await ethereum.request({
-            method: "eth_requestAccounts",
+            method: 'eth_requestAccounts',
           });
 
           const account = accounts[0];
-          if (!account) throw new Error("Unable to retrieve accounts");
+          if (!account) throw new Error('Unable to retrieve accounts');
 
           this.setUser({
             address: account,
-            wallet: "metamask",
+            wallet: 'metamask',
             network: this.networks[networkVersion],
             networkVersion,
             chainId,
@@ -130,32 +130,31 @@ export default {
 
         this.setUser({
           address: selectedAddress,
-          wallet: "metamask",
+          wallet: 'metamask',
           networkVersion,
           chainId,
         });
-        this.closeModal();
       } catch (e) {
         this.loading = false;
         let { message } = e;
         if (
           message.includes(
-            `Request of type 'wallet_requestPermissions' already pending for origin`
+            `Request of type 'wallet_requestPermissions' already pending for origin`,
           )
         )
           return (this.errorMessage =
-            "Please manually connect to MetaMask and complete registration");
+            'Please manually connect to MetaMask and complete registration');
         else if (
           message.includes(
-            "Already processing eth_requestAccounts. Please wait"
+            'Already processing eth_requestAccounts. Please wait',
           )
         ) {
           return (this.errorMessage =
-            "Please manually login to MetaMask to continue");
+            'Please manually login to MetaMask to continue');
         }
 
-        this.errorMessage = e.message || "An error occurred";
-        console.log(e);
+        this.errorMessage = e.message || 'An error occurred';
+        console.log({ e });
       }
     },
     async connectWalletConnect() {
@@ -164,11 +163,12 @@ export default {
       console.log({ response });
     },
     setUser(data) {
-      this.$emit("update", data);
+      this.$emit('update', data);
       this.closeModal();
     },
     closeModal() {
-      $("#connectWallet").modal("toggle");
+      $('#connectWallet').modal('toggle');
+      this.$emit('close');
     },
   },
 };
