@@ -151,7 +151,6 @@
 import ConnectWallet from '~/components/ConnectWallet.vue';
 import chains from '../web3/chains.json';
 import Web3Service from '../web3/Web3Service';
-import AnySwap from '../web3/AnySwap';
 
 export default {
   components: { ConnectWallet },
@@ -198,7 +197,7 @@ export default {
         selectedNetwork,
       });
 
-      AnySwap.getBridgeInfo(selectedNetwork.chainId);
+      this.$anyswap.getBridgeInfo(selectedNetwork.chainId);
     },
     async updateUser(data) {
       const walletBalance = await Web3Service.getWalletBalance(data.address);

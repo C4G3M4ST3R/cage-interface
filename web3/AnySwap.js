@@ -1,14 +1,27 @@
-import Vue from 'nuxt';
-
 class AnySwap {
-  static async getBridgeInfo(chainId) {
-    // const anyswapAPI = Vue.anyswap;
-    // console.log({
-    //   anyswapAPI,
-    // });
-    // const res = await .get(`/serverInfo/${chainId}`);
-    // console.log({ res });
-    console.log({ chainId });
+  constructor(axios) {
+    this.$axios = axios;
+  }
+
+  async getBridgeInfo(chainId) {
+    const res = await this.$axios.get(`/serverInfo/${chainId}`);
+    console.log({ res });
+  }
+
+  async registerAccount(address, chainId, pairId) {
+    const res = await this.$axios.get(
+      `/register/${address}/${chainId}/${pairId}`,
+    );
+
+    return res.data.info.P2shAddress;
+  }
+
+  async getTransactionStatus(transactionId) {
+    const res = await this.$axios.get(
+      `/history/details?params=${transactionId}`,
+    );
+
+    return res.data.info.P2shAddress;
   }
 }
 
