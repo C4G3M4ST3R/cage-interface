@@ -21,7 +21,7 @@ class AnySwap {
       `/history/details?params=${transactionId}`,
     );
 
-    return res.data.info.P2shAddress;
+    return res.data;
   }
 }
 
