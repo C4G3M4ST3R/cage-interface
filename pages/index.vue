@@ -749,10 +749,9 @@
                   <div class="timeline-step"><span>PHASE</span>III</div>
                   <h3 class="title">INDEX</h3>
                   <p class="description">
-                    * CMI Index dashboard<br />
-                    * CMI Contract Deployment<br />
-                    * CMI Contract Audit<br />
-                    * CMI ILO on Uniswap<br />
+                    * Website revamp<br />
+                    * C4G3 Bridge<br />
+                    * CMI Index Pool Deployment.
                     * Coingecko & CMC listing<br />
                   </p>
                 </a>
@@ -764,12 +763,13 @@
               >
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
-                  <div class="timeline-step"><span>PHASE</span>IV</div>
-                  <h3 class="title">STAKING</h3>
+                  <div class="timeline-step"><span>PHASE</span>V</div>
+                  <h3 class="title">GOVERNANCE</h3>
                   <p class="description">
-                    * Website revamp<br />
-                    * Deployment of Staking Contract<br />
-                    * Staking Contract Audit<br />
+                    * CGT Contract Deployment.<br />
+                    * CGT Fair Launch Auction.<br />
+                    * Governance Platform<br />
+                    * Cage Manual v.2<br />
                   </p>
                 </a>
               </div>
@@ -781,12 +781,11 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-globe"></i></div>
                   <div class="timeline-step"><span>PHASE</span>V</div>
-                  <h3 class="title">GOVERNANCE</h3>
+                  <h3 class="title">STAKING & NFT</h3>
                   <p class="description">
-                    * Governance<br />
-                    * Ecosystem Development<br />
+                    * Deployment of Staking Contract.<br />
+                    * Staking Contract Audit.<br />
                     * Launching of CAG3 MASTERS (NFT)<br />
-                    * Whitepaper v.2.0<br />
                   </p>
                 </a>
               </div>
