@@ -177,31 +177,31 @@
               </div>
               <ul class="contact">
                 <li>
-                  <a class="text-white" href="https://t.me/c4g3Index">
+                  <a target="_blank" class="text-white" href="https://t.me/c4g3Index">
                     <i class="lni-telegram mr-2"></i>
                     Telegram
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="https://t.me/cag3_Index">
+                  <a  target="_blank" class="text-white" href="https://t.me/cag3_Index">
                     <i class="lni-bullhorn mr-2"></i>
                     Announcements
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="#">
+                  <a  target="_blank" class="text-white" href="https://twitter.com/cag3_io">
                     <i class="lni-twitter mr-2"></i>
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="https://github.com/C4G3M4ST3R">
+                  <a  target="_blank" class="text-white" href="https://github.com/C4G3M4ST3R">
                     <i class="lni-github mr-2"></i>
                     Github
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="#">
+                  <a  target="_blank" class="text-white" href="#">
                     <i class="lni-reddit mr-2"></i>
                     Reddit
                   </a>

@@ -749,9 +749,9 @@
                   <div class="timeline-step"><span>PHASE</span>III</div>
                   <h3 class="title">INDEX</h3>
                   <p class="description">
-                    * Website revamp<br />
+                    * Website revamp<br/>
                     * C4G3 Bridge<br />
-                    * CMI Index Pool Deployment.
+                    * CMI Index Pool Deployment.<br/>
                     * Coingecko & CMC listing<br />
                   </p>
                 </a>
@@ -763,7 +763,7 @@
               >
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
-                  <div class="timeline-step"><span>PHASE</span>V</div>
+                  <div class="timeline-step"><span>PHASE</span>IV</div>
                   <h3 class="title">GOVERNANCE</h3>
                   <p class="description">
                     * CGT Contract Deployment.<br />
