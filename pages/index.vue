@@ -178,7 +178,7 @@
                 Defi assets in the space. CGT holders will be able to create and vote
                 on proposals regarding changes to the Cage Indices.
               </p>
-              <a target="_blank" href="https://snapshot.org/#/cag3.eth/" class="main-btn">Learn more</a>
+              <a target="_blank" href="https://snapshot.org/#/cag3.eth/" class="main-btn">Governance</a>
             </div>
             <!-- about content -->
           </div>
