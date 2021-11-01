@@ -60,12 +60,9 @@
               </div>
               <!-- section title -->
               <p class="text">
-                Our Memeverse is governed by $C4G3 token and is placed among top
-                performing meme assets in the space. $C4G3 token holders will be
-                able to create and vote on proposals in the community.
-                <br />C4G3 aims to be the Meme token around which most memes
-                revolve to generate high economic productivity for the
-                ecosystem.
+                Available on 3 chains and placed among the top performing meme assets in the industry,
+                <strong>$C4G3</strong> is our ecosystem's Meme token which aims to be the Meme Token around which most of Meme revolves to 
+                generate high economic productivity for our ecosystem.
               </p>
               <a
                 href="https://nomics.com//img/c4g3-cage"
@@ -128,7 +125,7 @@
               </div>
               <!-- section title -->
               <p class="text">
-                Is a complete Index platform for meme tokens. Our first Meme
+                It's a complete Index platform for meme tokens. Our first Meme
                 Index portfolio includes 4 top performing meme tokens and a stable coin.
                 
                 <p class="text"> Our methodology is focused on gaining maximum exposure to the most performing 
@@ -137,8 +134,7 @@
                 In addition to our flagship, our ecosystem will also include 
                 <strong> Cross-chain assets indices, Metaverse assets indices, Defi blue-chips Indices. </strong>
                 </p>
-              </p>
-              <a href="#" class="main-btn">Learn more</a>
+              <a  target="_blank" href="https://cag3.medium.com/cag3-ecosystem-cb0fe6e6b611" class="main-btn">Learn more</a>
             </div>
             <!-- about content -->
           </div>
@@ -182,7 +178,7 @@
                 Defi assets in the space. CGT holders will be able to create and vote
                 on proposals regarding changes to the Cage Indices.
               </p>
-              <a href="#" class="main-btn">Learn more</a>
+              <a target="_blank" href="https://snapshot.org/#/cag3.eth/" class="main-btn">Learn more</a>
             </div>
             <!-- about content -->
           </div>
@@ -269,7 +265,7 @@
                 <p class="text">
                   the CAG3 team has been verified by passorfail.me
                 </p>
-                <a class="more" href="#"
+                <a class="more" target="_blank"  href="https://twitter.com/passorfailme/status/1430844629688127489"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
               </div>
@@ -298,7 +294,7 @@
               <div class="services-content mt-30">
                 <h4 class="services-title"><a href="#">Contract Audit</a></h4>
                 <p class="text">Click to view audit report</p>
-                <a class="more" href="#"
+                <a class="more" target="_blank" href="https://solidity.finance/audits/CAGE/"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
               </div>
@@ -327,7 +323,7 @@
                   <img src="/img/images/v1.png" alt="video" />
                 </div>
                 <div class="video-icon">
-                  <a href="/img/images/animation.mp4" class="video-popup"
+                  <a href="https://www.youtube.com/watch?v=surP468tMSs" class="video-popup"
                     ><i class="lni-play"></i
                   ></a>
                 </div>
@@ -407,7 +403,7 @@
                   >
                     <div class="counter-items text-center">
                       <span class="count">Cost</span>
-                      <p class="text">Effective & Efficient</p>
+                      <p class="text">Effective</p>
                     </div>
                   </div>
                   <!-- single counter -->

@@ -31,15 +31,7 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                The CMI combines the potential profitable gains from meme tokens
-                with a proven strategy to invest - the index fund. In simple
-                terms, our CMI allows investors to fully lock in profits that
-                flow into the meme space, and at the same time minimises the
-                risks that comes with investing in crypto. Importantly, not only
-                does holding $C4G3 allow holders to govern the CMI, it also
-                allows entry and participation in any future events that C4G3
-                will hold. As the 20% of the portfolio of the CMI consists of
-                $C4G3, it further provides value for holders of $C4G3.
+                The CMI combines the potential profitable gains from meme tokens with a proven strategy to invest - the meme index fund. In simple terms, our CMI allows investors to fully lock in profits that flow into the meme space, and at the same time minimises the risks that comes with investing in crypto. Importantly, It also allows entry and participation in any future events that C4G3 will hold. As the 20% of the portfolio of the CMI consists of $C4G3, it further provides value for holders of $C4G3.
               </div>
             </div>
           </div>
@@ -92,6 +84,32 @@
             >
               <div class="card-body">
                 C4G3 - DOGECOIN - SHIBA INU - DOGELON - USDC.
+              </div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                  style="color: #7C0808;"
+                >
+                  Why should i buy CGT & CCI 
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                CGT governs the entire Cage ecosystem. With its limited supply, CGT will feature in our cross-chain index fund CCI, the Index fund produced by the ecosystem, which will allow investors to be fully exposed to the performance of the top blockchains in the entire space. Holding CCI means holding a basket of best performing blockchains in the industry.
               </div>
             </div>
           </div>
@@ -201,7 +219,7 @@
                   </a>
                 </li>
                 <li>
-                  <a  target="_blank" class="text-white" href="#">
+                  <a  target="_blank" class="text-white" href="https://www.reddit.com/user/Cag3_io">
                     <i class="lni-reddit mr-2"></i>
                     Reddit
                   </a>
