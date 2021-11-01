@@ -89,4 +89,14 @@ p {
 .error-code {
   font-size: 10rem;
 }
+
+.btn.btn-primary {
+  background: rgb(225, 100, 129);
+  background: radial-gradient(
+    circle,
+    rgba(225, 100, 129, 1) 0%,
+    rgba(250, 122, 122, 1) 100%
+  );
+  border: 0 !important;
+}
 </style>

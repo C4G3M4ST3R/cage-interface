@@ -1,10 +1,12 @@
 <template>
-  <div>
+  <main>
+    <Preloader />
     <Navbar v-if="notFound" />
     <connect-wallet :key="connectKey" @close.once="closeConnect" />
     <Nuxt />
     <Footer v-if="notFound" />
-  </div>
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+  </main>
 </template>
 
 <script>
@@ -14,10 +16,11 @@ import ConnectWallet from '../components/utils/ConnectWallet.vue';
 
 import Vue from 'vue';
 import mixins from '../mixins/global.js';
+import Preloader from '../components/utils/Preloader.vue';
 Vue.mixin(mixins);
 
 export default {
-  components: { Navbar, Footer, ConnectWallet },
+  components: { Navbar, Footer, ConnectWallet, Preloader },
   computed: {
     notFound() {
       return !!this.$route.name;
