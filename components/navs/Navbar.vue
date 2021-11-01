@@ -142,7 +142,8 @@
               </div>
               <a
                 style="margin-right: 20px;"
-                href="#"
+                target="_blank"
+                href="https://www.tokensets.com/v2/set/ethereum/0xBbA8120b355bC70E771F28e151a141A126843CdF"
                 class="main-btn wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
