@@ -147,7 +147,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
               >
-                Dashboard
+                Go to Index
               </a>
               <a
                 href="/doc/C4G3.Manual.pdf"
@@ -155,7 +155,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
               >
-                Read manual
+                Go to Manual
               </a>
             </div>
             <!-- header hero content -->
