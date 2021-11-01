@@ -22,12 +22,16 @@
                 <select
                   class="form-select select"
                   id="floatingSelectGrid"
+                  ref="fromChain"
                   aria-label="Floating label select example"
+                  :value="fromChain"
+                  @change="switchChain"
                 >
                   <option disabled selected>- Select -</option>
                   <template v-for="chain in chains">
                     <option :value="chain.chainId" :key="chain.chainId">
-                      {{ chain.mainnet }}
+                      {{ chain.chainName }}
+                      ({{ chain.nativeCurrency.symbol }})
                     </option>
                   </template>
                 </select>
@@ -44,11 +48,13 @@
                   class="form-select select"
                   id="floatingSelectGrid"
                   aria-label="Floating label select example"
+                  v-model="toChain"
                 >
                   <option disabled selected>- Select -</option>
-                  <template v-for="chain in chains">
+                  <template v-for="chain in formattedChains">
                     <option :value="chain.chainId" :key="chain.chainId">
-                      {{ chain.mainnet }}
+                      {{ chain.chainName }}
+                      ({{ chain.nativeCurrency.symbol }})
                     </option>
                   </template>
                 </select>
@@ -68,22 +74,25 @@
             </div>
           </div>
 
-          <div class="row g-2 p-3 box">
-            <div class="col-lg col-sm d-flex">
-              <div class="form-group d-flex">
-                <input placeholder="0.0" class="form-control pr-2" />
-                <p style="margin-left: 8px" class="my-0 mt-1">C4G3</p>
+          <div class="row g-2 p-0">
+            <div class="col-lg col-sm d-flex mt-0">
+              <div class="input-group box bg-transparent">
+                <div class="input-group-prepend">
+                  <span
+                    class="input-group-text py-0 px-2 d-flex"
+                    id="basic-addon1"
+                  >
+                    <img src="/img/lg.png" height="50" />
+                    <h5 class="my-0 pl-1">C4G3</h5>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  placeholder="0.0"
+                  aria-describedby="basic-addon1"
+                />
               </div>
-            </div>
-
-            <div class="col-lg-1 text-center">
-              <h5 class="my-0 mt-1">To</h5>
-              <!-- <div class="form-group"></div> -->
-            </div>
-
-            <div class="col-lg d-flex justify-content-end">
-              <h3 class="my-0">0.0</h3>
-              <p style="margin-left: 8px" class="my-0 mt-1">C4G3</p>
             </div>
           </div>
         </div>
@@ -149,29 +158,17 @@
 
 <script>
 import ConnectWallet from '~/components/ConnectWallet.vue';
-import chains from '../web3/chains.json';
+import mixin from '../plugins/mixin';
 import Web3Service from '../web3/Web3Service';
 
 export default {
   components: { ConnectWallet },
+  mixins: [mixin],
   data() {
     return {
-      connectKey: 93,
-      chains: [
-        {
-          chainId: '1',
-          mainnet: 'Ethereum',
-        },
-        {
-          chainId: '56',
-          mainnet: 'BSC',
-        },
-        {
-          chainId: '43114',
-          mainnet: 'Avax',
-        },
-      ],
       connectKey: 43,
+      // fromChain: null,
+      toChain: null,
     };
   },
   computed: {
@@ -181,23 +178,44 @@ export default {
     selectedNetwork() {
       return this.$store.state.selectedNetwork;
     },
+    formattedChains() {
+      return this.chains.filter(
+        key => key.chainId !== this.selectedNetwork.chainId,
+      );
+    },
+    fromChain() {
+      return this.selectedNetwork.chainId;
+    },
   },
   methods: {
     chooseNetwork() {
       const { user } = this;
-      let selectedNetwork = chains.find(
+      let selectedNetwork = this.chains.find(
         key => key.chainId === (user || {}).networkVersion,
       );
 
       if (!selectedNetwork) {
-        selectedNetwork = chains[0];
+        selectedNetwork = this.chains[0];
       }
 
       this.$store.commit('set', {
         selectedNetwork,
       });
 
+      this.fromChain = this.selectedNetwork.chainId;
+      this.toChain = this.formattedChains[0].chainId;
+
       this.$anyswap.getBridgeInfo(selectedNetwork.chainId);
+    },
+    switchChain(event) {
+      this.toChain = null;
+      const chain = this.chains.find(key => key.chainId === event.target.value);
+      this.selectNetwork(chain);
+
+      if (!this.user.loggedIn) {
+        const fromChainSelect = this.$refs['fromChain'];
+        fromChainSelect.selectedIndex = 0;
+      }
     },
     async updateUser(data) {
       const walletBalance = await Web3Service.getWalletBalance(data.address);
@@ -228,5 +246,23 @@ export default {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(236, 28, 28, 0.43);
   border-radius: 10px;
+}
+
+.box .input-group-text,
+.box .form-control {
+  background: rgba(236, 28, 28, 0.41);
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff;
+}
+
+.box .form-control {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.box .form-control::placeholder {
+  color: #fff;
 }
 </style>
