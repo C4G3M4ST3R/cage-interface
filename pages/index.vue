@@ -340,10 +340,7 @@
               <div class="counter-content">
                 <div class="section-title">
                   <div class="line"></div>
-                  <h3 class="title">
-                    CMI <span> Token</span>
-                    <span style="font-size: 10px"> coming soon</span>
-                  </h3>
+                  <h3 class="title">CMI <span> Token</span></h3>
                 </div>
                 <!-- section title -->
                 <p class="text">
@@ -365,6 +362,7 @@
                       align-items-center
                       justify-content-center
                     "
+                    style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
                       <span class="count"
@@ -384,6 +382,7 @@
                       align-items-center
                       justify-content-center
                     "
+                    style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
                       <span class="count"><span class="counter">0</span>%</span>
@@ -401,6 +400,7 @@
                       align-items-center
                       justify-content-center
                     "
+                    style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
                       <span class="count"><span class="counter">0</span></span>
@@ -408,6 +408,20 @@
                     </div>
                   </div>
                   <!-- single counter -->
+                </div>
+
+                <div class="col-12 ml-4 mt-5">
+                  <a
+                    href="#"
+                    target="blank"
+                    class="main-btn mr-2"
+                    style="background: linear-gradient(#fe8464 0%, #fe6e9a 100%);"
+                  >
+                    Trade
+                  </a>
+                  <a href="#" class="main-btn">
+                    Mint/Issue CMI
+                  </a>
                 </div>
               </div>
               <!-- row -->
