@@ -32,14 +32,13 @@
             >
               <div class="card-body">
                 The CMI combines the potential profitable gains from meme tokens
-                with a proven strategy to invest - the index fund. In simple
-                terms, our CMI allows investors to fully lock in profits that
-                flow into the meme space, and at the same time minimises the
-                risks that comes with investing in crypto. Importantly, not only
-                does holding $C4G3 allow holders to govern the CMI, it also
-                allows entry and participation in any future events that C4G3
-                will hold. As the 20% of the portfolio of the CMI consists of
-                $C4G3, it further provides value for holders of $C4G3
+                with a proven strategy to invest - the meme index fund. In
+                simple terms, our CMI allows investors to fully lock in profits
+                that flow into the meme space, and at the same time minimises
+                the risks that comes with investing in crypto. Importantly, It
+                also allows entry and participation in any future events that
+                C4G3 will hold. As the 20% of the portfolio of the CMI consists
+                of $C4G3, it further provides value for holders of $C4G3.
               </div>
             </div>
           </div>
@@ -96,6 +95,37 @@
               </div>
             </div>
           </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                  style="color: #7C0808;"
+                >
+                  Why should i buy CGT & CCI
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                CGT governs the entire Cage ecosystem. With its limited supply,
+                CGT will feature in our cross-chain index fund CCI, the Index
+                fund produced by the ecosystem, which will allow investors to be
+                fully exposed to the performance of the top blockchains in the
+                entire space. Holding CCI means holding a basket of best
+                performing blockchains in the industry.
+              </div>
+            </div>
+          </div>
         </div>
         <!-- row -->
       </div>
@@ -117,6 +147,7 @@
               </p>
               <div class="link-wrapper pl-0">
                 <ul class="link pt-0">
+                  <li class="text-white">marketing@cag3.io</li>
                   <li class="text-white">masters@cag3.io</li>
                 </ul>
               </div>
@@ -135,7 +166,6 @@
                 </div>
                 <ul class="link">
                   <li><a href="#map">Road Map</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
                   <li>
                     <a
                       href="https://www.dextools.io/app/uniswap/pair-explorer/0xfe2743bcc93033d92c91f7998c44b112325c8ce2"
@@ -159,7 +189,6 @@
                   <h4 class="title">Resources</h4>
                 </div>
                 <ul class="link">
-                  <li><a href="#">Home</a></li>
                   <li><a href="#home">Memeverse</a></li>
                   <li><a href="#features">Product</a></li>
                 </ul>
@@ -179,19 +208,28 @@
               </div>
               <ul class="contact">
                 <li>
-                  <a class="text-white" href="https://t.me/c4g3Index">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://t.me/c4g3Index"
+                  >
                     <i class="lni-telegram mr-2"></i>
                     Telegram
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="https://t.me/cag3_Index">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://t.me/cag3_Index"
+                  >
                     <i class="lni-bullhorn mr-2"></i>
                     Announcements
                   </a>
                 </li>
                 <li>
                   <a
+                    target="_blank"
                     class="text-white"
                     href="https://www.instagram.com/cag3_io/"
                   >
@@ -200,19 +238,31 @@
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="#">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://twitter.com/cag3_io"
+                  >
                     <i class="lni-twitter mr-2"></i>
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="#">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://github.com/C4G3M4ST3R"
+                  >
                     <i class="lni-github mr-2"></i>
                     Github
                   </a>
                 </li>
                 <li>
-                  <a class="text-white" href="https://github.com/C4G3M4ST3R">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://www.reddit.com/user/Cag3_io"
+                  >
                     <i class="lni-reddit mr-2"></i>
                     Reddit
                   </a>

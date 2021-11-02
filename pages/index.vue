@@ -60,12 +60,11 @@
               </div>
               <!-- section title -->
               <p class="text">
-                Our Memeverse is governed by $C4G3 token and is placed among top
-                performing meme assets in the space. $C4G3 token holders will be
-                able to create and vote on proposals in the community.
-                <br />C4G3 aims to be the Meme token around which most memes
-                revolve to generate high economic productivity for the
-                ecosystem.
+                Available on 3 chains and placed among the top performing meme
+                assets in the industry,
+                <strong>$C4G3</strong> is our ecosystem's Meme token which aims
+                to be the Meme Token around which most of Meme revolves to
+                generate high economic productivity for our ecosystem.
               </p>
               <a
                 href="https://nomics.com//img/c4g3-cage"
@@ -128,11 +127,29 @@
               </div>
               <!-- section title -->
               <p class="text">
-                Is a complete Index platform for meme tokens. Our first Meme
-                Index portfolio includes 4 top performing meme tokens with 20%
-                equal weight and a stable coin.
+                It's a complete Index platform for meme tokens. Our first Meme
+                Index portfolio includes 4 top performing meme tokens and a
+                stable coin.
               </p>
-              <a href="#" class="main-btn">Learn more</a>
+
+              <p class="text">
+                Our methodology is focused on gaining maximum exposure to the
+                most performing asset class in the space while eliminating the
+                need to perform multiple costly transactions. Giving users a
+                range of opportunities to have maximum exposure to profit
+                making. In addition to our flagship, our ecosystem will also
+                include
+                <strong>
+                  Cross-chain assets indices, Metaverse assets indices, Defi
+                  blue-chips Indices.
+                </strong>
+              </p>
+              <a
+                target="_blank"
+                href="https://cag3.medium.com/cag3-ecosystem-cb0fe6e6b611"
+                class="main-btn"
+                >Learn more</a
+              >
             </div>
             <!-- about content -->
           </div>
@@ -168,16 +185,21 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title">C4G3 <span> (CAGE)</span></h3>
+                <h3 class="title"><span>$CGT</span> Token</h3>
               </div>
               <!-- section title -->
               <p class="text">
-                This token will be the first of its kind. Our aim is to build
-                around an existing protocol that has been accepted by the
-                community, transforming from an ordinary meme to a meme with a
-                store of value.
+                Our Memeverse is governed by $CGT token, placed among top
+                performing Defi assets in the space. CGT holders will be able to
+                create and vote on proposals regarding changes to the Cage
+                Indices.
               </p>
-              <a href="#" class="main-btn">Learn more</a>
+              <a
+                target="_blank"
+                href="https://snapshot.org/#/cag3.eth/"
+                class="main-btn"
+                >Governance</a
+              >
             </div>
             <!-- about content -->
           </div>
@@ -264,7 +286,10 @@
                 <p class="text">
                   the CAG3 team has been verified by passorfail.me
                 </p>
-                <a class="more" href="#"
+                <a
+                  class="more"
+                  target="_blank"
+                  href="https://twitter.com/passorfailme/status/1430844629688127489"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
               </div>
@@ -293,7 +318,10 @@
               <div class="services-content mt-30">
                 <h4 class="services-title"><a href="#">Contract Audit</a></h4>
                 <p class="text">Click to view audit report</p>
-                <a class="more" href="#"
+                <a
+                  class="more"
+                  target="_blank"
+                  href="https://solidity.finance/audits/CAGE/"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
               </div>
@@ -322,7 +350,9 @@
                   <img src="/img/images/v1.png" alt="video" />
                 </div>
                 <div class="video-icon">
-                  <a href="/img/images/animation.mp4" class="video-popup"
+                  <a
+                    href="https://www.youtube.com/watch?v=surP468tMSs"
+                    class="video-popup"
                     ><i class="lni-play"></i
                   ></a>
                 </div>
@@ -365,10 +395,8 @@
                     style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
-                      <span class="count"
-                        ><span class="counter">100</span>M</span
-                      >
-                      <p class="text">Fixed Supply</p>
+                      <span class="count">Risk</span>
+                      <p class="text">Management</p>
                     </div>
                   </div>
                   <!-- single counter -->
@@ -385,13 +413,13 @@
                     style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
-                      <span class="count"><span class="counter">0</span>%</span>
-                      <p class="text">Transaction Tax</p>
+                      <span class="count">Diversified</span>
+                      <p class="text">Portfolio</p>
                     </div>
                   </div>
                   <!-- single counter -->
                 </div>
-                <div class="col-4 d-none">
+                <div class="col-4">
                   <div
                     class="
                       single-counter
@@ -403,8 +431,8 @@
                     style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
-                      <span class="count"><span class="counter">0</span></span>
-                      <p class="text"></p>
+                      <span class="count">Cost</span>
+                      <p class="text">Effective</p>
                     </div>
                   </div>
                   <!-- single counter -->
@@ -628,7 +656,7 @@
 
     <!--====== BRAND PART ENDS ======-->
 
-    <!--====== TEAM PART START ======-->
+    <!--====== Partner & Advisors PART START ======-->
 
     <section id="team" class="team-area pt-120">
       <div class="container">
@@ -636,7 +664,7 @@
           <div class="col-lg-5">
             <div class="section-title text-center pb-30">
               <div class="line m-auto"></div>
-              <h3 class="title"><span>Meet Our</span> Partners and Advisors</h3>
+              <h3 class="title"><span>Meet Our</span> Partners & Advisors</h3>
             </div>
             <!-- section title -->
           </div>
@@ -650,49 +678,13 @@
               data-wow-delay="0.2s"
             >
               <div class="team-image">
-                <img src="/img/images/team-1.png" alt="Team" />
-                <div class="social">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="lni-facebook-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-instagram-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-linkedin-original"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content">
-                <h5 class="holder-name"><a href="#">Isabela Moreira</a></h5>
-                <p class="text">Founder and CEO</p>
-              </div>
-            </div>
-            <!-- single team -->
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-8">
-            <div
-              class="single-team text-center mt-30 wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
-            >
-              <div class="team-image">
                 <img src="/img/images/team-2.png" alt="Team" />
                 <div class="social">
                   <ul>
                     <li>
-                      <a href="#"><i class="lni-facebook-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-instagram-filled"></i></a>
+                      <a href="https://twitter.com/NedHalawani"
+                        ><i class="lni-twitter-filled"></i
+                      ></a>
                     </li>
                     <li>
                       <a href="#"><i class="lni-linkedin-original"></i></a>
@@ -701,40 +693,8 @@
                 </div>
               </div>
               <div class="team-content">
-                <h5 class="holder-name"><a href="#">Elon Musk</a></h5>
-                <p class="text">Sr. Software Engineer</p>
-              </div>
-            </div>
-            <!-- single team -->
-          </div>
-          <div class="col-lg-4 col-md-7 col-sm-8">
-            <div
-              class="single-team text-center mt-30 wow fadeIn"
-              data-wow-duration="1s"
-              data-wow-delay="0.8s"
-            >
-              <div class="team-image">
-                <img src="/img/images/team-3.png" alt="Team" />
-                <div class="social">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="lni-facebook-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-twitter-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-instagram-filled"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lni-linkedin-original"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content">
-                <h5 class="holder-name"><a href="#">Fiona Smith</a></h5>
-                <p class="text">Business Development Manager</p>
+                <h5 class="holder-name"><a href="#">Mohanned Halawani</a></h5>
+                <p class="text">Founder @ CryptoPR</p>
               </div>
             </div>
             <!-- single team -->
@@ -745,7 +705,7 @@
       <!-- container -->
     </section>
 
-    <!--====== TEAM PART ENDS ======-->
+    <!--====== Partner & Advisors PART ENDS ======-->
 
     <!--====== ROAD MAP PART START ======-->
 
@@ -829,10 +789,9 @@
                   <div class="timeline-step"><span>PHASE</span>III</div>
                   <h3 class="title">INDEX</h3>
                   <p class="description">
-                    * CMI Index dashboard<br />
-                    * CMI Contract Deployment<br />
-                    * CMI Contract Audit<br />
-                    * CMI ILO on Uniswap<br />
+                    * Website revamp<br />
+                    * C4G3 Bridge<br />
+                    * CMI Index Pool Deployment.<br />
                     * Coingecko & CMC listing<br />
                   </p>
                 </a>
@@ -845,11 +804,12 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
                   <div class="timeline-step"><span>PHASE</span>IV</div>
-                  <h3 class="title">STAKING</h3>
+                  <h3 class="title">GOVERNANCE</h3>
                   <p class="description">
-                    * Website revamp<br />
-                    * Deployment of Staking Contract<br />
-                    * Staking Contract Audit<br />
+                    * CGT Contract Deployment.<br />
+                    * CGT Fair Launch Auction.<br />
+                    * Governance Platform<br />
+                    * Cage Manual v.2<br />
                   </p>
                 </a>
               </div>
@@ -861,12 +821,11 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-globe"></i></div>
                   <div class="timeline-step"><span>PHASE</span>V</div>
-                  <h3 class="title">GOVERNANCE</h3>
+                  <h3 class="title">STAKING & NFT</h3>
                   <p class="description">
-                    * Governance<br />
-                    * Ecosystem Development<br />
+                    * Deployment of Staking Contract.<br />
+                    * Staking Contract Audit.<br />
                     * Launching of CAG3 MASTERS (NFT)<br />
-                    * Whitepaper v.2.0<br />
                   </p>
                 </a>
               </div>
