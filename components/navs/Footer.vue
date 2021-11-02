@@ -65,7 +65,8 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                The $C4G3 Token is not deflationary, and does not have any transaction fees.
+                The $C4G3 Token is not deflationary, and does not have any
+                transaction fees.
               </div>
             </div>
           </div>
@@ -187,6 +188,15 @@
                   <a class="text-white" href="https://t.me/cag3_Index">
                     <i class="lni-bullhorn mr-2"></i>
                     Announcements
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white"
+                    href="https://www.instagram.com/cag3_io/"
+                  >
+                    <i class="lni-instagram mr-2"></i>
+                    Instagram
                   </a>
                 </li>
                 <li>
