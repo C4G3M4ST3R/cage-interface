@@ -54,9 +54,9 @@
               <!-- navbar collapse -->
 
               <div class="navbar-btn d-none d-sm-inline-block">
-                <a class="main-btn" data-scroll-nav="0" href="#dashboard"
-                  >Dashboard</a
-                >
+                <a class="main-btn" data-scroll-nav="0" href="#dashboard">
+                  Dashboard
+                </a>
               </div>
             </nav>
             <!-- navbar -->
@@ -109,7 +109,9 @@
               </p>
 
               <div class="text-center">
-                <button
+                <a
+                  target="_blank"
+                  href="https://coinmarketcap.com/currencies/cage/"
                   class="main-btn main-btn-outlined wow fadeInUp py-2 px-4"
                   data-wow-duration="1.5s"
                   data-wow-delay="1.25s"
@@ -138,7 +140,7 @@
                       </p>
                     </div>
                   </div>
-                </button>
+                </a>
               </div>
               <a
                 style="margin-right: 20px;"
