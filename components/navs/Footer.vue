@@ -227,7 +227,7 @@
                     Announcements
                   </a>
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     target="_blank"
                     class="text-white"
@@ -236,7 +236,7 @@
                     <i class="lni-instagram mr-2"></i>
                     Instagram
                   </a>
-                </li>
+                </li> -->
                 <li>
                   <a
                     target="_blank"
