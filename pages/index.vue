@@ -383,7 +383,7 @@
                         Trade
                       </a>
                       <a href="#" class="main-btn">
-                        Mint/Issue CMI
+                        Mint CMI
                       </a>
                     </div>
                   </div>
