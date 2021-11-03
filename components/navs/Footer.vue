@@ -248,6 +248,12 @@
                   </a>
                 </li>
                 <li>
+                  <a target="_blank" class="text-white" href="#">
+                    <i class="lni-youtube mr-2"></i>
+                    YouTube
+                  </a>
+                </li>
+                <li>
                   <a
                     target="_blank"
                     class="text-white"

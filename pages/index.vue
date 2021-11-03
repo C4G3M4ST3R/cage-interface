@@ -370,7 +370,23 @@
               <div class="counter-content">
                 <div class="section-title">
                   <div class="line"></div>
-                  <h3 class="title">CMI <span> Token</span></h3>
+                  <div class="d-flex">
+                    <h3 class="title">CMI <span> Token</span></h3>
+
+                    <div class=" ml-4 mt-1">
+                      <a
+                        href="#"
+                        target="blank"
+                        class="main-btn mr-2"
+                        style="background: linear-gradient(#fe8464 0%, #fe6e9a 100%);"
+                      >
+                        Trade
+                      </a>
+                      <a href="#" class="main-btn">
+                        Mint/Issue CMI
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <!-- section title -->
                 <p class="text">
@@ -392,7 +408,6 @@
                       align-items-center
                       justify-content-center
                     "
-                    style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
                       <span class="count">Risk</span>
@@ -410,7 +425,6 @@
                       align-items-center
                       justify-content-center
                     "
-                    style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
                       <span class="count">Diversified</span>
@@ -428,7 +442,6 @@
                       align-items-center
                       justify-content-center
                     "
-                    style="margin-top: 35px"
                   >
                     <div class="counter-items text-center">
                       <span class="count">Cost</span>
@@ -436,20 +449,6 @@
                     </div>
                   </div>
                   <!-- single counter -->
-                </div>
-
-                <div class="col-12 ml-4 mt-5">
-                  <a
-                    href="#"
-                    target="blank"
-                    class="main-btn mr-2"
-                    style="background: linear-gradient(#fe8464 0%, #fe6e9a 100%);"
-                  >
-                    Trade
-                  </a>
-                  <a href="#" class="main-btn">
-                    Mint/Issue CMI
-                  </a>
                 </div>
               </div>
               <!-- row -->
