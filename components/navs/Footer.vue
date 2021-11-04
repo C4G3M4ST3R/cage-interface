@@ -162,7 +162,7 @@
                 data-wow-delay="0.4s"
               >
                 <div class="footer-title">
-                  <h4 class="title">Quick Link</h4>
+                  <h4 class="title">Quick Links</h4>
                 </div>
                 <ul class="link">
                   <li><a href="#map">Road Map</a></li>
@@ -173,10 +173,10 @@
                       Dextools</a
                     >
                   </li>
-                  <li><a href="#">Coinmarketcap</a></li>
-                  <li><a href="#">CoinGecko</a></li>
-                  <li><a href="#">Nomics</a></li>
-                  <li><a href="https://docs.cag3.io/">Docs</a></li>
+                  <li><a target="_blank" href=" https://coinmarketcap.com/currencies/cage/">Coinmarketcap</a></li>
+                  <li><a target="_blank" href="https://www.coingecko.com/en/coins/cage">CoinGecko</a></li>
+                  <li><a target="_blank" href=" https://nomics.com/assets/cmi-cage-meme-index">Nomics</a></li>
+                  <li><a target="_blank" href="https://docs.cag3.io/">Docs</a></li>
                 </ul>
               </div>
               <!-- footer wrapper -->

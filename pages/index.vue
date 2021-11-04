@@ -375,14 +375,18 @@
 
                     <div class=" ml-4 mt-1">
                       <a
-                        href="#"
+                        href="https://app.uniswap.org/#/swap?outputCurrency=0xbba8120b355bc70e771f28e151a141a126843cdf"
                         target="blank"
                         class="main-btn mr-2"
                         style="background: linear-gradient(#fe8464 0%, #fe6e9a 100%);"
                       >
                         Trade
                       </a>
-                      <a href="#" class="main-btn">
+                      <a 
+                        target="blank"
+                        href="https://www.tokensets.com/v2/set/ethereum/0xBbA8120b355bC70E771F28e151a141A126843CdF" 
+                        class="main-btn"
+                      >
                         Mint CMI
                       </a>
                     </div>
