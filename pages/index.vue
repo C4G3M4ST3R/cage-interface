@@ -60,8 +60,10 @@
               </div>
               <!-- section title -->
               <p class="text">
-                Available on 3 chains and placed among the top performing meme assets in the industry,
-                <strong>$C4G3</strong> is our ecosystem's Meme token which aims to be the Meme Token around which most of Meme revolves to 
+                Available on 3 chains and placed among the top performing meme
+                assets in the industry,
+                <strong>$C4G3</strong> is our ecosystem's Meme token which aims
+                to be the Meme Token around which most of Meme revolves to
                 generate high economic productivity for our ecosystem.
               </p>
               <a
@@ -126,15 +128,28 @@
               <!-- section title -->
               <p class="text">
                 It's a complete Index platform for meme tokens. Our first Meme
-                Index portfolio includes 4 top performing meme tokens and a stable coin.
-                
-                <p class="text"> Our methodology is focused on gaining maximum exposure to the most performing 
-                asset class in the space while eliminating the need to perform multiple costly transactions. 
-                Giving users a range of opportunities to have maximum exposure to profit making.
-                In addition to our flagship, our ecosystem will also include 
-                <strong> Cross-chain assets indices, Metaverse assets indices, Defi blue-chips Indices. </strong>
-                </p>
-              <a  target="_blank" href="https://cag3.medium.com/cag3-ecosystem-cb0fe6e6b611" class="main-btn">Learn more</a>
+                Index portfolio includes 4 top performing meme tokens and a
+                stable coin.
+              </p>
+
+              <p class="text">
+                Our methodology is focused on gaining maximum exposure to the
+                most performing asset class in the space while eliminating the
+                need to perform multiple costly transactions. Giving users a
+                range of opportunities to have maximum exposure to profit
+                making. In addition to our flagship, our ecosystem will also
+                include
+                <strong>
+                  Cross-chain assets indices, Metaverse assets indices, Defi
+                  blue-chips Indices.
+                </strong>
+              </p>
+              <a
+                target="_blank"
+                href="https://cag3.medium.com/cag3-ecosystem-cb0fe6e6b611"
+                class="main-btn"
+                >Learn more</a
+              >
             </div>
             <!-- about content -->
           </div>
@@ -174,11 +189,17 @@
               </div>
               <!-- section title -->
               <p class="text">
-                Our Memeverse is governed by $CGT token, placed among top performing 
-                Defi assets in the space. CGT holders will be able to create and vote
-                on proposals regarding changes to the Cage Indices.
+                Our Memeverse is governed by $CGT token, placed among top
+                performing Defi assets in the space. CGT holders will be able to
+                create and vote on proposals regarding changes to the Cage
+                Indices.
               </p>
-              <a target="_blank" href="https://snapshot.org/#/cag3.eth/" class="main-btn">Governance</a>
+              <a
+                target="_blank"
+                href="https://snapshot.org/#/cag3.eth/"
+                class="main-btn"
+                >Governance</a
+              >
             </div>
             <!-- about content -->
           </div>
@@ -265,7 +286,10 @@
                 <p class="text">
                   the CAG3 team has been verified by passorfail.me
                 </p>
-                <a class="more" target="_blank"  href="https://twitter.com/passorfailme/status/1430844629688127489"
+                <a
+                  class="more"
+                  target="_blank"
+                  href="https://twitter.com/passorfailme/status/1430844629688127489"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
               </div>
@@ -294,7 +318,10 @@
               <div class="services-content mt-30">
                 <h4 class="services-title"><a href="#">Contract Audit</a></h4>
                 <p class="text">Click to view audit report</p>
-                <a class="more" target="_blank" href="https://solidity.finance/audits/CAGE/"
+                <a
+                  class="more"
+                  target="_blank"
+                  href="https://solidity.finance/audits/CAGE/"
                   >Learn More <i class="lni-chevron-right"></i
                 ></a>
               </div>
@@ -323,7 +350,9 @@
                   <img src="/img/images/v1.png" alt="video" />
                 </div>
                 <div class="video-icon">
-                  <a href="https://www.youtube.com/watch?v=surP468tMSs" class="video-popup"
+                  <a
+                    href="https://www.youtube.com/watch?v=surP468tMSs"
+                    class="video-popup"
                     ><i class="lni-play"></i
                   ></a>
                 </div>
@@ -341,10 +370,27 @@
               <div class="counter-content">
                 <div class="section-title">
                   <div class="line"></div>
-                  <h3 class="title">
-                    CMI <span> Token</span>
-                    <span style="font-size: 10px"> coming soon</span>
-                  </h3>
+                  <div class="d-flex">
+                    <h3 class="title">CMI <span> Token</span></h3>
+
+                    <div class=" ml-4 mt-1">
+                      <a
+                        href="https://app.uniswap.org/#/swap?outputCurrency=0xbba8120b355bc70e771f28e151a141a126843cdf"
+                        target="blank"
+                        class="main-btn mr-2"
+                        style="background: linear-gradient(#fe8464 0%, #fe6e9a 100%);"
+                      >
+                        Trade
+                      </a>
+                      <a 
+                        target="blank"
+                        href="https://www.tokensets.com/v2/set/ethereum/0xBbA8120b355bC70E771F28e151a141A126843CdF" 
+                        class="main-btn"
+                      >
+                        Mint CMI
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <!-- section title -->
                 <p class="text">
@@ -408,7 +454,6 @@
                   </div>
                   <!-- single counter -->
                 </div>
-                
               </div>
               <!-- row -->
             </div>
@@ -640,7 +685,9 @@
                 <div class="social">
                   <ul>
                     <li>
-                      <a href="https://twitter.com/NedHalawani"><i class="lni-twitter-filled"></i></a>
+                      <a href="https://twitter.com/NedHalawani"
+                        ><i class="lni-twitter-filled"></i
+                      ></a>
                     </li>
                     <li>
                       <a href="#"><i class="lni-linkedin-original"></i></a>
@@ -745,9 +792,9 @@
                   <div class="timeline-step"><span>PHASE</span>III</div>
                   <h3 class="title">INDEX</h3>
                   <p class="description">
-                    * Website revamp<br/>
+                    * Website revamp<br />
                     * C4G3 Bridge<br />
-                    * CMI Index Pool Deployment.<br/>
+                    * CMI Index Pool Deployment.<br />
                     * Coingecko & CMC listing<br />
                   </p>
                 </a>

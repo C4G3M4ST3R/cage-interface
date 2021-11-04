@@ -31,7 +31,14 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                The CMI combines the potential profitable gains from meme tokens with a proven strategy to invest - the meme index fund. In simple terms, our CMI allows investors to fully lock in profits that flow into the meme space, and at the same time minimises the risks that comes with investing in crypto. Importantly, It also allows entry and participation in any future events that C4G3 will hold. As the 20% of the portfolio of the CMI consists of $C4G3, it further provides value for holders of $C4G3.
+                The CMI combines the potential profitable gains from meme tokens
+                with a proven strategy to invest - the meme index fund. In
+                simple terms, our CMI allows investors to fully lock in profits
+                that flow into the meme space, and at the same time minimises
+                the risks that comes with investing in crypto. Importantly, It
+                also allows entry and participation in any future events that
+                C4G3 will hold. As the 20% of the portfolio of the CMI consists
+                of $C4G3, it further provides value for holders of $C4G3.
               </div>
             </div>
           </div>
@@ -57,7 +64,8 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                The $C4G3 Token is not deflationary, and does not have any transaction fees.
+                The $C4G3 Token is not deflationary, and does not have any
+                transaction fees.
               </div>
             </div>
           </div>
@@ -87,7 +95,7 @@
               </div>
             </div>
           </div>
-           <div class="card">
+          <div class="card">
             <div class="card-header" id="headingThree">
               <h5 class="mb-0">
                 <button
@@ -98,7 +106,7 @@
                   aria-controls="collapseThree"
                   style="color: #7C0808;"
                 >
-                  Why should i buy CGT & CCI 
+                  Why should i buy CGT & CCI
                 </button>
               </h5>
             </div>
@@ -109,7 +117,12 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                CGT governs the entire Cage ecosystem. With its limited supply, CGT will feature in our cross-chain index fund CCI, the Index fund produced by the ecosystem, which will allow investors to be fully exposed to the performance of the top blockchains in the entire space. Holding CCI means holding a basket of best performing blockchains in the industry.
+                CGT governs the entire Cage ecosystem. With its limited supply,
+                CGT will feature in our cross-chain index fund CCI, the Index
+                fund produced by the ecosystem, which will allow investors to be
+                fully exposed to the performance of the top blockchains in the
+                entire space. Holding CCI means holding a basket of best
+                performing blockchains in the industry.
               </div>
             </div>
           </div>
@@ -149,7 +162,7 @@
                 data-wow-delay="0.4s"
               >
                 <div class="footer-title">
-                  <h4 class="title">Quick Link</h4>
+                  <h4 class="title">Quick Links</h4>
                 </div>
                 <ul class="link">
                   <li><a href="#map">Road Map</a></li>
@@ -160,10 +173,10 @@
                       Dextools</a
                     >
                   </li>
-                  <li><a href="#">Coinmarketcap</a></li>
-                  <li><a href="#">CoinGecko</a></li>
-                  <li><a href="#">Nomics</a></li>
-                  <li><a href="https://docs.cag3.io/">Docs</a></li>
+                  <li><a target="_blank" href=" https://coinmarketcap.com/currencies/cage/">Coinmarketcap</a></li>
+                  <li><a target="_blank" href="https://www.coingecko.com/en/coins/cage">CoinGecko</a></li>
+                  <li><a target="_blank" href=" https://nomics.com/assets/cmi-cage-meme-index">Nomics</a></li>
+                  <li><a target="_blank" href="https://docs.cag3.io/">Docs</a></li>
                 </ul>
               </div>
               <!-- footer wrapper -->
@@ -195,31 +208,67 @@
               </div>
               <ul class="contact">
                 <li>
-                  <a target="_blank" class="text-white" href="https://t.me/c4g3Index">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://t.me/c4g3Index"
+                  >
                     <i class="lni-telegram mr-2"></i>
                     Telegram
                   </a>
                 </li>
                 <li>
-                  <a  target="_blank" class="text-white" href="https://t.me/cag3_Index">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://t.me/cag3_Index"
+                  >
                     <i class="lni-bullhorn mr-2"></i>
                     Announcements
                   </a>
                 </li>
+                <!-- <li>
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://www.instagram.com/cag3_io/"
+                  >
+                    <i class="lni-instagram mr-2"></i>
+                    Instagram
+                  </a>
+                </li> -->
                 <li>
-                  <a  target="_blank" class="text-white" href="https://twitter.com/cag3_io">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://twitter.com/cag3_io"
+                  >
                     <i class="lni-twitter mr-2"></i>
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a  target="_blank" class="text-white" href="https://github.com/C4G3M4ST3R">
+                  <a target="_blank" class="text-white" href="#">
+                    <i class="lni-youtube mr-2"></i>
+                    YouTube
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://github.com/C4G3M4ST3R"
+                  >
                     <i class="lni-github mr-2"></i>
                     Github
                   </a>
                 </li>
                 <li>
-                  <a  target="_blank" class="text-white" href="https://www.reddit.com/user/Cag3_io">
+                  <a
+                    target="_blank"
+                    class="text-white"
+                    href="https://www.reddit.com/user/Cag3_io"
+                  >
                     <i class="lni-reddit mr-2"></i>
                     Reddit
                   </a>
