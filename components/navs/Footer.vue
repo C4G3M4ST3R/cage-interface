@@ -248,7 +248,7 @@
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" class="text-white" href="#">
+                  <a target="_blank" class="text-white" href="https://www.youtube.com/channel/UCpUi_FAlIwt4SbR94B0MzHw">
                     <i class="lni-youtube mr-2"></i>
                     YouTube
                   </a>
