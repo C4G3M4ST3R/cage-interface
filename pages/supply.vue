@@ -16,15 +16,20 @@ export default {
   },
   async created() {
     try {
+      const contractAddress = process.env.CONTRACT_ADDRESS;
+      const apiKey = process.env.ETHERSCAN_API_KEY;
+      const baseUrl = process.env.ETHERSCAN_API_URL;
+      const address = '0x000000000000000000000000000000000000dead';
+
       const [{ result }, { result: burned }] = await Promise.all([
         (
           await fetch(
-            'https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f&apikey=998ZUNKYQV81292JI8A4MA5B8PQEI7RX3A',
+            `${baseUrl}?module=stats&action=tokensupply&contractaddress=${contractAddress}&apikey=${apiKey}`,
           )
         ).json(),
         (
           await fetch(
-            `https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f&address=0x000000000000000000000000000000000000dead&tag=latest&apikey=998ZUNKYQV81292JI8A4MA5B8PQEI7RX3A`,
+            `${baseUrl}?module=account&action=tokenbalance&contractaddress=${contractAddress}&address=${address}&tag=latest&apikey=${apiKey}`,
           )
         ).json(),
       ]);

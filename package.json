@@ -11,6 +11,7 @@
   "dependencies": {
     "@metamask/onboarding": "^1.0.0",
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@walletconnect/client": "^1.4.1",
     "@walletconnect/qrcode-modal": "^1.4.1",
     "@walletconnect/web3-provider": "^1.4.1",
