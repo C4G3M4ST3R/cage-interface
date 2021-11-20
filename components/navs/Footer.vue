@@ -176,7 +176,7 @@
                   <li><a target="_blank" href=" https://coinmarketcap.com/currencies/cage/">Coinmarketcap</a></li>
                   <li><a target="_blank" href="https://www.coingecko.com/en/coins/cage">CoinGecko</a></li>
                   <li><a target="_blank" href=" https://nomics.com/assets/cmi-cage-meme-index">Nomics</a></li>
-                  <li><a target="_blank" href="https://docs.cag3.io/">Docs</a></li>
+                  <li><a target="_blank" href="https://manual.cag3.io/">Docs</a></li>
                 </ul>
               </div>
               <!-- footer wrapper -->
