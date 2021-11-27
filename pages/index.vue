@@ -200,6 +200,11 @@
                 class="main-btn"
                 >Governance</a
               >
+              <a
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x8987a07ba83607a66c7351266e771fb865c9ca6c"
+                class="main-btn"
+                >Buy $CGT</a
+              >
             </div>
             <!-- about content -->
           </div>
