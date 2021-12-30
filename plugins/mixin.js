@@ -8,6 +8,9 @@ export default {
     };
   },
   methods: {
+    validateNumbers: value => /^\d+$/.test(value),
+    numberWithCommas: x => x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','),
+    removeCommas: amount => amount.replace(/,/g, ''),
     formatName: (name, symbol) =>
       symbol === 'BSC' ? 'BSC' : name.split(' ')[0],
     selectNetwork(network) {
@@ -20,7 +23,6 @@ export default {
 
       alert('Please connect to your Metamask wallet before switching!');
     },
-
     async switchNetwork(params) {
       const vm = this;
 

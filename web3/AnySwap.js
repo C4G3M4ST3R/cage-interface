@@ -2,10 +2,10 @@ class AnySwap {
   constructor(axios) {
     this.$axios = axios;
   }
-
+  // account, token, coin, chainID
   async getBridgeInfo(chainId) {
     const res = await this.$axios.get(`/serverInfo/${chainId}`);
-    console.log({ res });
+    return res.data;
   }
 
   async registerAccount(address, chainId, pairId) {
