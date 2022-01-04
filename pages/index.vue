@@ -795,7 +795,10 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-globe"></i></div>
                   <div class="timeline-step"><span>PHASE</span>III</div>
-                  <h3 class="title">INDEX</h3>
+                  <div class="d-flex justify-content-center">
+                    <h3 class="title">INDEX</h3>
+                    <i class="lni lni-check-mark-circle text-success ml-n3"></i>
+                  </div>
                   <p class="description">
                     * Website revamp<br />
                     * C4G3 Bridge<br />
@@ -812,7 +815,10 @@
                 <a href="#" class="timeline-content">
                   <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
                   <div class="timeline-step"><span>PHASE</span>IV</div>
-                  <h3 class="title">GOVERNANCE</h3>
+                  <div class="d-flex justify-content-center">
+                    <h3 class="title">GOVERNANCE</h3>
+                    <i class="lni lni-check-mark-circle text-success "></i>
+                  </div>
                   <p class="description">
                     * CGT Contract Deployment.<br />
                     * CGT Fair Launch Auction.<br />
