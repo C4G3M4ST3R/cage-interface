@@ -153,7 +153,8 @@
                 Go to Index
               </a>
               <a
-                href="/doc/C4G3.Manual.pdf"
+                href="https://manual.cag3.io/"
+                target="_blank" 
                 class="main-btn wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
