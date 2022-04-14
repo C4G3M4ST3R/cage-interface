@@ -174,63 +174,12 @@
       <!-- container -->
     </section>
 
-    <section class="about-area pt-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div
-              class="about-content mt-50 wow fadeInLeftBig"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
-            >
-              <div class="section-title">
-                <div class="line"></div>
-                <h3 class="title"><span>$CGT</span> Token</h3>
-              </div>
-              <!-- section title -->
-              <p class="text">
-                Our Memeverse is governed by $CGT token, placed among top
-                performing Defi assets in the space. CGT holders will be able to
-                create and vote on proposals regarding changes to the Cage
-                Indices.
-              </p>
-              <a
-                target="_blank"
-                href="https://snapshot.org/#/cag3.eth/"
-                class="main-btn"
-                >Governance</a
-              >
-              <a
-                href="https://app.uniswap.org/#/swap?outputCurrency=0x8987a07ba83607a66c7351266e771fb865c9ca6c"
-                class="main-btn"
-                >Buy $CGT</a
-              >
-            </div>
-            <!-- about content -->
-          </div>
-          <div class="col-lg-6">
-            <div
-              class="about-image text-center mt-50 wow fadeInRightBig"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
-            >
-              <img src="/img/images/about3.png" alt="about" />
-            </div>
-            <!-- about image -->
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-      <div class="about-shape-1">
-        <img src="/img/images/about-shape-1.svg" alt="shape" />
-      </div>
-    </section>
+
 
     <!--====== ABOUT PART end ======-->
     <section
       id="features"
-      class="services-area pt-120"
+      class="services-area pt-200"
       style="margin-top: -200px"
     >
       <div class="container">
@@ -816,26 +765,9 @@
                   <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
                   <div class="timeline-step"><span>PHASE</span>IV</div>
                   <div class="d-flex justify-content-center">
-                    <h3 class="title">GOVERNANCE</h3>
-                    <i class="lni lni-check-mark-circle text-success "></i>
+                    <h3 class="title">STAKING</h3>
+                    <!-- <i class="lni lni-check-mark-circle text-success "></i> -->
                   </div>
-                  <p class="description">
-                    * CGT Contract Deployment.<br />
-                    * CGT Fair Launch Auction.<br />
-                    * Governance Platform<br />
-                    * Cage Manual v.2<br />
-                  </p>
-                </a>
-              </div>
-              <div
-                class="timeline wow fadeInLeftBig"
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
-              >
-                <a href="#" class="timeline-content">
-                  <div class="timeline-icon"><i class="fa fa-globe"></i></div>
-                  <div class="timeline-step"><span>PHASE</span>V</div>
-                  <h3 class="title">STAKING & NFT</h3>
                   <p class="description">
                     * Deployment of Staking Contract.<br />
                     * Staking Contract Audit.<br />

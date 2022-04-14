@@ -95,37 +95,6 @@
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button
-                  class="btn btn-link collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                  style="color: #7C0808;"
-                >
-                  Why should i buy CGT & CCI
-                </button>
-              </h5>
-            </div>
-            <div
-              id="collapseThree"
-              class="collapse"
-              aria-labelledby="headingThree"
-              data-parent="#accordion"
-            >
-              <div class="card-body">
-                CGT governs the entire Cage ecosystem. With its limited supply,
-                CGT will feature in our cross-chain index fund CCI, the Index
-                fund produced by the ecosystem, which will allow investors to be
-                fully exposed to the performance of the top blockchains in the
-                entire space. Holding CCI means holding a basket of best
-                performing blockchains in the industry.
-              </div>
-            </div>
-          </div>
         </div>
         <!-- row -->
       </div>
