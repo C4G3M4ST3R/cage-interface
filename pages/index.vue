@@ -423,7 +423,7 @@
 
     <!--====== BRAND PART START ======-->
 
-    <section
+    <!-- <section
       id="features"
       class="services-area pt-120"
       style="margin-top: -100px; margin-bottom: 50px"
@@ -435,15 +435,12 @@
               <div class="line m-auto"></div>
               <h3 class="title">Listed on <span> </span></h3>
             </div>
-            <!-- section title -->
           </div>
         </div>
-        <!-- row -->
       </div>
-      <!-- container -->
-    </section>
+    </section> -->
 
-    <div
+    <!-- <div
       class="brand-area pt-90"
       style="margin-top: -100px; margin-bottom: 50px"
     >
@@ -468,7 +465,6 @@
               >
                 <img src="/img/logos/uniswap.png" alt="brand" />
               </a>
-              <!-- single logo -->
               <a
                 href="https://shibaswap.com/#/swap?inputCurrency=0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce&outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
                 target="_blank"
@@ -478,7 +474,6 @@
               >
                 <img src="/img/logos/shibaswap.png" alt="brand" />
               </a>
-              <!-- single logo -->
               <a
                 href="https://pancakeswap.finance/swap#/swap?outputCurrency=0xde2f7e3c7fbf2d1a68fb7f64acfc05e6d5d7dd83"
                 target="_blank"
@@ -488,7 +483,6 @@
               >
                 <img src="/img/logos/pancakeswap.png" alt="brand" />
               </a>
-              <!-- single logo -->
               <a
                 href="https://app.sushi.com/swap?inputCurrency=&outputCurrency=0x6b7a87899490EcE95443e979cA9485CBE7E71522"
                 target="_blank"
@@ -498,7 +492,6 @@
               >
                 <img src="/img/logos/sushiswap.png" alt="brand" />
               </a>
-              <!-- single logo -->
               <a
                 href="https://tokpie.com/view_exchange/C4G3-ETH/"
                 class="single-logo mt-30 wow fadeIn"
@@ -507,15 +500,11 @@
               >
                 <img src="/img/logos/tokpie.png" alt="brand" />
               </a>
-              <!-- single logo -->
             </div>
-            <!-- brand logo -->
           </div>
         </div>
-        <!-- row -->
       </div>
-      <!-- container -->
-    </div>
+    </div> -->
 
     <section
       id="features"

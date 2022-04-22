@@ -108,7 +108,7 @@
                 Gain Exposure to the top performing Meme token across the space
               </p>
 
-              <div class="text-center">
+              <!-- <div class="text-center">
                 <a
                   target="_blank"
                   href="https://coinmarketcap.com/currencies/cage/"
@@ -141,7 +141,7 @@
                     </div>
                   </div>
                 </a>
-              </div>
+              </div> -->
               <a
                 style="margin-right: 20px;"
                 target="_blank"
