@@ -66,7 +66,7 @@
                 to be the Meme Token around which most of Meme revolves to
                 generate high economic productivity for our ecosystem.
               </p>
-              <a
+              <!-- <a
                 href="https://nomics.com//img/c4g3-cage"
                 target="blank"
                 class="main-btn"
@@ -76,7 +76,7 @@
                 href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
                 class="main-btn"
                 >Buy $C4G3</a
-              >
+              > -->
             </div>
             <!-- about content -->
           </div>
