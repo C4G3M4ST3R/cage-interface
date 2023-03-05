@@ -180,7 +180,7 @@
                   <a
                     target="_blank"
                     class="text-white"
-                    href="https://t.me/c4g3Index"
+                    href="https://t.me/dragoncag3"
                   >
                     <i class="lni-telegram mr-2"></i>
                     Telegram
@@ -190,7 +190,7 @@
                   <a
                     target="_blank"
                     class="text-white"
-                    href="https://t.me/cag3_Index"
+                    href="https://t.me/dragoncag3anns"
                   >
                     <i class="lni-bullhorn mr-2"></i>
                     Announcements
