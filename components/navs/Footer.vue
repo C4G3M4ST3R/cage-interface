@@ -210,7 +210,7 @@
                   <a
                     target="_blank"
                     class="text-white"
-                    href="https://twitter.com/cag3_io"
+                    href="https://twitter.com/dragoncag3"
                   >
                     <i class="lni-twitter mr-2"></i>
                     Twitter
