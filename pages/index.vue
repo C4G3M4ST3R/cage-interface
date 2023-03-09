@@ -62,9 +62,9 @@
               <p class="text">
                 Available on 3 chains and placed among the top performing meme
                 assets in the industry,
-                <strong>$C4G3</strong> is our ecosystem's Meme token which aims
-                to be the Meme Token around which most of Meme revolves to
-                generate high economic productivity for our ecosystem.
+                <strong>$C4G3</strong> is our ecosystem's primary token which aims
+                to be a gamified Token around which all of our ecosystem revolves to
+                generate high economic productivity for our ecosystem and community.
               </p>
               <!-- <a
                 href="https://nomics.com//img/c4g3-cage"
@@ -73,7 +73,7 @@
                 >Live chart</a
               >
               <a
-                href="https://app.uniswap.org/#/swap?outputCurrency=0xf2ef3551c1945a7218fc4ec0a75c9ecfdf012a4f"
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x1b308d8c92EE6b06faBAFE3c8ed21a9DbBE5FaCD"
                 class="main-btn"
                 >Buy $C4G3</a
               > -->
@@ -128,7 +128,7 @@
               <!-- section title -->
               <p class="text">
                 It's a complete Index platform for meme tokens. Our first Meme
-                Index portfolio includes 4 top performing meme tokens and a
+                Index portfolio includes 3 top performing meme tokens, our primary token ($C4G3) and a
                 stable coin.
               </p>
 
