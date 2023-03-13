@@ -196,16 +196,6 @@
                     Announcements
                   </a>
                 </li>
-                <!-- <li>
-                  <a
-                    target="_blank"
-                    class="text-white"
-                    href="https://www.instagram.com/cag3_io/"
-                  >
-                    <i class="lni-instagram mr-2"></i>
-                    Instagram
-                  </a>
-                </li> -->
                 <li>
                   <a
                     target="_blank"
