@@ -91,14 +91,14 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                The First Decentralized Meme Index
+                The First Decentralized Meme Indices.
               </h3>
               <h2
                 class="header-title wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Combining Blockchain Gaming Experience With Meme Indices.
+                Combining Blockchain Gaming With Meme Indices.
               </h2>
               <p
                 class="text wow fadeInUp"
