@@ -26,28 +26,6 @@
       </div>
       <!-- container -->
     </section>
-    
-    <section id="index-fund" class="services-area pt-60">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="section-title text-center pb-40">
-              <div class="line m-auto"></div>
-              <h3 class="title">Why Blockchain Game? <span> </span></h3>
-            </div>
-            <!-- section title -->
-
-            <p class="text">
-              For decades, investing into index funds has been one of the best
-              ways to make an attractive income through the traditional stock
-              market.
-              </p>
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </section>
 
     <section id="features" class="services-area pt-120">
       <div class="container">
