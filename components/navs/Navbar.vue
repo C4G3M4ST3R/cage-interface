@@ -98,7 +98,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Transforming meme tokens to a token with store of value.
+                Combining Blockchain Gaming With Mmeme Indices.
               </h2>
               <p
                 class="text wow fadeInUp"
