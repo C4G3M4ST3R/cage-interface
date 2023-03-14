@@ -22,7 +22,7 @@
                 class="navbar-brand"
                 to="/"
               >
-                CAGE
+                DRAGON CAGE
               </nuxt-link>
               <button
                 class="navbar-toggler"
