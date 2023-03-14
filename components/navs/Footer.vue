@@ -111,8 +111,7 @@
                 <h1 style="color: white">Cage</h1>
               </a>
               <p class="text">
-                The First Decentralized Meme Index Transforming meme tokens to a
-                token with store of value.
+                The First Decentralized Gamified and Meme Indices.
               </p>
               <div class="link-wrapper pl-0">
                 <ul class="link pt-0">
