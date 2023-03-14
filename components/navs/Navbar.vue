@@ -98,14 +98,14 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Combining Blockchain Gaming With Mmeme Indices.
+                Combining Blockchain Gaming Experience With Meme Indices.
               </h2>
               <p
                 class="text wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.8s"
               >
-                Gain Exposure to the top performing Meme token across the space
+                Gain Exposure to the top performing Meme token across the space.
               </p>
 
               <!-- <div class="text-center">
@@ -150,7 +150,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
               >
-                Go to Index
+               View Index
               </a>
               <a
                 href="https://manual.cag3.io/"
@@ -159,7 +159,7 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="1.1s"
               >
-                Go to Manual
+                Visit Game
               </a>
             </div>
             <!-- header hero content -->
