@@ -83,7 +83,7 @@
               >
                 <img src="/img/logo-cmi.png" class="img-fluid" alt="logo" />
                 <h3 id="nov" class="mt-5 ml-2 pt-1">
-                  CAGE
+                  DRAGON CAGE
                 </h3>
               </div>
               <h3
