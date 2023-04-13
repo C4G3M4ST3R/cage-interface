@@ -6,19 +6,19 @@
           <div class="col-lg-10">
             <div class="section-title text-center pb-40">
               <div class="line m-auto"></div>
-              <h3 class="title">Why Index Fund? <span> </span></h3>
+              <h3 class="title">Why Blockchain  Game? <span> </span></h3>
             </div>
             <!-- section title -->
 
             <p class="text">
-              For decades, investing into index funds has been one of the best
-              ways to make an attractive income through the traditional stock
-              market. There are many reasons for this, to name a few, it allows
-              having a diverse portfolio without the trading fees and tends to
-              generate attractive returns whilst minimizing the risks.
-              Ultimately, C4G3’s unique meme index fund bridges the gap between
-              the lack of index funds for meme tokens to a very lucrative market
-              for the modern investor.
+              Blockchain, built on the premise of decentralization and transparency can give gaming wings to fly to 
+              limits unseen and unheard of. Decentralized blockchains ensure that users are in control of their assets 
+              be it fungible or non-fungible and this does not limit users as to what they can do with these assets under their control.
+              Imagine you could claim, transfer and even sell that treasure box or in-game assets you earned in the games you played. 
+              Blockchain makes this possible and instead of trusting your in-game assets with a centralized service provider who has complete control 
+              over your assets, you get to exert complete control and do with your assets as you please. Transparency enables users to know who owns what and 
+              when they earned it. All these coupled with the ability to rent out assets and monetize them make Blockchain gaming a next level experience for 
+              users who devote most of their time in the gaming industry as players.
             </p>
           </div>
         </div>
