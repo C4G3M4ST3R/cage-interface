@@ -123,7 +123,7 @@
             >
               <div class="section-title">
                 <div class="line"></div>
-                <h3 class="title"><span>CAGE</span> Ecosystem</h3>
+                <h3 class="title"><span>CAGE</span> Index Platform</h3>
               </div>
               <!-- section title -->
               <p class="text">
