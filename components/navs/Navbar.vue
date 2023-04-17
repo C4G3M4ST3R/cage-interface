@@ -82,7 +82,7 @@
                 data-wow-delay="0.2s"
               >
                 <h3 id="nov" class="mt-5 ml-2 pt-1">
-                 <img src="/img/logo-cmi3.png" class="img-fluid" alt="logo" />
+                 <img src="/img/logo-cmi4.png" class="img-fluid" alt="logo" />
                 </h3>
               </div>
               <h3
