@@ -85,7 +85,7 @@
                   <img src="/img/logo-cmi.png" class="img-fluid" alt="logo" />
                 </h3>
                 <h3 id="nov" class="mt-5 ml-2 pt-1">
-                 <img src="/img/logo-cmi2.png" class="img-fluid" alt="logo" />
+                 <img src="/img/logo-cmi3.png" class="img-fluid" alt="logo" />
                 </h3>
               </div>
               <h3
